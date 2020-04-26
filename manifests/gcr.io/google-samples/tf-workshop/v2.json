@@ -1,0 +1,172 @@
+{
+    "name": "google-samples/tf-workshop",
+    "tag": "v2",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:bde6adaa3f7dc2075c149ef26bda63c84f6bc0594848c4358de5e112d14dbdb1"
+        },
+        {
+            "blobSum": "sha256:c198acab6be3a8591a86e584482cc442de45855e3c03f558c6efb9ebb97a360e"
+        },
+        {
+            "blobSum": "sha256:f9095d821eb63b713836cbee2499c62ba71a63ac736a0b2adf4c484aafc41889"
+        },
+        {
+            "blobSum": "sha256:d0d4264b07b643e7a3313d9b3b4e0030f71647c734d42e1a151f75b436640d07"
+        },
+        {
+            "blobSum": "sha256:b23eb6ade17a891a74c689152a3d4bfa2d8928f4c145d97eff71ce19b605487c"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:33446310bc4a836e686c8561e43a30c5d1edf6d67f230ccbe733ea8c951b835a"
+        },
+        {
+            "blobSum": "sha256:a3a976eeb78fcefeaa11c2b3d0a062267d48e5477de192fb41907cf72c1f33e8"
+        },
+        {
+            "blobSum": "sha256:8f2a712621dbf5ac4c07a6c53019b29f9c47a27619a2225c266044441d630e51"
+        },
+        {
+            "blobSum": "sha256:f5b4418bcf1cd61d3d9c7f0a3884b1674d8f2ca8b1d54d43abfb0d67d56393a9"
+        },
+        {
+            "blobSum": "sha256:44cdafd451fb11417b9f044a6e058baa011f15cd159b1160aca059b23c55a9a9"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:10a72d39e5422ec9d835a5b3bef5158d21534f009cd69efa3cebebc78cd5f4c4"
+        },
+        {
+            "blobSum": "sha256:fe0ae0f3ab22cfbdf0103a64955bfaa268a69f1cce7b9366e961c6585661d771"
+        },
+        {
+            "blobSum": "sha256:1f4f6fd3e0d50c2956bd89e119276941516485e12eec61124df987d416f3fd83"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3ce63537e70c2c250fbc41b5f04bfb31f445be4034effc4b4c513bf8899dfa0a"
+        },
+        {
+            "blobSum": "sha256:6e532f87f96dd5821006d02e65e7d4729a4e6957a34c3f4ec72046e221eb7c52"
+        },
+        {
+            "blobSum": "sha256:7ff49c327d838cf14f7db33fa44f6057b7209298e9c03369257485a085e231df"
+        },
+        {
+            "blobSum": "sha256:56eb14001cebec19f2255d95e125c9f5199c9e1d97dd708e1f3ebda3d32e5da7"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"dcec5a3c02e7ebf5690f832dba409b6bf84799b64849ca51b3f82c7223804add\",\"parent\":\"74422ae1930f113329b6fc9cb33a7acbc151fa06ab09d4c00bf222c5e74579b9\",\"created\":\"2016-08-01T20:18:40.326706213Z\",\"container\":\"fc3893f8fefb7342b1cfaf79c129f36bee9774eb8ece2d7a4d7553eeda08f566\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"sh\\\" \\\"-c\\\" \\\"python download_git_repo.py ; /bin/bash\\\"]\"],\"Image\":\"74422ae1930f113329b6fc9cb33a7acbc151fa06ab09d4c00bf222c5e74579b9\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"sh\",\"-c\",\"python download_git_repo.py ; /bin/bash\"],\"Image\":\"74422ae1930f113329b6fc9cb33a7acbc151fa06ab09d4c00bf222c5e74579b9\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"74422ae1930f113329b6fc9cb33a7acbc151fa06ab09d4c00bf222c5e74579b9\",\"parent\":\"92d6189e66ab4af2610e832369cb16bfa2115872f124b169025d091fc1dbb5d6\",\"created\":\"2016-08-01T20:18:39.781200069Z\",\"container\":\"151093dea4d5783eeab85b983c9ae728946ef699b5113a2735ed2e65320c5043\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE 8888/tcp\"],\"Image\":\"92d6189e66ab4af2610e832369cb16bfa2115872f124b169025d091fc1dbb5d6\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/run_jupyter.sh\"],\"Image\":\"92d6189e66ab4af2610e832369cb16bfa2115872f124b169025d091fc1dbb5d6\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"92d6189e66ab4af2610e832369cb16bfa2115872f124b169025d091fc1dbb5d6\",\"parent\":\"2cc849995429c7b28aeb146080e2c4e4f73c9556926dd88607b19cf1b4a5e04e\",\"created\":\"2016-08-01T20:18:39.212350473Z\",\"container\":\"1005f6bf98e4f2289b52055222f7ee63627242691063ad45662c6fb7e6e08367\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE 6006/tcp\"],\"Image\":\"2cc849995429c7b28aeb146080e2c4e4f73c9556926dd88607b19cf1b4a5e04e\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/run_jupyter.sh\"],\"Image\":\"2cc849995429c7b28aeb146080e2c4e4f73c9556926dd88607b19cf1b4a5e04e\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2cc849995429c7b28aeb146080e2c4e4f73c9556926dd88607b19cf1b4a5e04e\",\"parent\":\"30b538434f2973a9cfc60d94ab1628e82789e9d5c23e1744f6bb7cfd8e97ecdd\",\"created\":\"2016-08-01T20:18:38.668665199Z\",\"container\":\"38c923de9a5c9511b7470efbc2ca52f3b499d008b0ed68b746aafd30c5a554e6\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:deb076d1549bf038a362ba3b6a2bf3d87b4b5f35b6ab19f0bc0902e8880f7a55 in download_git_repo.py\"],\"Image\":\"30b538434f2973a9cfc60d94ab1628e82789e9d5c23e1744f6bb7cfd8e97ecdd\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/run_jupyter.sh\"],\"Image\":\"30b538434f2973a9cfc60d94ab1628e82789e9d5c23e1744f6bb7cfd8e97ecdd\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":841}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"30b538434f2973a9cfc60d94ab1628e82789e9d5c23e1744f6bb7cfd8e97ecdd\",\"parent\":\"866f797c61d3f46edac056f00196f55a407c47cf1a19828aa10a3d74d9e8510a\",\"created\":\"2016-08-01T20:18:37.59450954Z\",\"container\":\"96c22126423a6e7ade30a85ce291c7093eb7ccd961cbc90d078bfce10b12aa67\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"pip install sklearn\"],\"Image\":\"866f797c61d3f46edac056f00196f55a407c47cf1a19828aa10a3d74d9e8510a\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/run_jupyter.sh\"],\"Image\":\"866f797c61d3f46edac056f00196f55a407c47cf1a19828aa10a3d74d9e8510a\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":91039738}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"866f797c61d3f46edac056f00196f55a407c47cf1a19828aa10a3d74d9e8510a\",\"parent\":\"33c15621d30e3bf2dca75ccc2c1dff4a5134e26cede7e026775a63f2c038a590\",\"created\":\"2016-08-01T20:18:31.558616003Z\",\"container\":\"916a54c12cb59d38e520c4fb8566e904ed47e92c3620517ea9056de6668d077b\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"apt-get install -y python-scipy\"],\"Image\":\"33c15621d30e3bf2dca75ccc2c1dff4a5134e26cede7e026775a63f2c038a590\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/run_jupyter.sh\"],\"Image\":\"33c15621d30e3bf2dca75ccc2c1dff4a5134e26cede7e026775a63f2c038a590\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"33c15621d30e3bf2dca75ccc2c1dff4a5134e26cede7e026775a63f2c038a590\",\"parent\":\"a4ab3e912bed5f8b609fe0dd2d1f5c8f3172f938ba8a964d8b7d49e6db35f5b5\",\"created\":\"2016-08-01T20:18:28.506560619Z\",\"container\":\"b0215f37ca44be070a1a4bcb8dd6e76ee688652c02b8955be42fdd1e56bfbf12\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"apt-get update\"],\"Image\":\"a4ab3e912bed5f8b609fe0dd2d1f5c8f3172f938ba8a964d8b7d49e6db35f5b5\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/run_jupyter.sh\"],\"Image\":\"a4ab3e912bed5f8b609fe0dd2d1f5c8f3172f938ba8a964d8b7d49e6db35f5b5\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":22100107}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a4ab3e912bed5f8b609fe0dd2d1f5c8f3172f938ba8a964d8b7d49e6db35f5b5\",\"parent\":\"08a9f887415c2011237bb353bfff5efbbf547f6b7a0f13b40bfaf37126a870fa\",\"created\":\"2016-08-01T20:18:19.802537747Z\",\"container\":\"b68bc605dbc85b78dc49425c2c6e973eac97a59a0d53f135798ce58218a5c267\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"pip install --upgrade pip\"],\"Image\":\"085f7006aab4b7c19c8bf8c8caf42cdd9c25ef44c8125f32da4f042091bd0347\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/run_jupyter.sh\"],\"Image\":\"085f7006aab4b7c19c8bf8c8caf42cdd9c25ef44c8125f32da4f042091bd0347\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":7827}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\",\"config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/run_jupyter.sh\"],\"ArgsEscaped\":true,\"Image\":\"sha256:a6e0146191df84bdb8e55c68ab877695fe76a7b7acd11a78b360fc3266807f8a\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"86ce85adb8083a67ea32043a05ab12436ad730d627c9c840cff54bd353445b1d\",\"container_config\":{\"Hostname\":\"24dcaea7d349\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"6006/tcp\":{},\"8888/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"TENSORFLOW_VERSION=0.10.0rc0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/run_jupyter.sh\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:a6e0146191df84bdb8e55c68ab877695fe76a7b7acd11a78b360fc3266807f8a\",\"Volumes\":null,\"WorkingDir\":\"/notebooks\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-07-29T04:04:01.959922347Z\",\"docker_version\":\"1.11.2\",\"id\":\"08a9f887415c2011237bb353bfff5efbbf547f6b7a0f13b40bfaf37126a870fa\",\"os\":\"linux\",\"parent\":\"b344bfff835993920194dbf08c4d78a317cce45f055326521172c20fa68c4896\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b344bfff835993920194dbf08c4d78a317cce45f055326521172c20fa68c4896\",\"parent\":\"1165d5d42dc42c4e206dfa7e70c674742a07cd160dcf40e1d0154dadc1a7dfff\",\"created\":\"2016-07-29T04:03:57.383780285Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) WORKDIR /notebooks\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1165d5d42dc42c4e206dfa7e70c674742a07cd160dcf40e1d0154dadc1a7dfff\",\"parent\":\"9a24084c9fa653484192dae19039896a0baa9639e91a3bb7ee5c0fd23818e6a7\",\"created\":\"2016-07-29T04:03:52.739974323Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 8888/tcp\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9a24084c9fa653484192dae19039896a0baa9639e91a3bb7ee5c0fd23818e6a7\",\"parent\":\"afb8ffbfcb8343f31b799bc6f65219ef864254572ce734bb248195715dccb692\",\"created\":\"2016-07-29T04:03:48.067812051Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 6006/tcp\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"afb8ffbfcb8343f31b799bc6f65219ef864254572ce734bb248195715dccb692\",\"parent\":\"83dad560058a7484790c2691ef21fe36ffa7555bd163b8aa4a8d1b41055054ce\",\"created\":\"2016-07-29T04:03:44.064002794Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:1d55ef3a62080ef0ee081286b40ced98e7a602d7281cfbd36e6a7ba7f4f93110 in /\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"83dad560058a7484790c2691ef21fe36ffa7555bd163b8aa4a8d1b41055054ce\",\"parent\":\"6861f5a022c6202b71e14543fb2f43ac9569f3a4f8c59439d231acf327ed3249\",\"created\":\"2016-07-29T04:03:39.931812422Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:194f171529720612a2341f7ee75d0096d3dc0d1d85a42493c2a03551df447508 in /notebooks\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6861f5a022c6202b71e14543fb2f43ac9569f3a4f8c59439d231acf327ed3249\",\"parent\":\"0dec482deec1a2f4c3fd2e8c35d53798779d49a1ea3284f3634e9eb4ee561082\",\"created\":\"2016-07-29T04:03:35.809003406Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:26538529adf19c687ada3e7337be562d3b95996b875116e687f773692d290f3b in /root/.jupyter/\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0dec482deec1a2f4c3fd2e8c35d53798779d49a1ea3284f3634e9eb4ee561082\",\"parent\":\"d9fe3aeae82432f68c61869712ea59e25a436ea981e34c6baa16c85312be6e4d\",\"created\":\"2016-07-29T04:03:31.716591145Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c pip --no-cache-dir install /tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d9fe3aeae82432f68c61869712ea59e25a436ea981e34c6baa16c85312be6e4d\",\"parent\":\"66df5b4f349d1a73b339270b309f3e6ca7d0aabe4601cfbd703816457e16edc5\",\"created\":\"2016-07-29T04:03:18.7408802Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:b9823ec377acd6f9c95d4e179ff88c58ce69b27db8c7c20891fc950a0b5db3d0 in /\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"66df5b4f349d1a73b339270b309f3e6ca7d0aabe4601cfbd703816457e16edc5\",\"parent\":\"5cbeaf301289c58385bca97505b5dd5c788a38e474e26fdf9d70ec294bd19d29\",\"created\":\"2016-07-29T04:03:13.904769418Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV TENSORFLOW_VERSION=0.10.0rc0\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5cbeaf301289c58385bca97505b5dd5c788a38e474e26fdf9d70ec294bd19d29\",\"parent\":\"e979503ee1d078a2adbea9de411e6743ec6add113fdd570c66134832f3938338\",\"created\":\"2016-07-29T04:03:10.249853139Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c pip --no-cache-dir install         ipykernel         jupyter         matplotlib         \\u0026\\u0026     python -m ipykernel.kernelspec\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e979503ee1d078a2adbea9de411e6743ec6add113fdd570c66134832f3938338\",\"parent\":\"bbd796f1297b02de199f40407ebf09991e743e847919d2c1cef0773023581661\",\"created\":\"2016-07-29T04:01:48.516968515Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c curl -O https://bootstrap.pypa.io/get-pip.py \\u0026\\u0026     python get-pip.py \\u0026\\u0026     rm get-pip.py\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"bbd796f1297b02de199f40407ebf09991e743e847919d2c1cef0773023581661\",\"parent\":\"5a9ee0cfae75633371b8f6ce8a69d3293c4344c8df3f0b9e1751a472f5c1dcda\",\"created\":\"2016-07-29T04:01:41.898272141Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends         build-essential         curl         libfreetype6-dev         libpng12-dev         libzmq3-dev         pkg-config         python         python-dev         python-numpy         python-pip         python-scipy         rsync         unzip         \\u0026\\u0026     apt-get clean \\u0026\\u0026     rm -rf /var/lib/apt/lists/*\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5a9ee0cfae75633371b8f6ce8a69d3293c4344c8df3f0b9e1751a472f5c1dcda\",\"parent\":\"6f0edf24dfd46467c2aa6b7ec9c0fc1506a6e9845fcd028144f964a3c27cd76b\",\"created\":\"2016-07-29T03:59:47.205342062Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER Craig Citro \\u003ccraigcitro@google.com\\u003e\"]},\"author\":\"Craig Citro \\u003ccraigcitro@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6f0edf24dfd46467c2aa6b7ec9c0fc1506a6e9845fcd028144f964a3c27cd76b\",\"parent\":\"62059538b3f42bd03b9c43cd9bd9816b6648a5a1fc3edcf11805ee76df661612\",\"created\":\"2016-06-24T17:29:14.1074651Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"62059538b3f42bd03b9c43cd9bd9816b6648a5a1fc3edcf11805ee76df661612\",\"parent\":\"20fc819717ccce8396c79ca8e40472adb5bedcb9fcd9725d87a2fede561686fd\",\"created\":\"2016-06-24T17:29:13.569514251Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c sed -i 's/^#\\\\s*\\\\(deb.*universe\\\\)$/\\\\1/g' /etc/apt/sources.list\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"20fc819717ccce8396c79ca8e40472adb5bedcb9fcd9725d87a2fede561686fd\",\"parent\":\"2334d959c0cf8717195cbb8015da1c71b07f68a91f6ea104cb2df356eb1dd671\",\"created\":\"2016-06-24T17:29:11.953495224Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2334d959c0cf8717195cbb8015da1c71b07f68a91f6ea104cb2df356eb1dd671\",\"parent\":\"b28db778d4f7abf40209e98c853264cce812f95c9fe3ce5989a5d261756a6d24\",\"created\":\"2016-06-24T17:29:10.38986507Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -xe \\t\\t\\u0026\\u0026 echo '#!/bin/sh' \\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 echo 'exit 101' \\u003e\\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 chmod +x /usr/sbin/policy-rc.d \\t\\t\\u0026\\u0026 dpkg-divert --local --rename --add /sbin/initctl \\t\\u0026\\u0026 cp -a /usr/sbin/policy-rc.d /sbin/initctl \\t\\u0026\\u0026 sed -i 's/^exit.*/exit 0/' /sbin/initctl \\t\\t\\u0026\\u0026 echo 'force-unsafe-io' \\u003e /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \\t\\t\\u0026\\u0026 echo 'DPkg::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'APT::Update::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'Dir::Cache::pkgcache \\\"\\\"; Dir::Cache::srcpkgcache \\\"\\\";' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\t\\u0026\\u0026 echo 'Acquire::Languages \\\"none\\\";' \\u003e /etc/apt/apt.conf.d/docker-no-languages \\t\\t\\u0026\\u0026 echo 'Acquire::GzipIndexes \\\"true\\\"; Acquire::CompressionTypes::Order:: \\\"gz\\\";' \\u003e /etc/apt/apt.conf.d/docker-gzip-indexes\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b28db778d4f7abf40209e98c853264cce812f95c9fe3ce5989a5d261756a6d24\",\"created\":\"2016-06-24T17:29:06.589214339Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:b6ff401cf2a7a08c11d2bdfbfec31c7ec105fd7ab29c529fb90025762b077e2c in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

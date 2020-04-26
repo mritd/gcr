@@ -1,0 +1,64 @@
+{
+    "name": "google_samples/cassandra",
+    "tag": "v11",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:09a817bc5b32c5fb633b4a2c3a50194919263c2ad978bc045f88e30c97b72b4e"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:475d46b7f6e32bcd77151dbcef3277066ace3683ac6f42355f1679f7b2631585"
+        },
+        {
+            "blobSum": "sha256:14c935ef769c0bb962e9d68a0399db5f42469fbc98db77cd4e4e1d195fcf13a2"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"404382d51ba3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"7000/tcp\":{},\"7001/tcp\":{},\"7199/tcp\":{},\"9042/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"DI_VERSION=1.1.1\",\"DI_SHA=dec8167091671df0dd3748a8938102479db5fffc\"],\"Cmd\":[\"/sbin/dumb-init\",\"/bin/bash\",\"/run.sh\"],\"ArgsEscaped\":true,\"Image\":\"sha256:d69e14656307ad0d1efdbdffd954c5e43d1cee1e7603ba4616b291e3850e6539\",\"Volumes\":{\"/cassandra_data\":{}},\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"c8af5a7589dd22527e786cc61163f459d63c5897e8a084769c2088fea4ba132b\",\"container_config\":{\"Hostname\":\"404382d51ba3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"7000/tcp\":{},\"7001/tcp\":{},\"7199/tcp\":{},\"9042/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"DI_VERSION=1.1.1\",\"DI_SHA=dec8167091671df0dd3748a8938102479db5fffc\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"/sbin/dumb-init\\\" \\\"/bin/bash\\\" \\\"/run.sh\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:d69e14656307ad0d1efdbdffd954c5e43d1cee1e7603ba4616b291e3850e6539\",\"Volumes\":{\"/cassandra_data\":{}},\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-12-03T00:02:54.383548126Z\",\"docker_version\":\"1.12.3\",\"id\":\"fb27016469d81cf36e467aee0f94be46f257eed51beabedbb38ed2722b527ee4\",\"os\":\"linux\",\"parent\":\"b8709e0106bdb6b7061b5b3bf250e29b7303b51951581b46ce169c161cd52b38\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b8709e0106bdb6b7061b5b3bf250e29b7303b51951581b46ce169c161cd52b38\",\"parent\":\"b137fd3b4c5487fc2afb2aa04b038f7880abf13c475da6915bc97954798c1c78\",\"created\":\"2016-12-03T00:02:54.171671524Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  EXPOSE 7000/tcp 7001/tcp 7199/tcp 9042/tcp\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b137fd3b4c5487fc2afb2aa04b038f7880abf13c475da6915bc97954798c1c78\",\"parent\":\"c64cfde33713718da672d0cd6cb2a2dd6c0aad197cfcb8bfa0b3e2f48cb19605\",\"created\":\"2016-12-03T00:02:53.955365528Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  VOLUME [/cassandra_data]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c64cfde33713718da672d0cd6cb2a2dd6c0aad197cfcb8bfa0b3e2f48cb19605\",\"parent\":\"f6b8ee9ae0143104f3563081457b5236394adad596d673ac040bb3abeabf091f\",\"created\":\"2016-12-03T00:02:53.642767114Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mv /java.list /etc/apt/sources.list.d/java.list   \\u0026\\u0026 apt-get update   \\u0026\\u0026 apt-get -qq -y --force-yes install --no-install-recommends procps openjdk-8-jre-headless libjemalloc1 curl localepurge   \\u0026\\u0026 curl -L https://github.com/Yelp/dumb-init/releases/download/v${DI_VERSION}/dumb-init_${DI_VERSION}_amd64 \\u003e /sbin/dumb-init   \\u0026\\u0026 echo \\\"$DI_SHA  /sbin/dumb-init\\\" | sha1sum -c -   \\u0026\\u0026 mv /cassandra.list /etc/apt/sources.list.d/cassandra.list   \\u0026\\u0026 gpg --keyserver pgp.mit.edu --recv-keys F758CE318D77295D   \\u0026\\u0026 gpg --export --armor F758CE318D77295D | apt-key add -   \\u0026\\u0026 gpg --keyserver pgp.mit.edu --recv-keys 2B5C1B00   \\u0026\\u0026 gpg --export --armor 2B5C1B00 | apt-key add -   \\u0026\\u0026 gpg --keyserver pgp.mit.edu --recv-keys 0353B12C   \\u0026\\u0026 gpg --export --armor 0353B12C | apt-key add -   \\u0026\\u0026 gpg --keyserver pool.sks-keyservers.net --recv-keys A278B781FE4B2BDA   \\u0026\\u0026 gpg --export --armor A278B781FE4B2BDA | apt-key add -   \\u0026\\u0026 apt-get update   \\u0026\\u0026 apt-get -qq -y --force-yes install --no-install-recommends curl cassandra localepurge   \\u0026\\u0026 chmod a+rx /run.sh /sbin/dumb-init /ready-probe.sh   \\u0026\\u0026 mkdir -p /cassandra_data/data   \\u0026\\u0026 mv /logback.xml /cassandra.yaml /jvm.options /etc/cassandra/   \\u0026\\u0026 apt-get -y purge curl localepurge   \\u0026\\u0026 apt-get clean   \\u0026\\u0026 rm -rf         doc         man         info         locale         /var/lib/apt/lists/*         /var/log/*         /var/cache/debconf/*         common-licenses         ~/.bashrc         /etc/systemd         /lib/lsb         /lib/udev         /usr/share/doc/         /usr/share/doc-base/         /usr/share/man/         /tmp/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f6b8ee9ae0143104f3563081457b5236394adad596d673ac040bb3abeabf091f\",\"parent\":\"7d2b5928e61f24b63e01721c35ef1413b3142de5966b22ad50758438baa552cb\",\"created\":\"2016-12-03T00:01:50.363837698Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV DI_VERSION=1.1.1 DI_SHA=dec8167091671df0dd3748a8938102479db5fffc\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7d2b5928e61f24b63e01721c35ef1413b3142de5966b22ad50758438baa552cb\",\"parent\":\"db780cfd7e6ec9941f1d5c4b53b6c9a9bcaf8bab7df2e06183186d20bcbc0227\",\"created\":\"2016-12-03T00:01:50.204440591Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD dir:f2d7979937443886b837bc70e44f4a4aa58ea92a5d50c2942408315bb50bfdd1 in / \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"db780cfd7e6ec9941f1d5c4b53b6c9a9bcaf8bab7df2e06183186d20bcbc0227\",\"parent\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"created\":\"2016-01-22T23:27:09.879923503Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:93048e87705623fb01ea5e30d3124423847bbff9ecebb06ba8f0f4a3acb23865 in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"parent\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2016-01-22T23:26:43.248910636Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2016-01-22T23:26:43.17119614Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV DEBIAN_FRONTEND=noninteractive\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

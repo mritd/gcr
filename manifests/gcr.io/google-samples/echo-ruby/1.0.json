@@ -1,0 +1,64 @@
+{
+    "name": "google-samples/echo-ruby",
+    "tag": "1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:7465d448bdfa2aec975c5a96acd3f802ba4816a56ff372900f5c764673773587"
+        },
+        {
+            "blobSum": "sha256:9ffcfcaa4ccc8a33d178f0c3644d7d01feb2f685a4381637e9aedd978b6de8ce"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:9ef249f40e39675a6fa36bf4c151087448d93da9ead09a601430b5a006378afa"
+        },
+        {
+            "blobSum": "sha256:16cfe5a16bedde88a8401e249aea3dfb2989b618dd07245768d53bf363c96a44"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:386a066cd84a33a04d560c42bef66d1dd64ebfc76de78550e5fd0f8d57778bca"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"6b3797ab1e90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"RACK_ENV=production\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:cb7e27c5902d550d3f31a3ba2860af92dc9a049b9f9483b0c463aa6b9c50272e\",\"Volumes\":null,\"WorkingDir\":\"/app\",\"Entrypoint\":[\"bundle\",\"exec\",\"ruby\",\"app.rb\",\"-p\",\"8080\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"a8133c3661cf3c4cc7465cbd5fe56a73399d4530e68fd1154d386da0fccd1314\",\"container_config\":{\"Hostname\":\"6b3797ab1e90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"RACK_ENV=production\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"bundle\\\" \\\"exec\\\" \\\"ruby\\\" \\\"app.rb\\\" \\\"-p\\\" \\\"8080\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:cb7e27c5902d550d3f31a3ba2860af92dc9a049b9f9483b0c463aa6b9c50272e\",\"Volumes\":null,\"WorkingDir\":\"/app\",\"Entrypoint\":[\"bundle\",\"exec\",\"ruby\",\"app.rb\",\"-p\",\"8080\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-16T21:18:56.915031677Z\",\"docker_version\":\"1.12.3\",\"id\":\"47f94db2d46cc214466990b25488c436394d2271bc26d56296c53cbb46e7ee9c\",\"os\":\"linux\",\"parent\":\"4943559e87f569439540ac3ac0f7a267c6f8d22026c454dab0c321b024fd2689\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4943559e87f569439540ac3ac0f7a267c6f8d22026c454dab0c321b024fd2689\",\"parent\":\"f691773ad70c7cfcd0ed1cc6d321fb0f9bfdb13bcbe16a548cffd47d59a703d9\",\"created\":\"2016-11-16T21:18:56.763346953Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY multi:071e54a55eb931b7281582be50fa93ab90bc833c8768219d71afef7bbb873437 in /app/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f691773ad70c7cfcd0ed1cc6d321fb0f9bfdb13bcbe16a548cffd47d59a703d9\",\"parent\":\"fbff69562ec5c153b0e51c8675b0d0122c358832709c0f62e0b618470d095034\",\"created\":\"2016-11-16T21:18:55.839983618Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c gem install bundler \\u0026\\u0026     bundle install\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"fbff69562ec5c153b0e51c8675b0d0122c358832709c0f62e0b618470d095034\",\"parent\":\"a42161fbd0feffc7a8f413b952507566369ffd6899a6ac62b30e13e1ddd35f44\",\"created\":\"2016-11-16T21:18:38.067012716Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  WORKDIR /app\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a42161fbd0feffc7a8f413b952507566369ffd6899a6ac62b30e13e1ddd35f44\",\"parent\":\"097866516c4a169ac28fa8fc9faf41a686ae9157056ea7524e701dd96466a5bb\",\"created\":\"2016-11-16T21:18:37.907224209Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY multi:ebf9138f4cef9bf594fbfe966026aa7c448015d14ddcad3d1ce4f373f5ffc708 in /app/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"097866516c4a169ac28fa8fc9faf41a686ae9157056ea7524e701dd96466a5bb\",\"parent\":\"dff36c1cb512bb3cbad0ea0444731bf9afb59abd8e996343fa380ee7b7445e7e\",\"created\":\"2016-11-16T21:18:37.440522576Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026     apt-get install -y build-essential ruby ruby-dev \\u0026\\u0026     apt-get clean \\u0026\\u0026     rm /var/lib/apt/lists/*_*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"dff36c1cb512bb3cbad0ea0444731bf9afb59abd8e996343fa380ee7b7445e7e\",\"parent\":\"3307aeade16b707defa9cd13c82eb51f80d80ca8256446df40960e071934fdcd\",\"created\":\"2016-11-16T21:17:58.347079823Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV RACK_ENV=production\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3307aeade16b707defa9cd13c82eb51f80d80ca8256446df40960e071934fdcd\",\"parent\":\"385b367e1f474ad8f3e0dcb6a3ae22895b0cdf7bf58106cdd799fc3a3bbdf6c7\",\"created\":\"2016-11-07T20:30:26.295992141Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"385b367e1f474ad8f3e0dcb6a3ae22895b0cdf7bf58106cdd799fc3a3bbdf6c7\",\"created\":\"2016-11-07T20:30:25.741961434Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:41ea5187c50116884c38d9ec51d920d79cfaeb2a61c52e07a97f457419a10a4f in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

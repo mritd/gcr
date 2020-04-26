@@ -1,0 +1,40 @@
+{
+    "name": "google-samples/xtrabackup",
+    "tag": "1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:5eb6b5905d55596cbdb6ebb14656d99807a2ceeb7ecc92e4181bcaabb6fa2bc1"
+        },
+        {
+            "blobSum": "sha256:40f175e652e1725f7ec198b692e3d6c797de0e74e4f1b4e647b78e997c0213bd"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:386a066cd84a33a04d560c42bef66d1dd64ebfc76de78550e5fd0f8d57778bca"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"6b3797ab1e90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"bash\"],\"ArgsEscaped\":true,\"Image\":\"sha256:05d9585f7c492980e559063f8f7112e79b3d87485691537be3460652debeaf93\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"9b7c0797b866fb5c846895ddba10a11a12c5d3bb177c394af217fa562d93616f\",\"container_config\":{\"Hostname\":\"6b3797ab1e90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"bash\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:05d9585f7c492980e559063f8f7112e79b3d87485691537be3460652debeaf93\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-18T00:58:28.889805517Z\",\"docker_version\":\"1.12.3\",\"id\":\"694a54d43e198e0d1f1a9a0545e8409976b4a04d866078585743763dd87daa07\",\"os\":\"linux\",\"parent\":\"5f744265900a35736f37439a3dd44d77cb4fb26d527c5f9d3a2067afb07af8cf\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5f744265900a35736f37439a3dd44d77cb4fb26d527c5f9d3a2067afb07af8cf\",\"parent\":\"1f6c173e5dfc72caa8ac1be9281f24e09414fd7e26db2d336f29ce3a3e0b3eb1\",\"created\":\"2016-11-18T00:58:28.621944594Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends     percona-xtrabackup-24     mysql-client     nmap   \\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1f6c173e5dfc72caa8ac1be9281f24e09414fd7e26db2d336f29ce3a3e0b3eb1\",\"parent\":\"3307aeade16b707defa9cd13c82eb51f80d80ca8256446df40960e071934fdcd\",\"created\":\"2016-11-18T00:58:02.070109209Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c echo \\\"deb http://repo.percona.com/apt jessie main\\\" \\u003e /etc/apt/sources.list.d/percona.list   \\u0026\\u0026 echo \\\"deb-src http://repo.percona.com/apt jessie main\\\" \\u003e\\u003e /etc/apt/sources.list.d/percona.list   \\u0026\\u0026 apt-key adv --keyserver keys.gnupg.net --recv-keys 8507EFA5\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3307aeade16b707defa9cd13c82eb51f80d80ca8256446df40960e071934fdcd\",\"parent\":\"385b367e1f474ad8f3e0dcb6a3ae22895b0cdf7bf58106cdd799fc3a3bbdf6c7\",\"created\":\"2016-11-07T20:30:26.295992141Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"385b367e1f474ad8f3e0dcb6a3ae22895b0cdf7bf58106cdd799fc3a3bbdf6c7\",\"created\":\"2016-11-07T20:30:25.741961434Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:41ea5187c50116884c38d9ec51d920d79cfaeb2a61c52e07a97f457419a10a4f in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

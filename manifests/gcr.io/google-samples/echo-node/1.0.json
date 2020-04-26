@@ -1,0 +1,130 @@
+{
+    "name": "google-samples/echo-node",
+    "tag": "1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:ead249201bb3b9b328f628cbc18364107484ecc2cbcb16b7172e0cc3fb7a5c25"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:fa4aaa26a50f54459843505cbf9f17387e9b6b75a6213d177fbdd1047d9118d6"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:30f0f3710d5033496b273aa816d1136ab10cc853d8858794cf12fbcb87ee1eff"
+        },
+        {
+            "blobSum": "sha256:ae1ed5d553a361b1e331cf7adf689de66da98a64ffb0c6de35336eb201d4f2bc"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:8cbc669b3dfb4a1d481ab79f2afc0bc44860a2705ea832119031d1e8c9bbc405"
+        },
+        {
+            "blobSum": "sha256:0682b714a43405c97926cb2119b4e1e5cfe82af3dbf70fbdd3fb681ac391f862"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:05c44ae2a6733e5496be81bdb69ff64a8321134ac3205ebd7f829a0c01c88465"
+        },
+        {
+            "blobSum": "sha256:e687bad22f9ec92afe31e00dcb84cc8da7da59fa000139b2d0b8b9ac135ca1fb"
+        },
+        {
+            "blobSum": "sha256:e19d36babffef703fc29b50620acf2cb40eb7c2ae1f804f29c134dbece005c62"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"a763b4e75aab\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/nodejs/bin\",\"PORT=8080\",\"NODE_ENV=production\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:5a370899bc2ab82d88acf36eafebf883bab9d5bb2e9ab5aa639f5804ddce491d\",\"Volumes\":null,\"WorkingDir\":\"/app\",\"Entrypoint\":[\"npm\",\"start\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"f544e4ae9a5fec48c9c3f7ff6ba3524b5bde9f7c928d8b662f1a87497d0ba956\",\"container_config\":{\"Hostname\":\"a763b4e75aab\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/nodejs/bin\",\"PORT=8080\",\"NODE_ENV=production\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"npm\\\" \\\"start\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:5a370899bc2ab82d88acf36eafebf883bab9d5bb2e9ab5aa639f5804ddce491d\",\"Volumes\":null,\"WorkingDir\":\"/app\",\"Entrypoint\":[\"npm\",\"start\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-16T23:18:12.38487953Z\",\"docker_version\":\"1.12.1\",\"id\":\"81eec7ed18366e0d8018f7969ab033b18ac576b0ccfb1f355d941b76ee8c5dbe\",\"os\":\"linux\",\"parent\":\"ae87e660ee0791b4ac1a9222d055670b83e37e526ce6b83001bd04cdfa5728b0\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ae87e660ee0791b4ac1a9222d055670b83e37e526ce6b83001bd04cdfa5728b0\",\"parent\":\"3a9fdf62d8f1163cbfc4cf0e2d99797400f00a72bb9d4fc5bca1de04d06d0014\",\"created\":\"2016-11-16T23:18:09.085804293Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV PORT=8080\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3a9fdf62d8f1163cbfc4cf0e2d99797400f00a72bb9d4fc5bca1de04d06d0014\",\"parent\":\"ef2ecd1f866019d369a947429e16e2d07bafeb1c4d13faec631c86f2c708ef32\",\"created\":\"2016-11-16T23:18:06.356717363Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c npm install\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ef2ecd1f866019d369a947429e16e2d07bafeb1c4d13faec631c86f2c708ef32\",\"parent\":\"f608306e48d8d59ffe188ac361c5162a25042465014f4871c4265f4460160c81\",\"created\":\"2016-11-16T23:17:58.470242314Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  WORKDIR /app\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f608306e48d8d59ffe188ac361c5162a25042465014f4871c4265f4460160c81\",\"parent\":\"7fce259738d965d155da2e81e59067614ece43c2dc7bcf6ba53220b0fac54399\",\"created\":\"2016-11-16T23:17:56.072117818Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD dir:ed0b163662b83b8b6fc7af285f4f4456404871670d1c3ece0db1b7c459405467 in /app \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7fce259738d965d155da2e81e59067614ece43c2dc7bcf6ba53220b0fac54399\",\"parent\":\"3a27a841aecc916b5967872120fb61e232d059eaeeb0ce07ab5523e02112577b\",\"created\":\"2016-11-12T01:38:57.215038576Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"npm\\\" \\\"start\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3a27a841aecc916b5967872120fb61e232d059eaeeb0ce07ab5523e02112577b\",\"parent\":\"3eae9a090ec3e4a05d97fd7e77e2de0a166f5eb2a9a7d2df6f8d9393873ccfe9\",\"created\":\"2016-11-12T01:38:57.116193803Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) WORKDIR /app\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3eae9a090ec3e4a05d97fd7e77e2de0a166f5eb2a9a7d2df6f8d9393873ccfe9\",\"parent\":\"743079f4ea213384969d46bc226ec02413cf7f5c028b28e13d6ae00e480e9440\",\"created\":\"2016-11-12T01:38:57.014673555Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV NODE_ENV=production\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"743079f4ea213384969d46bc226ec02413cf7f5c028b28e13d6ae00e480e9440\",\"parent\":\"c1776bf4f9f0afaba9a1df1ab91bf72c02e858683050961eea5e2eae7de7f8b4\",\"created\":\"2016-11-12T01:38:56.91540453Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:bb620db1bc208b5d4954e299f8d90d5123f407e00c041a147783acb3ecbef1bd in /usr/local/bin/install_node\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c1776bf4f9f0afaba9a1df1ab91bf72c02e858683050961eea5e2eae7de7f8b4\",\"parent\":\"f12e3e55a7a4b9b1e358fcada4abc88f95431de67cf5bfdeded4893ceb99b003\",\"created\":\"2016-11-12T01:38:56.741071599Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c npm install https://storage.googleapis.com/gae_node_packages/semver.tar.gz\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f12e3e55a7a4b9b1e358fcada4abc88f95431de67cf5bfdeded4893ceb99b003\",\"parent\":\"5cbcdff593ea8ee711bb4fea0842f2f8e42e039b6841d370cfedd50d4f429e16\",\"created\":\"2016-11-12T01:38:55.241018491Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/nodejs/bin\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5cbcdff593ea8ee711bb4fea0842f2f8e42e039b6841d370cfedd50d4f429e16\",\"parent\":\"ba5b8197eb3633029da5629149352b7ac9bb1c01ae81a35eaa7a3f571e25c44f\",\"created\":\"2016-11-12T01:38:53.713638723Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir /nodejs \\u0026\\u0026 curl https://nodejs.org/dist/v6.9.1/node-v6.9.1-linux-x64.tar.gz | tar xvzf - -C /nodejs --strip-components=1\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ba5b8197eb3633029da5629149352b7ac9bb1c01ae81a35eaa7a3f571e25c44f\",\"parent\":\"c2521e15d5254c8b95a0caffdbd8dbe13ec5e990be004f75eca76548ba18a074\",\"created\":\"2016-11-12T01:38:47.248805284Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update -y \\u0026\\u0026 apt-get install --no-install-recommends -y -q curl python build-essential git ca-certificates libkrb5-dev imagemagick \\u0026\\u0026     apt-get clean \\u0026\\u0026 rm /var/lib/apt/lists/*_*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c2521e15d5254c8b95a0caffdbd8dbe13ec5e990be004f75eca76548ba18a074\",\"parent\":\"df8f107a65be69fcfc15baf2e40f11a0dc84f581ebff6432930ac1eecd272d5c\",\"created\":\"2016-11-08T00:03:40.392413572Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"df8f107a65be69fcfc15baf2e40f11a0dc84f581ebff6432930ac1eecd272d5c\",\"parent\":\"35af28e597b1614efbb488581db8631e3e9aaefbed52d7b7c7b5905027f66432\",\"created\":\"2016-11-08T00:03:40.071345173Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get -q update \\u0026\\u0026     apt-get install --no-install-recommends -y -q ca-certificates \\u0026\\u0026     apt-get -y -q upgrade \\u0026\\u0026     rm /var/lib/apt/lists/*_*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"35af28e597b1614efbb488581db8631e3e9aaefbed52d7b7c7b5905027f66432\",\"parent\":\"3d56b5c5a2ff0fde81449db577779c5f1aac76579b5107cc1f74b4812b05e3de\",\"created\":\"2016-11-08T00:03:29.024335171Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:91818d7badf250d3088b2c4d406104d93cabd2b5f207f0dd9a6ce841c6ffed40 in /etc/apt/apt.conf.d/\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3d56b5c5a2ff0fde81449db577779c5f1aac76579b5107cc1f74b4812b05e3de\",\"parent\":\"b14a7346a5c3b89b4886c1d8576cbcbd73d2b85ae2e344e71602eec95c3f6682\",\"created\":\"2016-11-08T00:03:24.91641153Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:c1aab6c0ce9d4fb3f0c05e6c925bb5ba212ce00a10ef806afe2f4ffe605d7563 in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b14a7346a5c3b89b4886c1d8576cbcbd73d2b85ae2e344e71602eec95c3f6682\",\"parent\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"created\":\"2016-09-27T18:16:37.049885162Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PORT=8080\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"parent\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2015-07-26T04:41:00.598289781Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2015-07-26T01:43:19.301033235Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV DEBIAN_FRONTEND=noninteractive\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

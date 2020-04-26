@@ -1,0 +1,142 @@
+{
+    "name": "google-samples/twilio-vision",
+    "tag": "v1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:008346bde400a6ad39297971be1f79a0dcb54c70f23498413f3974bff0437b7d"
+        },
+        {
+            "blobSum": "sha256:c51cdbc7a8f46882b5c198a9aba168b4d14832ac0bb167bec6df358389a37615"
+        },
+        {
+            "blobSum": "sha256:dfc8c2b63279746d8c3beb98d5b9717c98ac31b6f6b34d55f56ec974f7397aa4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:64b0e3b3c7ddae51da49c14a8eb7c38993188ce3e3ce1c246975e08b248a252c"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:40536f1d807a4c39511ef04d9bfb55ed06cb1bcc24e6cce3e044869d70b280a1"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:e3b019f4a7eec05c6f394153777decbd11e6a903ddaa315f1f6e9bc678f5884a"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:ea5e20c5b1f9ae38d6d4c33cfd8e344a8fc661f68d251044e4950878e854d6de"
+        },
+        {
+            "blobSum": "sha256:790bfc3c90b088ede42cd8cc8cd7d4485dd4fe89abf63edc3ef4b540bcdf19a6"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:14c935ef769c0bb962e9d68a0399db5f42469fbc98db77cd4e4e1d195fcf13a2"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"f73712fd20b5\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/env/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"PORT=8080\",\"LANG=C.UTF-8\",\"VIRTUAL_ENV=/env\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"gunicorn -w 4 -b :$PORT whats_that:app\"],\"Image\":\"sha256:0504d26b9646440887bf06617cfebedf0c89400e65885de45949b04956e7385f\",\"Volumes\":null,\"WorkingDir\":\"/app\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"cd555c5409179179485a6793adaa7c5b7e4aa44588334b29cca0f09c67932c34\",\"container_config\":{\"Hostname\":\"f73712fd20b5\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/env/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"PORT=8080\",\"LANG=C.UTF-8\",\"VIRTUAL_ENV=/env\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/bin/sh\\\" \\\"-c\\\" \\\"gunicorn -w 4 -b :$PORT whats_that:app\\\"]\"],\"Image\":\"sha256:0504d26b9646440887bf06617cfebedf0c89400e65885de45949b04956e7385f\",\"Volumes\":null,\"WorkingDir\":\"/app\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-04-09T21:51:19.596585738Z\",\"docker_version\":\"1.10.2\",\"id\":\"93a103d6325117baa34402e2458bece4166dbe554300f45eebae16da9b50d74c\",\"os\":\"linux\",\"parent\":\"685211ea086c53e50124776132e231e2670c7c22d56ea6615bc817c862748702\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"685211ea086c53e50124776132e231e2670c7c22d56ea6615bc817c862748702\",\"parent\":\"311575172f14e3333b5c64b837533d6166a5dbc605d22d42f5288e42b231ac72\",\"created\":\"2016-04-09T21:51:19.442485051Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD dir:634143689171f9b547af40bdf933e98327fe5528ae56e1b57b4b689ce0a39b08 in /app\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"311575172f14e3333b5c64b837533d6166a5dbc605d22d42f5288e42b231ac72\",\"parent\":\"5b49dca1de1a7f2358e28645a3510f3867a847b488e54c1b038b9cf073c3ff28\",\"created\":\"2016-04-08T23:41:20.567428637Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c pip install -r /app/requirements.txt\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5b49dca1de1a7f2358e28645a3510f3867a847b488e54c1b038b9cf073c3ff28\",\"parent\":\"ad359fd7261b68c288809ed06faa4ae9533a2c8b4fb9eb6ef828f7ce4e2591c9\",\"created\":\"2016-04-08T23:40:54.849681208Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:b33694c77fba9a2e7c46c0c1af76cdd28d2238dc070a8f316fd7f6a209e42c19 in /app/requirements.txt\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ad359fd7261b68c288809ed06faa4ae9533a2c8b4fb9eb6ef828f7ce4e2591c9\",\"parent\":\"0dfe70f459557e33c6a512eb6f2774938c3524cf4465a2695a016d459c8973c2\",\"created\":\"2016-04-08T23:40:54.611237696Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/env/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0dfe70f459557e33c6a512eb6f2774938c3524cf4465a2695a016d459c8973c2\",\"parent\":\"0fca91e34e31b942258a57c49b4979baca9d38bdae2c4fc43fdcedc69e80cc04\",\"created\":\"2016-04-08T23:40:54.434907005Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV VIRTUAL_ENV=/env\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0fca91e34e31b942258a57c49b4979baca9d38bdae2c4fc43fdcedc69e80cc04\",\"parent\":\"6576e1db2999997d3f62dfaa2789bbc6ae4a0a722c4943315e118bd26f4d2fea\",\"created\":\"2016-04-08T23:40:54.247986094Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c virtualenv /env\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6576e1db2999997d3f62dfaa2789bbc6ae4a0a722c4943315e118bd26f4d2fea\",\"parent\":\"3c6677883ffa471400b6be9c95d377246a6ba8d0ecd78a7e72838bc5abe2b889\",\"created\":\"2015-12-03T19:17:46.37974841Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD []\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3c6677883ffa471400b6be9c95d377246a6ba8d0ecd78a7e72838bc5abe2b889\",\"parent\":\"8ccec5b71ece3f5bff69bc154fb31c8c8eefbcff54f94fff27cd69ea23575200\",\"created\":\"2015-12-03T19:17:46.123802136Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PORT=8080\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8ccec5b71ece3f5bff69bc154fb31c8c8eefbcff54f94fff27cd69ea23575200\",\"parent\":\"fa9b2c62f17d570416fcbc2bc3b0caec0dab7a0543be403bd97c3a903913c62e\",\"created\":\"2015-12-03T19:17:45.84321084Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) WORKDIR /app\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"fa9b2c62f17d570416fcbc2bc3b0caec0dab7a0543be403bd97c3a903913c62e\",\"parent\":\"961a70d67bbe38531069b60b526807f565e4bf70853d7786f5bfb7647774d719\",\"created\":\"2015-12-03T19:17:45.588362442Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c ln -s /home/vmagent/app /app\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"961a70d67bbe38531069b60b526807f565e4bf70853d7786f5bfb7647774d719\",\"parent\":\"cf0d58de0e2e20cb81635d2f1d76fc7d9318f50a7e6977a1386f729881d8333a\",\"created\":\"2015-12-03T19:17:45.075456768Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 8080/tcp\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cf0d58de0e2e20cb81635d2f1d76fc7d9318f50a7e6977a1386f729881d8333a\",\"parent\":\"d43954aea84ebb91616b7978c01a16b3b4950a44e9820cc7db16be7057ad119c\",\"created\":\"2015-12-03T19:17:44.737706506Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c pip install --upgrade pip virtualenv\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d43954aea84ebb91616b7978c01a16b3b4950a44e9820cc7db16be7057ad119c\",\"parent\":\"ad456992b18f516d8f51c8b9bfe029e5b6369d742a9fc1f08ea9722bf43a890e\",\"created\":\"2015-12-03T19:17:43.076177496Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV LANG=C.UTF-8\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ad456992b18f516d8f51c8b9bfe029e5b6369d742a9fc1f08ea9722bf43a890e\",\"parent\":\"07d592ef14e9876393c15a9b847a18424421b0f310620ec0c1ad899bea5529da\",\"created\":\"2015-12-03T19:17:40.541613648Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get -q update \\u0026\\u0026  apt-get install --no-install-recommends -y -q    python2.7 python3.4 python2.7-dev python3.4-dev python-pip build-essential git mercurial    libffi-dev libssl-dev libxml2-dev    libxslt1-dev libpq-dev libmysqlclient-dev libcurl4-openssl-dev    libjpeg-dev zlib1g-dev libpng12-dev \\u0026\\u0026  apt-get clean \\u0026\\u0026 rm /var/lib/apt/lists/*_*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"07d592ef14e9876393c15a9b847a18424421b0f310620ec0c1ad899bea5529da\",\"parent\":\"46297863ff658c1713f19628293ee5d04729112baf847256aa60e17a8cb60616\",\"created\":\"2015-11-25T00:06:40.531698398Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get -q update \\u0026\\u0026     apt-get install --no-install-recommends -y -q ca-certificates \\u0026\\u0026     apt-get -y -q upgrade \\u0026\\u0026     rm /var/lib/apt/lists/*_*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"46297863ff658c1713f19628293ee5d04729112baf847256aa60e17a8cb60616\",\"parent\":\"be208a362790493b692d9f76d2f41f1fdb296b21584d00a685b0165901b45f79\",\"created\":\"2015-11-25T00:06:18.718720395Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PORT=8080\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"be208a362790493b692d9f76d2f41f1fdb296b21584d00a685b0165901b45f79\",\"parent\":\"3fdb2abc89057c6b200ecd491eafe2c7a7fe231c4e7862d18890417ac311a8c8\",\"created\":\"2015-11-25T00:06:18.506504652Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV DEBIAN_FRONTEND=noninteractive\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3fdb2abc89057c6b200ecd491eafe2c7a7fe231c4e7862d18890417ac311a8c8\",\"parent\":\"db780cfd7e6ec9941f1d5c4b53b6c9a9bcaf8bab7df2e06183186d20bcbc0227\",\"created\":\"2015-11-25T00:06:18.283224349Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD []\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"db780cfd7e6ec9941f1d5c4b53b6c9a9bcaf8bab7df2e06183186d20bcbc0227\",\"parent\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"created\":\"2015-07-26T04:41:14.612076201Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:6958cfcdc7475df054052ac9872193828b68036a34279b7916f6b00509797cbe in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"parent\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2015-07-26T04:41:00.598289781Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2015-07-26T01:43:19.301033235Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV DEBIAN_FRONTEND=noninteractive\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

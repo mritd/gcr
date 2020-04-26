@@ -1,0 +1,160 @@
+{
+    "name": "google-samples/echo-python",
+    "tag": "1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:b064c1266bd7c9da733a0e31d33f1ebaca51c76821d2dbbc595c79ec13056eef"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:926e3dfc68c82b5c81124b42d244aecee6ffa6a2349894abf13a945bb9838516"
+        },
+        {
+            "blobSum": "sha256:3f5b4f50105379b069ddf08f064b2b7b4ac84b299c67d12a220ecb6366a8cb24"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:eb80bdf7d42e5999a074bf1f78781723fc4f2e1cf956fddcf53dd7bfb7dc8a49"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:529ddbe05034921ed34db3502202b747f4ea52b55e55859e734df90e311e7506"
+        },
+        {
+            "blobSum": "sha256:b1c3dbc27e954c8a987215c893f3a56cf5911855a4c9e063d50233285060be11"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:7955d97c142c2ade3c30f82cb5e85868ef8768e910a46b712ad27c92f4b69118"
+        },
+        {
+            "blobSum": "sha256:f7eb626de3fc6ab569393d82b092e1370b838af4bedb3d42f12e0b7ccf3592e5"
+        },
+        {
+            "blobSum": "sha256:dd9e36d61188df04507941b7afa255317a1307bc0594b40253c9a71c7a20e0e8"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:05c44ae2a6733e5496be81bdb69ff64a8321134ac3205ebd7f829a0c01c88465"
+        },
+        {
+            "blobSum": "sha256:e687bad22f9ec92afe31e00dcb84cc8da7da59fa000139b2d0b8b9ac135ca1fb"
+        },
+        {
+            "blobSum": "sha256:e19d36babffef703fc29b50620acf2cb40eb7c2ae1f804f29c134dbece005c62"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"a763b4e75aab\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/opt/python3.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"PORT=8080\",\"LANG=C.UTF-8\",\"PYTHONUNBUFFERED=1\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:2302cc61e5d564f38c9692896b0bb9ccb2ee98e73088a69866e393ccdf0a2a8f\",\"Volumes\":null,\"WorkingDir\":\"/app\",\"Entrypoint\":[\"gunicorn\",\"-b\",\":8080\",\"main:app\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"ba06eac802413d6cead40edd7fb48761b7173e0a43b2b20a3abf246ab785ec46\",\"container_config\":{\"Hostname\":\"a763b4e75aab\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/opt/python3.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"PORT=8080\",\"LANG=C.UTF-8\",\"PYTHONUNBUFFERED=1\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"gunicorn\\\" \\\"-b\\\" \\\":8080\\\" \\\"main:app\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:2302cc61e5d564f38c9692896b0bb9ccb2ee98e73088a69866e393ccdf0a2a8f\",\"Volumes\":null,\"WorkingDir\":\"/app\",\"Entrypoint\":[\"gunicorn\",\"-b\",\":8080\",\"main:app\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-16T21:29:46.499074863Z\",\"docker_version\":\"1.12.3\",\"id\":\"90895632bc25d38148b5ffd081047a4476467c3bdf87a698b5d6fbf471d3e859\",\"os\":\"linux\",\"parent\":\"5ec2c5a352fb0a174fb0c436e9f73bc2f28feb3888f100c33f6e83bf25ddd473\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5ec2c5a352fb0a174fb0c436e9f73bc2f28feb3888f100c33f6e83bf25ddd473\",\"parent\":\"e36a2db7c9c1bc89ec11a960f06ebd0cbf82891c6179b3661c9e811fbd0ec4ca\",\"created\":\"2016-11-16T21:29:46.311725657Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c pip install -r requirements.txt\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e36a2db7c9c1bc89ec11a960f06ebd0cbf82891c6179b3661c9e811fbd0ec4ca\",\"parent\":\"3c134dd6b3c50eebacb4733d9e8f2f9a369592657d73d8d210a03b16be833d77\",\"created\":\"2016-11-16T21:29:41.990932773Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  WORKDIR /app\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3c134dd6b3c50eebacb4733d9e8f2f9a369592657d73d8d210a03b16be833d77\",\"parent\":\"29fb7ee5801af6c31c18dcb63644f07c5a58f11acf8c7c658e6247beca1b9f15\",\"created\":\"2016-11-16T21:29:41.852075674Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD dir:6513cf6da2213d7e2ebca67437ea9121628ec2346a342923ab8a9a24a1222b1b in /app \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"29fb7ee5801af6c31c18dcb63644f07c5a58f11acf8c7c658e6247beca1b9f15\",\"parent\":\"cd08805b8a18a2d41af2d3bb460a920bdf5d19bed5d147dcd1332c2f42ca550f\",\"created\":\"2016-11-16T21:29:41.623444754Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026     apt-get install -y python2.7 python-pip \\u0026\\u0026     apt-get clean \\u0026\\u0026     rm /var/lib/apt/lists/*_*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cd08805b8a18a2d41af2d3bb460a920bdf5d19bed5d147dcd1332c2f42ca550f\",\"parent\":\"2236895dc872b2ab8e914082b8115227178a6ca17de0f9d5370c1c0249efe090\",\"created\":\"2016-11-10T06:15:49.132549777Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD []\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2236895dc872b2ab8e914082b8115227178a6ca17de0f9d5370c1c0249efe090\",\"parent\":\"fda3ee92501efd46f8fa3fb2fbb471336440c59a61a469aff4dcbb05590d4ade\",\"created\":\"2016-11-10T06:15:48.860507092Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PORT=8080\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"fda3ee92501efd46f8fa3fb2fbb471336440c59a61a469aff4dcbb05590d4ade\",\"parent\":\"6642a9db3f3d43d3a404282c60e53d4f6c1f2b702dd848bc0a43140beb3828f0\",\"created\":\"2016-11-10T06:15:48.508462721Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 8080/tcp\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6642a9db3f3d43d3a404282c60e53d4f6c1f2b702dd848bc0a43140beb3828f0\",\"parent\":\"63dfa58725b30b2ca143cf79988447f43d4b8f55763d642bcd0a05c670ca8a71\",\"created\":\"2016-11-10T06:15:48.196335171Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) WORKDIR /app\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"63dfa58725b30b2ca143cf79988447f43d4b8f55763d642bcd0a05c670ca8a71\",\"parent\":\"8bc6476c2e669c291fb2f23a61d5f9796b6312e742aa9c0091e7256f2c57b8fb\",\"created\":\"2016-11-10T06:15:47.877971182Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c ln -s /home/vmagent/app /app\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8bc6476c2e669c291fb2f23a61d5f9796b6312e742aa9c0091e7256f2c57b8fb\",\"parent\":\"4082f3b80a0288dccf321370679f5e5952435ed401a6faa556a65402fba51c7c\",\"created\":\"2016-11-10T06:15:46.656568682Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/opt/python3.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4082f3b80a0288dccf321370679f5e5952435ed401a6faa556a65402fba51c7c\",\"parent\":\"edf5ffc4a269f413373a34791124bf67eae343e7c3a8e9d91b4e4f5ea313cd6c\",\"created\":\"2016-11-10T06:15:43.909309105Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:66764f31085e053d519e61c32bf8b9298b9cec08094ebc7faac025b69f0c6980 in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"edf5ffc4a269f413373a34791124bf67eae343e7c3a8e9d91b4e4f5ea313cd6c\",\"parent\":\"05a7a30cc27bc944117e61f422045f300c26d4070d7a096159ff800dad8c44b6\",\"created\":\"2016-11-10T06:15:40.221997854Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c pip install --upgrade pip virtualenv\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"05a7a30cc27bc944117e61f422045f300c26d4070d7a096159ff800dad8c44b6\",\"parent\":\"7afc98bbc2b5926c684732db47422ff15e968009927cf1b8c99de55b27cdc18c\",\"created\":\"2016-11-10T06:15:37.29217389Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PYTHONUNBUFFERED=1\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7afc98bbc2b5926c684732db47422ff15e968009927cf1b8c99de55b27cdc18c\",\"parent\":\"c7a3055c25dfd8543c9738c273d04782ee7e7f6106968f7ff8853eba868a762b\",\"created\":\"2016-11-10T06:15:36.968164513Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV LANG=C.UTF-8\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c7a3055c25dfd8543c9738c273d04782ee7e7f6106968f7ff8853eba868a762b\",\"parent\":\"eb5c28f8261f7298efb60f5eaad0a8a5601e636954e96a948e4a852848d1ba16\",\"created\":\"2016-11-10T06:15:31.494064035Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c /scripts/install-apt-packages.sh\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"eb5c28f8261f7298efb60f5eaad0a8a5601e636954e96a948e4a852848d1ba16\",\"parent\":\"1af64ca39faa466e41482ad6b40b2ceaaed21e596483b0f00c583bb1ec641fec\",\"created\":\"2016-11-10T06:11:59.229144617Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD dir:5bb88963c46cf13f6d8e7421f0451d35418a7f77cc4f6a15cfc624dfc137731a in /scripts\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1af64ca39faa466e41482ad6b40b2ceaaed21e596483b0f00c583bb1ec641fec\",\"parent\":\"c2521e15d5254c8b95a0caffdbd8dbe13ec5e990be004f75eca76548ba18a074\",\"created\":\"2016-11-10T06:11:58.985810654Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD dir:c2f6c5ea1665184a00d52bed3af5cedee134d244638b6c5b43b87675143df293 in /resources\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c2521e15d5254c8b95a0caffdbd8dbe13ec5e990be004f75eca76548ba18a074\",\"parent\":\"df8f107a65be69fcfc15baf2e40f11a0dc84f581ebff6432930ac1eecd272d5c\",\"created\":\"2016-11-08T00:03:40.392413572Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"df8f107a65be69fcfc15baf2e40f11a0dc84f581ebff6432930ac1eecd272d5c\",\"parent\":\"35af28e597b1614efbb488581db8631e3e9aaefbed52d7b7c7b5905027f66432\",\"created\":\"2016-11-08T00:03:40.071345173Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get -q update \\u0026\\u0026     apt-get install --no-install-recommends -y -q ca-certificates \\u0026\\u0026     apt-get -y -q upgrade \\u0026\\u0026     rm /var/lib/apt/lists/*_*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"35af28e597b1614efbb488581db8631e3e9aaefbed52d7b7c7b5905027f66432\",\"parent\":\"3d56b5c5a2ff0fde81449db577779c5f1aac76579b5107cc1f74b4812b05e3de\",\"created\":\"2016-11-08T00:03:29.024335171Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:91818d7badf250d3088b2c4d406104d93cabd2b5f207f0dd9a6ce841c6ffed40 in /etc/apt/apt.conf.d/\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3d56b5c5a2ff0fde81449db577779c5f1aac76579b5107cc1f74b4812b05e3de\",\"parent\":\"b14a7346a5c3b89b4886c1d8576cbcbd73d2b85ae2e344e71602eec95c3f6682\",\"created\":\"2016-11-08T00:03:24.91641153Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:c1aab6c0ce9d4fb3f0c05e6c925bb5ba212ce00a10ef806afe2f4ffe605d7563 in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b14a7346a5c3b89b4886c1d8576cbcbd73d2b85ae2e344e71602eec95c3f6682\",\"parent\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"created\":\"2016-09-27T18:16:37.049885162Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PORT=8080\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"parent\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2015-07-26T04:41:00.598289781Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2015-07-26T01:43:19.301033235Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV DEBIAN_FRONTEND=noninteractive\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}
