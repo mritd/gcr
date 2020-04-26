@@ -1,0 +1,52 @@
+{
+    "name": "google_containers/cadvisor",
+    "tag": "v0.23.1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:14cd28dce332875deaa72bba91a44cbc057457988565903851b3395c14120ce9"
+        },
+        {
+            "blobSum": "sha256:151807d34af95a8c7303ec27cf07d30bb16e844bebe6a871492cfe7a470d8f33"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:09d0220f4043840bd6e2ab233cb2cb330195c9b49bb1f57c8f3fba1bfc90a309"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"dengnan@google.com vmarmol@google.com vishnuk@google.com jimmidyson@gmail.com\",\"config\":{\"Hostname\":\"dfaf0577f3e7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"GLIBC_VERSION=2.23-r1\"],\"Cmd\":null,\"Image\":\"sha256:74870f90f38ccfe2d0d50efee5a913e29ac72c9c6b6aced1c9cb5d8c1732b0bf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/usr/bin/cadvisor\",\"-logtostderr\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"d66439407a8fea5e34f08bd136521d09db33f8768bd3f16ea18d955c65270c16\",\"container_config\":{\"Hostname\":\"dfaf0577f3e7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"GLIBC_VERSION=2.23-r1\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT [\\\"/usr/bin/cadvisor\\\" \\\"-logtostderr\\\"]\"],\"Image\":\"sha256:74870f90f38ccfe2d0d50efee5a913e29ac72c9c6b6aced1c9cb5d8c1732b0bf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/usr/bin/cadvisor\",\"-logtostderr\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-05-12T18:45:40.482893727Z\",\"docker_version\":\"1.11.1\",\"id\":\"5b2abc8d59d8cc8b0d7025f9d0ad155c82fb7e9ff5847000301048ba06b51816\",\"os\":\"linux\",\"parent\":\"35f74b3e8ae4f0a531ca734d1b57ff01975559bd015cc6fad6e6a775a9eba42e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"35f74b3e8ae4f0a531ca734d1b57ff01975559bd015cc6fad6e6a775a9eba42e\",\"parent\":\"31e065e6d2c924079e5aebba7ba931241b884e373dba92588eb967812579371a\",\"created\":\"2016-05-12T18:45:40.412768558Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 8080/tcp\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"31e065e6d2c924079e5aebba7ba931241b884e373dba92588eb967812579371a\",\"parent\":\"19691ea3a5360fbbc8bea62fc9531f8b02b21fc57587d53f6a71da53363e5d9c\",\"created\":\"2016-05-12T18:45:40.367728025Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:d8a1cb9e0c5b0d90dd89e4120bc35892f293df9af29800a63547ed4856c9459d in /usr/bin/cadvisor\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"19691ea3a5360fbbc8bea62fc9531f8b02b21fc57587d53f6a71da53363e5d9c\",\"parent\":\"08b46a37c9f729b29625624ed46902c53cf4e12f27acf58af93d241b78f24ca6\",\"created\":\"2016-05-12T01:34:35.817051196Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk add --update ca-certificates device-mapper \\u0026\\u0026     wget https://github.com/andyshinn/alpine-pkg-glibc/releases/download/${GLIBC_VERSION}/glibc-${GLIBC_VERSION}.apk \\u0026\\u0026     wget https://github.com/andyshinn/alpine-pkg-glibc/releases/download/${GLIBC_VERSION}/glibc-bin-${GLIBC_VERSION}.apk \\u0026\\u0026     apk add --allow-untrusted glibc-${GLIBC_VERSION}.apk glibc-bin-${GLIBC_VERSION}.apk \\u0026\\u0026     apk add zfs-utils  --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted  \\u0026\\u0026     /usr/glibc-compat/sbin/ldconfig /lib /usr/glibc-compat/lib \\u0026\\u0026     echo 'hosts: files mdns4_minimal [NOTFOUND=return] dns mdns4' \\u003e\\u003e /etc/nsswitch.conf \\u0026\\u0026     rm -rf /var/cache/apk/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"08b46a37c9f729b29625624ed46902c53cf4e12f27acf58af93d241b78f24ca6\",\"parent\":\"72aaac2f742020812afd9d2bdf260c7bd39e539409c7d1afc57440d4cf1ef9cd\",\"created\":\"2016-05-12T01:34:29.123709622Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV GLIBC_VERSION=2.23-r1\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"72aaac2f742020812afd9d2bdf260c7bd39e539409c7d1afc57440d4cf1ef9cd\",\"parent\":\"5ef81154ee64bebb6ce89fae028ccfc3251977b95a5ea994ac166adacb8959b7\",\"created\":\"2016-05-12T01:34:29.09012403Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER dengnan@google.com vmarmol@google.com vishnuk@google.com jimmidyson@gmail.com\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5ef81154ee64bebb6ce89fae028ccfc3251977b95a5ea994ac166adacb8959b7\",\"created\":\"2016-05-06T14:56:44.989755347Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:af671c91a986f389f44fadbccf9d00dcbb62e426872df9198b67038dc92058c0 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

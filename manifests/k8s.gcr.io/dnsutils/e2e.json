@@ -1,0 +1,34 @@
+{
+    "name": "google_containers/dnsutils",
+    "tag": "e2e",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:fa6d107b20f2d951ccb4b6bf2b7aad77c281f2b9af31505364bfde1a7e51f62f"
+        },
+        {
+            "blobSum": "sha256:e53e58e39233f401187ab06b7c4517740c95aee3336dfb5b246e5fde7e38fc06"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3690ec4760f95690944da86dc4496148a63d85c9e3100669a318110092f6862f"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Bowei Du \\\"bowei@google.com\\\"\",\"config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:ea3206a53600ba6b990910956f7bc49792be480dc2271107d0f92e0a8843553f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"bea173f2652bb77b3ffae9c67fa89d25896402b3590fb408d9bf3a6b17185049\",\"container_config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"apk add bind-tools\"],\"ArgsEscaped\":true,\"Image\":\"sha256:ea3206a53600ba6b990910956f7bc49792be480dc2271107d0f92e0a8843553f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-20T08:18:49.991289814Z\",\"docker_version\":\"1.12.3\",\"id\":\"7585db68bd99dd0480fbd09c3856b53585448edf37c9bf62f70c79631d0bbad7\",\"os\":\"linux\",\"parent\":\"9f660b35f6bb22ea8f1858d785a6a1c4e537fffaa28a38979610b910181538c1\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9f660b35f6bb22ea8f1858d785a6a1c4e537fffaa28a38979610b910181538c1\",\"parent\":\"db1d48cc60e1d888c9c57d75e0bc64f6a7f70d6e3bd8af91f106d60ac65cb37e\",\"created\":\"2016-11-20T08:18:48.700103839Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk update --no-cache\"]},\"author\":\"Bowei Du \\\"bowei@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"db1d48cc60e1d888c9c57d75e0bc64f6a7f70d6e3bd8af91f106d60ac65cb37e\",\"parent\":\"4b59778f82f9d17a484a278bd23d2d0b3c7ddcf022ab5250cf4f59308b3bc3f5\",\"created\":\"2016-11-20T08:18:47.223820476Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Bowei Du \\\"bowei@google.com\\\"\"]},\"author\":\"Bowei Du \\\"bowei@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4b59778f82f9d17a484a278bd23d2d0b3c7ddcf022ab5250cf4f59308b3bc3f5\",\"created\":\"2016-10-18T20:31:22.321427771Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:7afbc23fda8b0b3872623c16af8e3490b2cee951aed14b3794389c2f946cc8c7 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

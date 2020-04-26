@@ -1,0 +1,40 @@
+{
+    "name": "google_containers/etcd-arm64",
+    "tag": "2.2.5",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:13847fc5bf905625869d110aca90e1cb82f41a4fa5cc0e447ca7b8c7c4911552"
+        },
+        {
+            "blobSum": "sha256:47691a876e068fa98048f5c69432c2a43e5713c742b9a7fe6daca4a8cc28c5b8"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a09929ed694270b174e204ea0675e1da30f00f1a726ff0ff974576a1db50550e"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"067e696bb9d7006fc6f3a08704e332bd0c5449387d657cdd5f8b6ad584e7cbd7\",\"parent\":\"a8ba230de8f2d4441c9f0da2f880b74fc54e55588cb3f031d96357dc57933c6e\",\"created\":\"2016-04-13T23:32:50.355298378Z\",\"container\":\"d430a74407311e6e8e5d6b88e9dee630588789b8f415d107a1c395d3f8305b0a\",\"container_config\":{\"Hostname\":\"106f493f7510\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:42456f6d98f2f7c06bd8b5b162c81aae88fc049b9c0b29ddc23afee7b108d8e5 in /usr/local/bin/\"],\"Image\":\"a8ba230de8f2d4441c9f0da2f880b74fc54e55588cb3f031d96357dc57933c6e\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Dawn Chen \\u003cdawnchen@google.com\\u003e\",\"config\":{\"Hostname\":\"106f493f7510\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"a8ba230de8f2d4441c9f0da2f880b74fc54e55588cb3f031d96357dc57933c6e\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":14229248}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a8ba230de8f2d4441c9f0da2f880b74fc54e55588cb3f031d96357dc57933c6e\",\"parent\":\"66fcda173a5580b31e4d947ca54bb3d1226f77b264f73c0a0890b60888d930d8\",\"created\":\"2016-04-13T23:32:50.10582068Z\",\"container\":\"4a2da1588ef3de19a5a6ea1f97b6f4174ef6665228a6094c33788eafcc8ab604\",\"container_config\":{\"Hostname\":\"106f493f7510\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:ddc502f11738cc8a55de9cd6d2e0301aab14968364ba766bddefd5a5909d821a in /usr/local/bin/\"],\"Image\":\"66fcda173a5580b31e4d947ca54bb3d1226f77b264f73c0a0890b60888d930d8\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Dawn Chen \\u003cdawnchen@google.com\\u003e\",\"config\":{\"Hostname\":\"106f493f7510\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"66fcda173a5580b31e4d947ca54bb3d1226f77b264f73c0a0890b60888d930d8\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":15741664}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"66fcda173a5580b31e4d947ca54bb3d1226f77b264f73c0a0890b60888d930d8\",\"parent\":\"5c4786bfbf819990a00cfb6025c60122685501c0a9e572fa7e46cc9b63c3c90a\",\"created\":\"2016-04-13T23:32:49.909329034Z\",\"container\":\"6bd23ca6da7c70286020e86ad7b3af0cfa1a3bc797f77f3df6192add9bf9c01e\",\"container_config\":{\"Hostname\":\"106f493f7510\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Dawn Chen \\u003cdawnchen@google.com\\u003e\"],\"Image\":\"bcaab68a4d3b1954ef2e2e76e97fe58767707ad869567c8e7a1d3dfafc9b7e47\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Dawn Chen \\u003cdawnchen@google.com\\u003e\",\"config\":{\"Hostname\":\"106f493f7510\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"bcaab68a4d3b1954ef2e2e76e97fe58767707ad869567c8e7a1d3dfafc9b7e47\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"arm64\",\"config\":{\"Hostname\":\"106f493f7510\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:bcfc4c08e66800586ac29904fb63b63c193c6596a70e3d72c06e4a5037c00f35\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"container\":\"a3ff1ddfd3740909fc60069e6e399e5193c84e7e159aba2c7f17a884649cd955\",\"container_config\":{\"Hostname\":\"106f493f7510\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"sh\\\"]\"],\"Image\":\"sha256:bcfc4c08e66800586ac29904fb63b63c193c6596a70e3d72c06e4a5037c00f35\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"created\":\"2016-03-19T02:33:56.872423Z\",\"docker_version\":\"1.10.0-dev\",\"id\":\"5c4786bfbf819990a00cfb6025c60122685501c0a9e572fa7e46cc9b63c3c90a\",\"os\":\"linux\",\"parent\":\"78ab79da077fefad194e0935a694e8382db82811b22bc39c35222690c43636a0\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"78ab79da077fefad194e0935a694e8382db82811b22bc39c35222690c43636a0\",\"created\":\"2016-03-19T02:33:47.496878Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:f501e2cbf89a621220a3817f0269922c18f9e4e0cda0fb5791ee153d5e184991 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

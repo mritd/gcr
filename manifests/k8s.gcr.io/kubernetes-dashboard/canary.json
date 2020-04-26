@@ -1,0 +1,34 @@
+{
+    "name": "google_containers/kubernetes-dashboard",
+    "tag": "canary",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:0ba2d39dee530fda8daf0265fed6c977cc49f6673380bb6da9e03f1bfb06e22d"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"cf101356dbded7ae0a2b8f47eede93bf74f5c23dc33a7d3df1feb31687351aa1\",\"parent\":\"0b78b9b11dafa1e52ba4dd9cc41a4187c8a01669d4b0b259c5fad9f5b0ca5bdf\",\"created\":\"2016-02-16T11:45:21.047777542Z\",\"container\":\"f6b94f9241c9102cf7191a8a4adf0514e9fa4f5bcc58b70d130d5e76601f666b\",\"container_config\":{\"Hostname\":\"fd665721a9b8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"9090/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/dashboard\\\" \\\"--port=9090\\\"]}\"],\"Image\":\"0b78b9b11dafa1e52ba4dd9cc41a4187c8a01669d4b0b259c5fad9f5b0ca5bdf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/dashboard\",\"--port=9090\"],\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Piotr Bryk \\u003cbryk@google.com\\u003e\",\"config\":{\"Hostname\":\"fd665721a9b8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"9090/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"0b78b9b11dafa1e52ba4dd9cc41a4187c8a01669d4b0b259c5fad9f5b0ca5bdf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/dashboard\",\"--port=9090\"],\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0b78b9b11dafa1e52ba4dd9cc41a4187c8a01669d4b0b259c5fad9f5b0ca5bdf\",\"parent\":\"b384123004236cd9bf0ea89aeca19275d2bf553ed60bee4b152c9d5210718226\",\"created\":\"2016-02-16T11:45:20.813269418Z\",\"container\":\"d78ed811dc25dd4b3cec3e27c1e68c1588ae6f34e7b4900fe9f10b1e39b5a662\",\"container_config\":{\"Hostname\":\"fd665721a9b8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"9090/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE 9090/tcp\"],\"Image\":\"b384123004236cd9bf0ea89aeca19275d2bf553ed60bee4b152c9d5210718226\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Piotr Bryk \\u003cbryk@google.com\\u003e\",\"config\":{\"Hostname\":\"fd665721a9b8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"9090/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"b384123004236cd9bf0ea89aeca19275d2bf553ed60bee4b152c9d5210718226\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b384123004236cd9bf0ea89aeca19275d2bf553ed60bee4b152c9d5210718226\",\"parent\":\"4dd5db907f64617aac3ea50e3e62ea3a988a68070f15c8cc71f6ce6c9a16b531\",\"created\":\"2016-02-16T11:45:20.441422601Z\",\"container\":\"fd665721a9b81f63c21f184b162d8b30caf7a6dc86f79158ffbe76d458da1a1e\",\"container_config\":{\"Hostname\":\"fd665721a9b8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD dir:bb6bdf065a18208dae873e8384b3602a7c9a35372d2c032c3e9dd2e4fddfbfe3 in /\"],\"Image\":\"4dd5db907f64617aac3ea50e3e62ea3a988a68070f15c8cc71f6ce6c9a16b531\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Piotr Bryk \\u003cbryk@google.com\\u003e\",\"config\":{\"Hostname\":\"fd665721a9b8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"4dd5db907f64617aac3ea50e3e62ea3a988a68070f15c8cc71f6ce6c9a16b531\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":39431211}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4dd5db907f64617aac3ea50e3e62ea3a988a68070f15c8cc71f6ce6c9a16b531\",\"created\":\"2016-02-12T12:51:07.246252665Z\",\"container\":\"5cee02d857bf784e94eadccf0f7d8502c63e6716d841351f000699448602d57e\",\"container_config\":{\"Hostname\":\"5cee02d857bf\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Piotr Bryk \\u003cbryk@google.com\\u003e\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"author\":\"Piotr Bryk \\u003cbryk@google.com\\u003e\",\"config\":{\"Hostname\":\"5cee02d857bf\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        }
+    ],
+    "schemaVersion": 1
+}

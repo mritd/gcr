@@ -1,0 +1,34 @@
+{
+    "name": "istio-release/citadel",
+    "tag": "release-1.0-20180904-17-48",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:6aa4081ba2b06465c46964a893b1119f971e588fb6e7479d9413e4d34e10fd48"
+        },
+        {
+            "blobSum": "sha256:8e03b3659dbe2470bd2c17644897209d926614d70e96f5f17623076f535182f8"
+        },
+        {
+            "blobSum": "sha256:22b878ac8b89d7bf86e01f9775ba5cd91d4494bc98a03f4cd3c6b3ee4775e414"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"sha256:24ee2eac64b196d476b96807e35b79094d548baa3c19acc64af930012973534b\",\"Volumes\":null,\"WorkingDir\":\"/tmp/\",\"Entrypoint\":[\"/usr/local/bin/istio_ca\",\"--self-signed-ca\"],\"OnBuild\":null,\"Labels\":null},\"container\":\"368507df4c1a0e794f341d1495f3491be9e95ed990c0bc0fab692b286da5041b\",\"container_config\":{\"Hostname\":\"368507df4c1a\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"/usr/local/bin/istio_ca\\\" \\\"--self-signed-ca\\\"]\"],\"Image\":\"sha256:24ee2eac64b196d476b96807e35b79094d548baa3c19acc64af930012973534b\",\"Volumes\":null,\"WorkingDir\":\"/tmp\",\"Entrypoint\":[\"/usr/local/bin/istio_ca\",\"--self-signed-ca\"],\"OnBuild\":null,\"Labels\":{}},\"created\":\"2018-09-04T17:59:01.462392159Z\",\"docker_version\":\"17.12.0-ce\",\"id\":\"01d033794e035a5d1d348621d0a54fd82257f2e5bd26555677c77af3dd53246c\",\"os\":\"linux\",\"parent\":\"acd389c568d0a866b5a409f67e048f93f6591dfaf99b8e61673c2e925d9a3fcb\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"acd389c568d0a866b5a409f67e048f93f6591dfaf99b8e61673c2e925d9a3fcb\",\"parent\":\"ff2092475e1e3cc426fd9db636e3e13217b722e2caf60c8c28efa46e76407732\",\"created\":\"2018-09-04T17:59:01.351342077Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:d4aad9d68714cae4a17782dadb86f4b47f849003bf7fbb1dd53f05393dde0d01 in /usr/local/bin/istio_ca \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ff2092475e1e3cc426fd9db636e3e13217b722e2caf60c8c28efa46e76407732\",\"parent\":\"65e5c7415af5b88f431c3102597aecd5bc1630cfb6ff399d5bfa9f76681d703c\",\"created\":\"2018-09-04T17:59:00.853818263Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) WORKDIR /tmp/\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"65e5c7415af5b88f431c3102597aecd5bc1630cfb6ff399d5bfa9f76681d703c\",\"created\":\"2018-09-04T17:58:36.702301278Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:f74cafb0f2a94a0b958319454c6fc6990ae2406b0d7614908cbdc2d025dde5b5 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

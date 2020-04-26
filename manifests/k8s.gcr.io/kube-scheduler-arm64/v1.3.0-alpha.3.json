@@ -1,0 +1,28 @@
+{
+    "name": "google_containers/kube-scheduler-arm64",
+    "tag": "v1.3.0-alpha.3",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:ed29e134d70abfdcab2bb800df6ee44c6d0231d9a80bf31e56adebbd134864ca"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:770408447083eb668060e860a062a1e627019a3fd523b0bd345de21fdb2330eb"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"7c3f0aade3f867226e63228e8f6b745def3a1f8c042b092dc5ab1b78241aea38\",\"parent\":\"973dc41d263f8e0ddc5e185515b7147e3065bc827d841a5035629f10bb775e11\",\"created\":\"2016-04-28T00:10:14.290631452Z\",\"container\":\"8507ab6713c7840c47159340ba095f176c76d3399588e4151d5d8175c1bcd339\",\"container_config\":{\"Hostname\":\"4355d5e944e5\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:98c4d120b00b36038f0582c37788ee56ded4aec91706c784c8ef6303d9dd1470 in /usr/local/bin/kube-scheduler\"],\"Image\":\"259d1f36b6e63ac15eccf8fe4f376f6f7d55f9e0222964cec8ac93c593700275\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"4355d5e944e5\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"259d1f36b6e63ac15eccf8fe4f376f6f7d55f9e0222964cec8ac93c593700275\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":50597360}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"arm64\",\"config\":{\"Hostname\":\"4355d5e944e5\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:0d5917c2f32ec083d4439ad66c93f5e00a19db303beda012026160ac4d013b66\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"container\":\"7689682d4bd1036a6a5c2b66c3cfc54b890fe3a9302e4b34998bc3563e643453\",\"container_config\":{\"Hostname\":\"4355d5e944e5\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"sh\\\"]\"],\"Image\":\"sha256:0d5917c2f32ec083d4439ad66c93f5e00a19db303beda012026160ac4d013b66\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"created\":\"2016-04-14T23:33:23.213667Z\",\"docker_version\":\"1.10.0-dev\",\"id\":\"973dc41d263f8e0ddc5e185515b7147e3065bc827d841a5035629f10bb775e11\",\"os\":\"linux\",\"parent\":\"f520659ba8859b48cd95f56d8ded904499eb412be214debb0677a7ad8dcd4386\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f520659ba8859b48cd95f56d8ded904499eb412be214debb0677a7ad8dcd4386\",\"created\":\"2016-04-14T23:33:22.614805Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:56e98ad9f612a811677be2bac4f1f48d1dbc3f9c8733a84a85bb6a2be7678e88 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

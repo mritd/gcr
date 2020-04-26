@@ -1,0 +1,88 @@
+{
+    "name": "google-containers/queue-health-graph",
+    "tag": "v20161119",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:1a9eb31aa1a3cc5ffa7eb09066484e03061714f526155fdc2629b9a1f5c55f87"
+        },
+        {
+            "blobSum": "sha256:bf3e4e41c7d56b757cbcb6e30e37e71d812609e4b2596ad16e74922165374a65"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:476e5d108f37a03d88bfe9992149db4e12c5a8e6a4566db61d90067aaea7014d"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:e6f7c7e5c03ef6687a44551a4675336e6500f5379f4cc7e5b14b20ac05f127c4"
+        },
+        {
+            "blobSum": "sha256:40af181810e71ae2b871c81aed2bc990d2748f0e11adedda056f12cb4af08712"
+        },
+        {
+            "blobSum": "sha256:e8988b5b3097ba5b9f10f45cd3545adea8b70bf9779f987d5b99cca08be818c3"
+        },
+        {
+            "blobSum": "sha256:9f13e0ac480c2c862ae7aca8536bf2250b4d410468e6d33dc2f8ade1d368e184"
+        },
+        {
+            "blobSum": "sha256:bf5d463153227eaf2c0a3d3f479bb5f2357f060fbce8088e61b2329d3d312d0c"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Erick Fejta \\u003cfejta@google.com\\u003e\",\"config\":{\"Hostname\":\"afef2623e56c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"CLOUDSDK_CORE_DISABLE_PROMPTS=1\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"wget -O - http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token     \\u0026\\u0026 echo gsutil configured     || echo please set -v /tmp/FOO:/boto -e BOTO_CONFIG=/boto/FOO.boto\"],\"ArgsEscaped\":true,\"Image\":\"sha256:de74e6d434e0fc9857c4def9282008ca84bda03f131eda6e23b298ddef59aa25\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"7cb58c625f3e1417a80cb0497a286e3405df1a79b5e52253bb7ee00ec14dfc7f\",\"container_config\":{\"Hostname\":\"afef2623e56c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"CLOUDSDK_CORE_DISABLE_PROMPTS=1\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:86d5b1d7069265d9fe8278b8294b51ba1779583311050eda9033111e071f143e in / \"],\"ArgsEscaped\":true,\"Image\":\"sha256:de74e6d434e0fc9857c4def9282008ca84bda03f131eda6e23b298ddef59aa25\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-19T23:55:47.031671253Z\",\"docker_version\":\"1.12.3\",\"id\":\"0d7bf44d248b563727bf8171a109cf46c1ce03a58e51421fb6c7bcfc17d4c8b1\",\"os\":\"linux\",\"parent\":\"68a897e5765913e3393b479d8a70883d83b4db7c06fa36d736cc3e4c0f4fb7c7\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"68a897e5765913e3393b479d8a70883d83b4db7c06fa36d736cc3e4c0f4fb7c7\",\"parent\":\"945d0d2e5663266fb2e74646385c19077d30a3fc7b758e7666e99589978b2dec\",\"created\":\"2016-11-19T23:55:46.348956028Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update     \\u0026\\u0026 apt-get install -y          python-matplotlib\"]},\"author\":\"Erick Fejta \\u003cfejta@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"945d0d2e5663266fb2e74646385c19077d30a3fc7b758e7666e99589978b2dec\",\"parent\":\"5e0fab0cd588078356b8f576bcdf90e6377ac8d768891676ee883874d1f96a28\",\"created\":\"2016-11-19T23:54:01.18783302Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Erick Fejta \\u003cfejta@google.com\\u003e\"]},\"author\":\"Erick Fejta \\u003cfejta@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5e0fab0cd588078356b8f576bcdf90e6377ac8d768891676ee883874d1f96a28\",\"parent\":\"1d8f7c8f334e2f71ed251fd397d0edb5c80883afab56c8cbef9154d2fd053cf8\",\"created\":\"2016-10-21T06:51:27.14749422Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/sh\\\" \\\"-c\\\" \\\"wget -O - http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token     \\u0026\\u0026 echo gsutil configured     || echo please set -v /tmp/FOO:/boto -e BOTO_CONFIG=/boto/FOO.boto\\\"]\"]},\"author\":\"Erick Fejta \\u003cfejta@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1d8f7c8f334e2f71ed251fd397d0edb5c80883afab56c8cbef9154d2fd053cf8\",\"parent\":\"3b3d75a265a30b6b6016fdf5629d95f6a33351676cabba9d6e6e213bd49fc755\",\"created\":\"2016-10-21T06:51:23.502496103Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update     \\u0026\\u0026 apt-get install -y \\t python-requests \\t wget     \\u0026\\u0026 wget https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz     \\u0026\\u0026 tar xzf google-cloud-sdk.tar.gz -C /     \\u0026\\u0026 /google-cloud-sdk/install.sh          --disable-installation-options \\t --bash-completion=false \\t --path-update=false \\t --usage-reporting=false     \\u0026\\u0026 rm google-cloud-sdk.tar.gz\"]},\"author\":\"Erick Fejta \\u003cfejta@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3b3d75a265a30b6b6016fdf5629d95f6a33351676cabba9d6e6e213bd49fc755\",\"parent\":\"d7c59bb86efccf0c1e9dab0ce2b55ee82152797a25a1323d20981d2227a34931\",\"created\":\"2016-10-21T06:50:42.105768687Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV CLOUDSDK_CORE_DISABLE_PROMPTS=1 PATH=/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]},\"author\":\"Erick Fejta \\u003cfejta@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d7c59bb86efccf0c1e9dab0ce2b55ee82152797a25a1323d20981d2227a34931\",\"parent\":\"bcfd3b33b11307e05bc792f0445391121b57c250a7ac7e2e50cb7a1d102e27a3\",\"created\":\"2016-10-21T06:50:41.791713643Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER Erick Fejta \\u003cfejta@google.com\\u003e\"]},\"author\":\"Erick Fejta \\u003cfejta@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"bcfd3b33b11307e05bc792f0445391121b57c250a7ac7e2e50cb7a1d102e27a3\",\"parent\":\"e7176b79954fbb87af3a34e8bc66a9a9c56b435455f685911c75be2f3616f798\",\"created\":\"2016-10-13T21:13:06.201891855Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e7176b79954fbb87af3a34e8bc66a9a9c56b435455f685911c75be2f3616f798\",\"parent\":\"879409173f708ef4674eb57f6e3043ffc7cf1138a3ade460d9cd8e838f25dd98\",\"created\":\"2016-10-13T21:13:05.870189842Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir -p /run/systemd \\u0026\\u0026 echo 'docker' \\u003e /run/systemd/container\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"879409173f708ef4674eb57f6e3043ffc7cf1138a3ade460d9cd8e838f25dd98\",\"parent\":\"82b16b694f1b74a058788fefff33b6466a775fd9ac97bf23c1c7d53b7d193202\",\"created\":\"2016-10-13T21:13:04.957317149Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c sed -i 's/^#\\\\s*\\\\(deb.*universe\\\\)$/\\\\1/g' /etc/apt/sources.list\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"82b16b694f1b74a058788fefff33b6466a775fd9ac97bf23c1c7d53b7d193202\",\"parent\":\"4d0b81bdf94ebc79bcf46b65571ffb878b31a818c4f0d0e31183352d7899ef17\",\"created\":\"2016-10-13T21:13:03.638737787Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4d0b81bdf94ebc79bcf46b65571ffb878b31a818c4f0d0e31183352d7899ef17\",\"parent\":\"4655efdd3550aaac94bba16fbaa74df40670023f23aabdf00536f1dc233b8708\",\"created\":\"2016-10-13T21:13:02.70997358Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -xe \\t\\t\\u0026\\u0026 echo '#!/bin/sh' \\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 echo 'exit 101' \\u003e\\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 chmod +x /usr/sbin/policy-rc.d \\t\\t\\u0026\\u0026 dpkg-divert --local --rename --add /sbin/initctl \\t\\u0026\\u0026 cp -a /usr/sbin/policy-rc.d /sbin/initctl \\t\\u0026\\u0026 sed -i 's/^exit.*/exit 0/' /sbin/initctl \\t\\t\\u0026\\u0026 echo 'force-unsafe-io' \\u003e /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \\t\\t\\u0026\\u0026 echo 'DPkg::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'APT::Update::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'Dir::Cache::pkgcache \\\"\\\"; Dir::Cache::srcpkgcache \\\"\\\";' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\t\\u0026\\u0026 echo 'Acquire::Languages \\\"none\\\";' \\u003e /etc/apt/apt.conf.d/docker-no-languages \\t\\t\\u0026\\u0026 echo 'Acquire::GzipIndexes \\\"true\\\"; Acquire::CompressionTypes::Order:: \\\"gz\\\";' \\u003e /etc/apt/apt.conf.d/docker-gzip-indexes \\t\\t\\u0026\\u0026 echo 'Apt::AutoRemove::SuggestsImportant \\\"false\\\";' \\u003e /etc/apt/apt.conf.d/docker-autoremove-suggests\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4655efdd3550aaac94bba16fbaa74df40670023f23aabdf00536f1dc233b8708\",\"created\":\"2016-10-13T21:13:01.438134224Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:bc2e0eb31424a88aadc42486b6762c321e3457527daa43bcad45819d38c3a2ed in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

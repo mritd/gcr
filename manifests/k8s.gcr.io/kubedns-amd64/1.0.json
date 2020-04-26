@@ -1,0 +1,40 @@
+{
+    "name": "google_containers/kubedns-amd64",
+    "tag": "1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:dae3008eeecbd46c9ba1c191764558535a09cf57d8ff447627e76f390b3ed7f9"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:385e281300cc6d88bdd155e0931fbdfbb1801c2b0265340a40481ee2b733ae66"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"959f8a03471253109c934286390d7eceddf9a29f13b13de04fe0abe1c0a12da7\",\"parent\":\"866881db7faf3cdab4c6150cdb0ff16ecc984c2d79850c8a6b665d960a17ee57\",\"created\":\"2016-05-21T06:15:44.758736386Z\",\"container\":\"821135c6cf39a040e2bbf3aa3b5d5b7e3770202a2e3bff0cb93ff534788fc87c\",\"container_config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/kube-dns\\\"]}\"],\"Image\":\"866881db7faf3cdab4c6150cdb0ff16ecc984c2d79850c8a6b665d960a17ee57\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/kube-dns\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\",\"config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"866881db7faf3cdab4c6150cdb0ff16ecc984c2d79850c8a6b665d960a17ee57\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/kube-dns\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"866881db7faf3cdab4c6150cdb0ff16ecc984c2d79850c8a6b665d960a17ee57\",\"parent\":\"67cda60d3668282baccd8389bac873749322d69f56ed429ed0736298cbb1b20f\",\"created\":\"2016-05-21T06:15:44.08220638Z\",\"container\":\"a24ebefcf953105a33d058345a90b22c8bdc891754233e7f43b92a98806cd07e\",\"container_config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:802832a0ec54f45c3c2d20ecc4242e34f67c3ae4d996f12c5c06b025e37a4707 in /\"],\"Image\":\"67cda60d3668282baccd8389bac873749322d69f56ed429ed0736298cbb1b20f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\",\"config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"67cda60d3668282baccd8389bac873749322d69f56ed429ed0736298cbb1b20f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":46801480}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"67cda60d3668282baccd8389bac873749322d69f56ed429ed0736298cbb1b20f\",\"parent\":\"bc744c4ab376115cc45c610d53f529dd2d4249ae6b35e5d6e7a96e58863545aa\",\"created\":\"2016-05-21T06:15:43.497491704Z\",\"container\":\"4ffb9587d4c2521f8cbbb1d39e02de329cec05575154344dafcdcc55530e0a65\",\"container_config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Tim Hockin \\u003cthockin@google.com\\u003e\"],\"Image\":\"307ac631f1b53c62d39e9c9e81bdbdbb50a2295c35fb0ec672d168a0b129a623\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\",\"config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"307ac631f1b53c62d39e9c9e81bdbdbb50a2295c35fb0ec672d168a0b129a623\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"bc744c4ab376115cc45c610d53f529dd2d4249ae6b35e5d6e7a96e58863545aa\",\"parent\":\"56ed16bd6310cca65920c653a9bb22de6b235990dcaa1742ff839867aed730e5\",\"created\":\"2016-03-18T18:22:48.810791943Z\",\"container\":\"5f8098ec29947b5bea80483cd3275008911ce87438fed628e34ec0c522665510\",\"container_config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"sh\\\"]\"],\"Image\":\"56ed16bd6310cca65920c653a9bb22de6b235990dcaa1742ff839867aed730e5\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"sh\"],\"Image\":\"56ed16bd6310cca65920c653a9bb22de6b235990dcaa1742ff839867aed730e5\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"56ed16bd6310cca65920c653a9bb22de6b235990dcaa1742ff839867aed730e5\",\"created\":\"2016-03-18T18:22:48.262403239Z\",\"container\":\"156e10b83429922f489ed596b154ac01db4ef8a231425a27e04367c56c15f735\",\"container_config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:47ca6e777c36a4cfffe3f918b64a445c8f32300deeb9dfa5cc47261bd7b75d21 in /\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":1112820}"
+        }
+    ],
+    "schemaVersion": 1
+}

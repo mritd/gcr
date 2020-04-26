@@ -1,0 +1,52 @@
+{
+    "name": "google_containers/cadvisor",
+    "tag": "v0.24.0-alpha1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:01d220f1978c0fb56972dd35d3c24357d565a9f5aba85e6086c84f0fdd0724c1"
+        },
+        {
+            "blobSum": "sha256:ce83d9cd69f38996ef345d08a2c0b87ead33f582623e21924083e9d962ab4faa"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:e110a4a1794126ef308a49f2d65785af2f25538f06700721aad8283b81fdfa58"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"dengnan@google.com vmarmol@google.com vishnuk@google.com jimmidyson@gmail.com stclair@google.com\",\"config\":{\"Hostname\":\"4c573a7cf4a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"GLIBC_VERSION=2.23-r3\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:bcdd79492813a9cfa517462a73bd1e2684a22177f98152e1fb79344c29ef253a\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/usr/bin/cadvisor\",\"-logtostderr\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"6c068a370d78163fef9553dbfa12162980096eb65d44885481b131c7294b157c\",\"container_config\":{\"Hostname\":\"4c573a7cf4a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"GLIBC_VERSION=2.23-r3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT [\\\"/usr/bin/cadvisor\\\" \\\"-logtostderr\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:bcdd79492813a9cfa517462a73bd1e2684a22177f98152e1fb79344c29ef253a\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/usr/bin/cadvisor\",\"-logtostderr\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-08-22T18:30:53.364872385Z\",\"docker_version\":\"1.11.1\",\"id\":\"1f77e9dc00c732ccafa806e3fc2c2eb595d82a78ff15ee8f4d5d963cad184068\",\"os\":\"linux\",\"parent\":\"06e588bd4744681f5318290ad7531ebdb62c6a97665a0fe13c6fe65c10727e76\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"06e588bd4744681f5318290ad7531ebdb62c6a97665a0fe13c6fe65c10727e76\",\"parent\":\"08a2159663d1c586fc902b5b7b5918049b2b5ca303c2d59847f85b897ec8e29b\",\"created\":\"2016-08-22T18:30:53.315030942Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 8080/tcp\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"08a2159663d1c586fc902b5b7b5918049b2b5ca303c2d59847f85b897ec8e29b\",\"parent\":\"39f759e17adabbe5daae6a9057d6aadc02cf0140a0f934a5cffc51d3353cb7fc\",\"created\":\"2016-08-22T18:30:53.25344941Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:f1b1fb99cf3ca55e7b76ebf871550e6a73ceed6541726cc4991202cbf4558443 in /usr/bin/cadvisor\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"39f759e17adabbe5daae6a9057d6aadc02cf0140a0f934a5cffc51d3353cb7fc\",\"parent\":\"cbd9326b4af3871c644eef309e83effec112d3702d0919f23d8e574fe1e9fa9b\",\"created\":\"2016-08-22T18:30:52.793995136Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk --no-cache add ca-certificates wget device-mapper \\u0026\\u0026     apk --no-cache add zfs --repository http://dl-3.alpinelinux.org/alpine/edge/main/ \\u0026\\u0026     wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://raw.githubusercontent.com/sgerrand/alpine-pkg-glibc/master/sgerrand.rsa.pub \\u0026\\u0026     wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/${GLIBC_VERSION}/glibc-${GLIBC_VERSION}.apk \\u0026\\u0026     wget https://github.com/andyshinn/alpine-pkg-glibc/releases/download/${GLIBC_VERSION}/glibc-bin-${GLIBC_VERSION}.apk \\u0026\\u0026     apk add glibc-${GLIBC_VERSION}.apk glibc-bin-${GLIBC_VERSION}.apk \\u0026\\u0026     /usr/glibc-compat/sbin/ldconfig /lib /usr/glibc-compat/lib \\u0026\\u0026     echo 'hosts: files mdns4_minimal [NOTFOUND=return] dns mdns4' \\u003e\\u003e /etc/nsswitch.conf \\u0026\\u0026     rm -rf /var/cache/apk/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cbd9326b4af3871c644eef309e83effec112d3702d0919f23d8e574fe1e9fa9b\",\"parent\":\"06984fada6291928690cbe71b01d2606aba12ab2ceee3ee93d9e9e92d233a529\",\"created\":\"2016-08-22T18:30:44.793442647Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV GLIBC_VERSION=2.23-r3\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"06984fada6291928690cbe71b01d2606aba12ab2ceee3ee93d9e9e92d233a529\",\"parent\":\"9b7301678506516b9a3ccda253d50765a6182c6f0f3098ec1db9265dbf1e1f69\",\"created\":\"2016-08-22T18:30:44.760047046Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER dengnan@google.com vmarmol@google.com vishnuk@google.com jimmidyson@gmail.com stclair@google.com\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9b7301678506516b9a3ccda253d50765a6182c6f0f3098ec1db9265dbf1e1f69\",\"created\":\"2016-06-23T19:55:18.048565927Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:852e9d0cb9d906535af512a89339fc70b2873a0f94defbcbe41cd44942dd6ac8 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

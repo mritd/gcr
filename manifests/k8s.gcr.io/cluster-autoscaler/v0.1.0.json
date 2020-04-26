@@ -1,0 +1,40 @@
+{
+    "name": "google_containers/cluster-autoscaler",
+    "tag": "v0.1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:9bad7ba3125ac337890fd6f699b16f96e8ea083864138d1c7a3774c21c4a9bb6"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:49094101e7b859b28462709956f0106cbc502501203fe16fcb664afa8922552d"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"d1fa85e9e5692307f1a56de31e306c2be8fee12bd7708daa26db794ed4d83f39\",\"parent\":\"dd2e71c5c40c4eb920d01ec161d68ef32dfe2a16890c4d0f5d41c13426a7ca17\",\"created\":\"2016-05-25T07:30:01.186853874Z\",\"container\":\"afbada967a47c00f2eaf40067d639835eb334730b29e633d3cc320228896897b\",\"container_config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/bin/sh\\\" \\\"-c\\\" \\\"./cluster-autoscaler\\\"]\"],\"Image\":\"dd2e71c5c40c4eb920d01ec161d68ef32dfe2a16890c4d0f5d41c13426a7ca17\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Marcin Wielgus \\\"mwielgus@google.com\\\"\",\"config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"./cluster-autoscaler\"],\"Image\":\"dd2e71c5c40c4eb920d01ec161d68ef32dfe2a16890c4d0f5d41c13426a7ca17\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"dd2e71c5c40c4eb920d01ec161d68ef32dfe2a16890c4d0f5d41c13426a7ca17\",\"parent\":\"1848e7c357224b65cca841e61cbaa6f2f50ed136ee5c0effa888b6aa108b2d8f\",\"created\":\"2016-05-25T07:30:00.472226628Z\",\"container\":\"10c69f463c689c18d4abd7ee0161d6541f3d8ec8c39e497cbf811e3e1cb79926\",\"container_config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:09886b2ea5390fe0b95b33248e54a49241168057a8ed1f5a2a8ea0397d604ba1 in cluster-autoscaler\"],\"Image\":\"1848e7c357224b65cca841e61cbaa6f2f50ed136ee5c0effa888b6aa108b2d8f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Marcin Wielgus \\\"mwielgus@google.com\\\"\",\"config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\"],\"Image\":\"1848e7c357224b65cca841e61cbaa6f2f50ed136ee5c0effa888b6aa108b2d8f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":66291530}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1848e7c357224b65cca841e61cbaa6f2f50ed136ee5c0effa888b6aa108b2d8f\",\"parent\":\"8344c55cfb4277ee007375f124f5cf9c21188072a98849f9bbadf96cd520ca91\",\"created\":\"2016-05-25T07:29:59.995328015Z\",\"container\":\"735af67a21b78c5a84ee35263c69517d67d0a61603afb21396ce1847396b8227\",\"container_config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Marcin Wielgus \\\"mwielgus@google.com\\\"\"],\"Image\":\"6ee641c43d1c76babd8227876432349ddcad7382d218c5ad49ba94e1523ea907\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Marcin Wielgus \\\"mwielgus@google.com\\\"\",\"config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\"],\"Image\":\"6ee641c43d1c76babd8227876432349ddcad7382d218c5ad49ba94e1523ea907\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8344c55cfb4277ee007375f124f5cf9c21188072a98849f9bbadf96cd520ca91\",\"parent\":\"793f530b290febdf0d876b40add2f9bf30f53585cd093e8c6efa81408e7ac1e9\",\"created\":\"2016-03-26T01:18:57.129720177Z\",\"container\":\"637ef28359ebd93da03471a15b7bbb7bdf46a3b0507ffd1008ff550a9cd9ed79\",\"container_config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/bin/sh\\\"]\"],\"Image\":\"793f530b290febdf0d876b40add2f9bf30f53585cd093e8c6efa81408e7ac1e9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\"],\"Image\":\"793f530b290febdf0d876b40add2f9bf30f53585cd093e8c6efa81408e7ac1e9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"793f530b290febdf0d876b40add2f9bf30f53585cd093e8c6efa81408e7ac1e9\",\"created\":\"2016-03-26T01:18:54.952096063Z\",\"container\":\"fd4ac4bf11cc1f2c538ee66803b8fb78a6e9589b4965e54d242592f92cfe352d\",\"container_config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:c5434fc22a23bac45fcef341a531bf88c1f1a48c86b1775f2dd501677c05f3e2 in /\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"fd4ac4bf11cc\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":55089423}"
+        }
+    ],
+    "schemaVersion": 1
+}

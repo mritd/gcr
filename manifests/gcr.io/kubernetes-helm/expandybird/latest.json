@@ -1,0 +1,46 @@
+{
+    "name": "kubernetes-helm/expandybird",
+    "tag": "latest",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:5e30b259d90b3f2cd0a321a2f09440b26c4b623d9aea6314388fd70192917359"
+        },
+        {
+            "blobSum": "sha256:9fa2c113199bf3be00c54ef34f038dcd40a1970ed4eadb192d1436da3d81763b"
+        },
+        {
+            "blobSum": "sha256:a4b997513647392d60d2f89ffdd05ea283056c7987c84a852ab369722ea979f7"
+        },
+        {
+            "blobSum": "sha256:420890c9e918b6668faaedd9000e220190f2493b0693ee563ebd7b4cc754a57d"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"b14cd8298755\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8000/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/expandybird\",\"-expansion_binary\",\"/opt/expansion/expansion.py\"],\"ArgsEscaped\":true,\"Image\":\"sha256:cda5c4a3b07cfccbb4e98a3472097599428cabc5c745b1e7e1f4c2f8fe71124e\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"716b466e03fdba2fb5ef01d41a52ee0ee8784043873ec2054cbeb9e2b0ac181e\",\"container_config\":{\"Hostname\":\"b14cd8298755\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8000/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE 8000/tcp\"],\"ArgsEscaped\":true,\"Image\":\"sha256:cda5c4a3b07cfccbb4e98a3472097599428cabc5c745b1e7e1f4c2f8fe71124e\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-04-11T21:39:12.990112559Z\",\"docker_version\":\"1.10.3\",\"id\":\"ba2850917e68148e58e32e2e40dc33c37e155bec50b97fa90e6737f186869fb2\",\"os\":\"linux\",\"parent\":\"3448d3664eb2bfc7536a107b44f2518461858365996d57a955f883d9cfb774f1\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3448d3664eb2bfc7536a107b44f2518461858365996d57a955f883d9cfb774f1\",\"parent\":\"01c739ceee83dc311ec57ff8fdd535b7e5f058f2315e400876121a75d5af1d68\",\"created\":\"2016-04-11T21:39:12.849855861Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/expandybird\\\" \\\"-expansion_binary\\\" \\\"/opt/expansion/expansion.py\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"01c739ceee83dc311ec57ff8fdd535b7e5f058f2315e400876121a75d5af1d68\",\"parent\":\"9bec47dacc1559f097eb1c2800be3ea71497d53183761baaead587392db80d79\",\"created\":\"2016-04-11T21:39:12.680305977Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c pip install --disable-pip-version-check --no-cache-dir -r /opt/expansion/requirements.txt\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9bec47dacc1559f097eb1c2800be3ea71497d53183761baaead587392db80d79\",\"parent\":\"7f017e32613f40360a9449793d637b6398560c3b4262f7f5cff88a27f4984e3b\",\"created\":\"2016-04-11T21:38:59.471685582Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk add --no-cache curl python py-pip\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7f017e32613f40360a9449793d637b6398560c3b4262f7f5cff88a27f4984e3b\",\"parent\":\"1348eb573a47d363b35f3bf2ddb3df35b92b694824f159798d336bb16e78fac2\",\"created\":\"2016-04-11T21:38:38.59763894Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:919a4bb727dc2f83b45b02d897b912b9c1b61a568b8632a81da1b613d61c3095 in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1348eb573a47d363b35f3bf2ddb3df35b92b694824f159798d336bb16e78fac2\",\"created\":\"2016-04-01T20:53:00.160300546Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:033ab063740d9ff4dcfb1c69eccf25f91d88729f57cd5a73050e014e3e094aa0 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

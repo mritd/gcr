@@ -1,0 +1,40 @@
+{
+    "name": "google_containers/test-webserver",
+    "tag": "e2e",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:9aaeb14a943d831aec1656ca5d1fe9c450b18baf0a42f8d0dd017da37fa5f376"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"09250b6a7c3e82f24f49382800645a95bf4838d6e9f9a3e186b7b99a9f2d6cff\",\"parent\":\"ceeaa1e2300ebc7c3392a5883ad5b4f6ab213dbfe4ce4717eed7b6d2863bb1e7\",\"created\":\"2015-01-15T21:42:29.600883262Z\",\"container\":\"8c705734377f2e57673324a0119394e12737cfec1286f65b2c48e61e0abb6d0a\",\"container_config\":{\"Hostname\":\"279997ae893c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"80/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT [/test-webserver]\"],\"Image\":\"ceeaa1e2300ebc7c3392a5883ad5b4f6ab213dbfe4ce4717eed7b6d2863bb1e7\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/test-webserver\"],\"OnBuild\":[],\"Labels\":null},\"docker_version\":\"1.4.1\",\"author\":\"David Oppenheimer \\u003cdavidopp@google.com\\u003e\",\"config\":{\"Hostname\":\"279997ae893c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"80/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"ceeaa1e2300ebc7c3392a5883ad5b4f6ab213dbfe4ce4717eed7b6d2863bb1e7\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/test-webserver\"],\"OnBuild\":[],\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ceeaa1e2300ebc7c3392a5883ad5b4f6ab213dbfe4ce4717eed7b6d2863bb1e7\",\"parent\":\"b9e03d2fae8559a54ee51d78f3332f9de3da4931067f66679183824f331da75b\",\"created\":\"2015-01-15T21:42:25.447822366Z\",\"container\":\"8c871785bb2a5f8445a49548ee4a3573308dde80162f4dc3d6d27a0c3d13902f\",\"container_config\":{\"Hostname\":\"279997ae893c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"80/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE map[80/tcp:{}]\"],\"Image\":\"b9e03d2fae8559a54ee51d78f3332f9de3da4931067f66679183824f331da75b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":null},\"docker_version\":\"1.4.1\",\"author\":\"David Oppenheimer \\u003cdavidopp@google.com\\u003e\",\"config\":{\"Hostname\":\"279997ae893c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"80/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"b9e03d2fae8559a54ee51d78f3332f9de3da4931067f66679183824f331da75b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b9e03d2fae8559a54ee51d78f3332f9de3da4931067f66679183824f331da75b\",\"parent\":\"224c227d7a4b0311e9c3bbaa674f1f5794f4a024a76eca6b14257edcbd9716a7\",\"created\":\"2015-01-15T21:42:20.578666194Z\",\"container\":\"279997ae893ce9c4e0f205c075dca64d3a35d0a61616897aed41687c417985e7\",\"container_config\":{\"Hostname\":\"279997ae893c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:85896b756c0df007ee93bad932651a3c6112a46a7c0136c2fe9f595184b1bc97 in test-webserver\"],\"Image\":\"224c227d7a4b0311e9c3bbaa674f1f5794f4a024a76eca6b14257edcbd9716a7\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":null},\"docker_version\":\"1.4.1\",\"author\":\"David Oppenheimer \\u003cdavidopp@google.com\\u003e\",\"config\":{\"Hostname\":\"279997ae893c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"224c227d7a4b0311e9c3bbaa674f1f5794f4a024a76eca6b14257edcbd9716a7\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":4534272}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"224c227d7a4b0311e9c3bbaa674f1f5794f4a024a76eca6b14257edcbd9716a7\",\"parent\":\"511136ea3c5a64f264b78b5433614aec563103b4d4702f3ba7d4d2698e22c158\",\"created\":\"2014-11-05T23:00:21.423186383Z\",\"container\":\"e165490f3bc836470d25271e94dc240b41a8970d09bfe0f8337a8a0c19f95ae3\",\"container_config\":{\"Hostname\":\"e165490f3bc8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER David Oppenheimer \\u003cdavidopp@google.com\\u003e\"],\"Image\":\"511136ea3c5a64f264b78b5433614aec563103b4d4702f3ba7d4d2698e22c158\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":null},\"docker_version\":\"1.3.1\",\"author\":\"David Oppenheimer \\u003cdavidopp@google.com\\u003e\",\"config\":{\"Hostname\":\"e165490f3bc8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"511136ea3c5a64f264b78b5433614aec563103b4d4702f3ba7d4d2698e22c158\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"511136ea3c5a64f264b78b5433614aec563103b4d4702f3ba7d4d2698e22c158\",\"comment\":\"Imported from -\",\"created\":\"2013-06-13T14:03:50.821769-07:00\",\"container_config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"0.4.0\",\"architecture\":\"x86_64\"}"
+        }
+    ],
+    "schemaVersion": 1
+}

@@ -1,0 +1,94 @@
+{
+    "name": "google_containers/hyperkube-arm64",
+    "tag": "v1.5.0-beta.2",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:d93cda0841e46cd3690d6f7a2a54c0de35f2ed29867f81590eb69d6def2f7b80"
+        },
+        {
+            "blobSum": "sha256:ffaa18471037c4332f7c85df50782b645038682533550b48de75d8376440c89c"
+        },
+        {
+            "blobSum": "sha256:88a5e9ec323978efbb5c1eb12e372346512ecef9983046a38484e7245f5d70ff"
+        },
+        {
+            "blobSum": "sha256:e63d257a046a5d5723cbef0eb8cb98e8a16033ea1a18ec9647c90d4621cc3550"
+        },
+        {
+            "blobSum": "sha256:7e080a0abf66eee5ac491a6172bfaffab5c3bfe594f890774ceb4608b69ff536"
+        },
+        {
+            "blobSum": "sha256:f01cf335f59c03965e861553bf5f24b76108bf01065a5fb6383c5d98a5986246"
+        },
+        {
+            "blobSum": "sha256:55710d6749081fb55ee1200c0b5430ab9f7646735cd44fb470061a930787fb1a"
+        },
+        {
+            "blobSum": "sha256:8c29d1a07309326de4a80a91c1ba142c88896605e53d0f96d20dc99d43d780d7"
+        },
+        {
+            "blobSum": "sha256:44194d9a07cfca3fa059311459616b2775ebe64fdf15694b179e361c28c874fa"
+        },
+        {
+            "blobSum": "sha256:468ceef8b14b85d6086eed1018c4c1b8c047c8cf148a42499a0e0e5eb74b3df1"
+        },
+        {
+            "blobSum": "sha256:394a458c1b779393f479661a92340481f98fbbb159ddc2f312ec7e3c45a87875"
+        },
+        {
+            "blobSum": "sha256:d54cb27f55c535a1655bca3da1aae72b1048aec36bdf130c040b26e92c42b4ae"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:0a3778f6d5d97aff92c95168929953bce93fb9a0c32e01172e1df56caa0795b8"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"14ffc7cd1413\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/bash\"],\"ArgsEscaped\":true,\"Image\":\"sha256:e140dd13fa100d5087c4f706a9de89fd69f2d273ed1f92f2c2378086342dfe26\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"98cd4e1a67bbdc05fc806d2e5307d62667cafe975f48ac09370171a1f739c877\",\"container_config\":{\"Hostname\":\"14ffc7cd1413\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:3f6641b72b65f73b13f301beb2263577212bd90072bb044f854f006f3fdf1dce in /hyperkube \"],\"ArgsEscaped\":true,\"Image\":\"sha256:e140dd13fa100d5087c4f706a9de89fd69f2d273ed1f92f2c2378086342dfe26\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-24T23:19:57.252563724Z\",\"docker_version\":\"1.12.3\",\"id\":\"405336bdf9d17d78223542db98299e70b8f65a9afed4203082f57021fa3640fd\",\"os\":\"linux\",\"parent\":\"ddcbc09478427438059f07aa6621277d97fdbd9142ccb5c7741babc57dee4ac0\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ddcbc09478427438059f07aa6621277d97fdbd9142ccb5c7741babc57dee4ac0\",\"parent\":\"4d0a0e078f8060b4dbf9827145ad2189e9ea9db2435580e6fc045bdbb745b930\",\"created\":\"2016-11-24T23:19:55.248063662Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c ln -s /hyperkube /apiserver  \\u0026\\u0026 ln -s /hyperkube /controller-manager  \\u0026\\u0026 ln -s /hyperkube /federation-apiserver  \\u0026\\u0026 ln -s /hyperkube /federation-controller-manager  \\u0026\\u0026 ln -s /hyperkube /kubectl  \\u0026\\u0026 ln -s /hyperkube /kubelet  \\u0026\\u0026 ln -s /hyperkube /proxy  \\u0026\\u0026 ln -s /hyperkube /scheduler\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4d0a0e078f8060b4dbf9827145ad2189e9ea9db2435580e6fc045bdbb745b930\",\"parent\":\"4866ed5ef6cf20263b227f74195a0af90ac276f7cec9948bfd3e10634dfc449a\",\"created\":\"2016-11-24T23:19:53.597137717Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:ad5c43342dbe0cef46d93edd86358fb9953626282998f529e0107418ae5bea0b in /etc/cni/net.d \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4866ed5ef6cf20263b227f74195a0af90ac276f7cec9948bfd3e10634dfc449a\",\"parent\":\"67f312a425f727881198e18009a6f73c15ade2818f4f78843285de31db3d7492\",\"created\":\"2016-11-24T23:19:52.916291546Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:cfd3df02197ff61d33d83e1ce5b7f8a892140d373a91ab2d136657c23314ee2d in /opt/cni/bin \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"67f312a425f727881198e18009a6f73c15ade2818f4f78843285de31db3d7492\",\"parent\":\"3db249f548a4fb03ea43a9927e04438631ebf5e583d0a7839e11438a75d251df\",\"created\":\"2016-11-24T23:19:51.724004189Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD tarsum.v1+sha256:cb7c3a7791fbdc3ae4ec4ad0048711c85e9e19bc10bb9b39c5bb1770ea4773c8 in /root/kube/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3db249f548a4fb03ea43a9927e04438631ebf5e583d0a7839e11438a75d251df\",\"parent\":\"a35d8aaca875957e0e608861e13f712a54699d798a073b4dda685feab856e0cc\",\"created\":\"2016-11-24T23:19:50.780795427Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY multi:1243509419144120430da1749f8bc85acd8cc587aaff042195c60eecf7dfa8ad in / \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a35d8aaca875957e0e608861e13f712a54699d798a073b4dda685feab856e0cc\",\"parent\":\"9d20029734112244ac011b92edca685001c244b503a7ea28438c9b71eb2e2a82\",\"created\":\"2016-11-24T23:19:50.004336714Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:b7be6749ccc7727f0bc097bec6bc396a9a988aaa4504bd152eb9682b748f0825 in /etc/kubernetes/addons \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9d20029734112244ac011b92edca685001c244b503a7ea28438c9b71eb2e2a82\",\"parent\":\"d075ebdf81cec9415a55c88c5de81e6507b6c714bbc3c7e5d09bce48a5e2fe49\",\"created\":\"2016-11-24T23:19:49.388625803Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY multi:5cb7a5a550ca5541e4d2eb043fb7662f59ce848c0495cc9e0e62f2bd8fbef8c7 in /etc/kubernetes/manifests-multi/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d075ebdf81cec9415a55c88c5de81e6507b6c714bbc3c7e5d09bce48a5e2fe49\",\"parent\":\"3f986786369513073c08c4f84c53e2ed76f2159a1c8c5fc02b85f21532ed8aa8\",\"created\":\"2016-11-24T23:19:48.672662255Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY multi:8fc942139192aa37b4d0e352400b5ea84d3a82e6b477548effe30934ca21cf11 in /etc/kubernetes/manifests/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3f986786369513073c08c4f84c53e2ed76f2159a1c8c5fc02b85f21532ed8aa8\",\"parent\":\"c9bfccc3209f4bb9e0ea35e939c9bb3f1570b6d65e1a344689096e4a63939500\",\"created\":\"2016-11-24T23:19:47.848081315Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c cp /usr/bin/nsenter /nsenter\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c9bfccc3209f4bb9e0ea35e939c9bb3f1570b6d65e1a344689096e4a63939500\",\"parent\":\"271b3616fa425064408a153d1b20e5a2c600c7add84a0080522842270f49db3a\",\"created\":\"2016-11-24T23:19:45.792559378Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c DEBIAN_FRONTEND=noninteractive apt-get update -y     \\u0026\\u0026 DEBIAN_FRONTEND=noninteractive apt-get -yy -q install     iptables     ebtables     ethtool     ca-certificates     conntrack     util-linux     socat     git     nfs-common     glusterfs-client     cifs-utils     \\u0026\\u0026 DEBIAN_FRONTEND=noninteractive apt-get upgrade -y     \\u0026\\u0026 DEBIAN_FRONTEND=noninteractive apt-get autoremove -y     \\u0026\\u0026 DEBIAN_FRONTEND=noninteractive apt-get clean \\u0026\\u0026 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* # 5b1d0c22-5509-4228-bd7a-2c3fe43176eb\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"271b3616fa425064408a153d1b20e5a2c600c7add84a0080522842270f49db3a\",\"parent\":\"4246616ff71abd16f606e2ab59bb399b927a0825d86643c95955e8199c93d52c\",\"created\":\"2016-11-18T20:39:24.920089882Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:02795f59d2f18d6dd6651da95c5c7bbced29ba15382203b3e4a2c967d5a3784a in /usr/bin/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4246616ff71abd16f606e2ab59bb399b927a0825d86643c95955e8199c93d52c\",\"parent\":\"31f8a4f280cef19f4871c7af011b8d6253927d52343249b4697aa54a5ad82414\",\"created\":\"2016-10-20T22:03:28.429545Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"31f8a4f280cef19f4871c7af011b8d6253927d52343249b4697aa54a5ad82414\",\"created\":\"2016-10-20T22:03:26.062125Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:08fc904b00d5ecfaf301bd509c44af8562a031fca2231d3379c9ffa785517738 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

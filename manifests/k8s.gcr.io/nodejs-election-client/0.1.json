@@ -1,0 +1,70 @@
+{
+    "name": "google_containers/nodejs-election-client",
+    "tag": "0.1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:f06096958ce51b54c3fe5eda66280ea235691c2120222242ce53540d59258347"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:f222342d2902873e65734885932d306abdeb21d674d0e7ff009f8977c96ef4f1"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:29d0bc1e8c52856cc16f64ebf9f841a7ed4108cac5ba3d1f91bc409411c17df7"
+        },
+        {
+            "blobSum": "sha256:ab30c63719b10dd434ddbe896879bd9b637fe4e16749a94d3dc827450dc2a437"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:5c90d4a2d1a8dfffd05ff2dd659923f0ca2d843b5e45d030e17abbcd06a11b5b"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"aec4896cfd88f7f27c8fb99cd4a31581807c19376d1e3a9cae12a3540c927e31\",\"parent\":\"b15f656d21a9602e02964659d074de53763fc7ecd7a9fad1207bcfd4a73d3e6b\",\"created\":\"2016-07-14T05:42:45.750572658Z\",\"container\":\"de4d716b6557d2148934cff667c61460cb6dd74e18c7a3052ab17b930be6ed5a\",\"container_config\":{\"Hostname\":\"6250540837a8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"NPM_CONFIG_LOGLEVEL=info\",\"NODE_VERSION=6.3.0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/bin/sh\\\" \\\"-c\\\" \\\"node server.js\\\"]\"],\"Image\":\"b15f656d21a9602e02964659d074de53763fc7ecd7a9fad1207bcfd4a73d3e6b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"6250540837a8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"NPM_CONFIG_LOGLEVEL=info\",\"NODE_VERSION=6.3.0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"node server.js\"],\"Image\":\"b15f656d21a9602e02964659d074de53763fc7ecd7a9fad1207bcfd4a73d3e6b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b15f656d21a9602e02964659d074de53763fc7ecd7a9fad1207bcfd4a73d3e6b\",\"parent\":\"d13587776d70c9b5a4500fe118b4ed9e615373a62f250b657cb6332661dbfbf5\",\"created\":\"2016-07-14T05:42:45.543115825Z\",\"container\":\"8726424ca7ec2f02d43521652af2712f8d80886a3f77315b764665c78ad0705f\",\"container_config\":{\"Hostname\":\"6250540837a8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"NPM_CONFIG_LOGLEVEL=info\",\"NODE_VERSION=6.3.0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:34cf3ff4aff907685421a12e1fa68aab19459973d2c6d42b4557fc6c78fb69be in /server.js\"],\"Image\":\"8fa7656890c564bf696e844d7ebc6ebc0a3d56a5a60be4257aa56a00ab9f7656\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"6250540837a8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"NPM_CONFIG_LOGLEVEL=info\",\"NODE_VERSION=6.3.0\"],\"Cmd\":[\"node\"],\"Image\":\"8fa7656890c564bf696e844d7ebc6ebc0a3d56a5a60be4257aa56a00ab9f7656\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":669}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"6250540837a8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"NPM_CONFIG_LOGLEVEL=info\",\"NODE_VERSION=6.3.0\"],\"Cmd\":[\"node\"],\"ArgsEscaped\":true,\"Image\":\"sha256:463413353aef2ddda17e63b4325ef326a909c81877a47a12b930a88d36886a95\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"693e17b6d2eb4e445670be0716c3884848e417062112ac28733361c0e6a67c09\",\"container_config\":{\"Hostname\":\"6250540837a8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"NPM_CONFIG_LOGLEVEL=info\",\"NODE_VERSION=6.3.0\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"node\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:463413353aef2ddda17e63b4325ef326a909c81877a47a12b930a88d36886a95\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-07-06T23:06:31.513148617Z\",\"docker_version\":\"1.10.3\",\"id\":\"d13587776d70c9b5a4500fe118b4ed9e615373a62f250b657cb6332661dbfbf5\",\"os\":\"linux\",\"parent\":\"2b4c7860f766fc97f6436842bb8cb8c0db132928c35e46d62a7cc72e014f3974\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2b4c7860f766fc97f6436842bb8cb8c0db132928c35e46d62a7cc72e014f3974\",\"parent\":\"be89bda1ac50f759a3541d462be838d19e209252e615a8b8ec8c751c9b0f1042\",\"created\":\"2016-07-06T23:06:30.760098252Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c buildDeps='xz-utils'     \\u0026\\u0026 set -x     \\u0026\\u0026 apt-get update \\u0026\\u0026 apt-get install -y $buildDeps --no-install-recommends     \\u0026\\u0026 rm -rf /var/lib/apt/lists/*     \\u0026\\u0026 curl -SLO \\\"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.xz\\\"     \\u0026\\u0026 curl -SLO \\\"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\\\"     \\u0026\\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc     \\u0026\\u0026 grep \\\" node-v$NODE_VERSION-linux-x64.tar.xz\\\\$\\\" SHASUMS256.txt | sha256sum -c -     \\u0026\\u0026 tar -xJf \\\"node-v$NODE_VERSION-linux-x64.tar.xz\\\" -C /usr/local --strip-components=1     \\u0026\\u0026 rm \\\"node-v$NODE_VERSION-linux-x64.tar.xz\\\" SHASUMS256.txt.asc SHASUMS256.txt     \\u0026\\u0026 apt-get purge -y --auto-remove $buildDeps\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"be89bda1ac50f759a3541d462be838d19e209252e615a8b8ec8c751c9b0f1042\",\"parent\":\"f4c03c72d166a7c6d2355aa9541a54baf64200a10d7b388faecfad1d8dbdc753\",\"created\":\"2016-07-06T23:05:17.910933071Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV NODE_VERSION=6.3.0\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f4c03c72d166a7c6d2355aa9541a54baf64200a10d7b388faecfad1d8dbdc753\",\"parent\":\"9525a29481857b95e03e00276bb454cba699f15aab6379cacf93cef55924b2c6\",\"created\":\"2016-06-10T21:58:22.332667153Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV NPM_CONFIG_LOGLEVEL=info\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9525a29481857b95e03e00276bb454cba699f15aab6379cacf93cef55924b2c6\",\"parent\":\"4c76b3c135637de0018f575020919b06ce846cd8e77295eb6b5f10c378ca1332\",\"created\":\"2016-06-10T21:55:15.662636358Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -ex   \\u0026\\u0026 for key in     9554F04D7259F04124DE6B476D5A82AC7E37093B     94AE36675C464D64BAFA68DD7434390BDBE9B9C5     0034A06D9D9B0064CE8ADF6BF1747F4AD2306D93     FD3A5288F042B6850C66B31F09FE44734EB7990E     71DCFD284A79C3B38668286BC97EC7A07EDE3FC1     DD8F2338BAE7501E3DD5AC78C273792F7D83545D     B9AE9905FFD7803F25714661B63B535A4C206CA9     C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8   ; do     gpg --keyserver ha.pool.sks-keyservers.net --recv-keys \\\"$key\\\";   done\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4c76b3c135637de0018f575020919b06ce846cd8e77295eb6b5f10c378ca1332\",\"parent\":\"435cb21051b6acf1c846fa0550c9a8de3dd529ead7064958ab4278a1f2bd3a36\",\"created\":\"2016-06-09T21:35:50.029803171Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tca-certificates \\t\\tcurl \\t\\twget \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"435cb21051b6acf1c846fa0550c9a8de3dd529ead7064958ab4278a1f2bd3a36\",\"parent\":\"7d78525320442999cccbd4b15232adf41588ddca6ecb281f1d3a8bbf45862997\",\"created\":\"2016-06-09T21:28:43.776404816Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7d78525320442999cccbd4b15232adf41588ddca6ecb281f1d3a8bbf45862997\",\"created\":\"2016-06-09T21:28:42.397841831Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:76679eeb94129df23c99013487d6b6bd779d2107bf07d194a524fdbb6a961530 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

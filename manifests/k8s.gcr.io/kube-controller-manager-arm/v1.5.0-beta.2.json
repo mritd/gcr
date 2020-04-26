@@ -1,0 +1,28 @@
+{
+    "name": "google_containers/kube-controller-manager-arm",
+    "tag": "v1.5.0-beta.2",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:313ec190d43fee77ff463102929b449e7d97939541274968d2e6120a0abc6b27"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:bf4a4057ba5e71bb18dc6070ea421bba93df6a9df7eb31f502dd3464ac87885c"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"5a3f9cbad63b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:ffc739f8fa3a34768feca6020f716e67a803a8398cfe80d66cab9620dee264f9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"d08d8a6efd897a1d68aebd97d0b1293798eefdda989c5e6ca47ed2df7d03b56f\",\"container_config\":{\"Hostname\":\"5a3f9cbad63b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:1689d58b92288ccb3943c8ba73a537c919a035f4b91c85149740b29fd3cb23e6 in /usr/local/bin/kube-controller-manager \"],\"Image\":\"sha256:ffc739f8fa3a34768feca6020f716e67a803a8398cfe80d66cab9620dee264f9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-24T22:45:07.568087896Z\",\"docker_version\":\"1.12.3\",\"id\":\"95e326732f23765118f6e22b7386f274b284c58223593f080df3d71180e180d3\",\"os\":\"linux\",\"parent\":\"1accf92ecbec700d143788999f1cb488fceb864d38bbdc4c5a4a7fcd0ddc9bb8\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1accf92ecbec700d143788999f1cb488fceb864d38bbdc4c5a4a7fcd0ddc9bb8\",\"parent\":\"5e873ee11b048379d25b01a8355e1dcf6117b7a8b5dda03ae4119260ff0f0aed\",\"created\":\"2016-08-26T02:59:11.37567Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"sh\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5e873ee11b048379d25b01a8355e1dcf6117b7a8b5dda03ae4119260ff0f0aed\",\"created\":\"2016-08-26T02:59:11.226033Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:e3b7987907e71f63036b9c49dddd466ae471104f0214787a320290a108b281ae in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

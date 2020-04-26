@@ -1,0 +1,40 @@
+{
+    "name": "kubernetes-helm/resourcifier",
+    "tag": "latest",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:ca4b2cf758a15122c92c266fac8a23e832801ab105310233e915e48e2d0f2ab5"
+        },
+        {
+            "blobSum": "sha256:429f2920661b8b167029faffd20bae631d3a5f36d892cd941c72f2bce47767e6"
+        },
+        {
+            "blobSum": "sha256:420890c9e918b6668faaedd9000e220190f2493b0693ee563ebd7b4cc754a57d"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"b14cd8298755\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/resourcifier\",\"--kubectl=/bin/kubectl\"],\"ArgsEscaped\":true,\"Image\":\"sha256:e7ed5a28ae07a69ed86138c0e68c422b6779bccb854728e1fbe3a9c820c12ca5\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"f1be5bc7197c9717a4141eb6f5340c1754bae7f91599537f4bf5813185fdf57d\",\"container_config\":{\"Hostname\":\"b14cd8298755\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/bin/resourcifier\\\" \\\"--kubectl=/bin/kubectl\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:e7ed5a28ae07a69ed86138c0e68c422b6779bccb854728e1fbe3a9c820c12ca5\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-04-14T22:35:35.610423434Z\",\"docker_version\":\"1.10.3\",\"id\":\"83a5ffab02860406035243c427008b5242af2bd17f2dee22f63d26d73477adba\",\"os\":\"linux\",\"parent\":\"ae0c003da84f1d30281951df6877009d61b06fb33f2f114d02b3085d71619c8a\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ae0c003da84f1d30281951df6877009d61b06fb33f2f114d02b3085d71619c8a\",\"parent\":\"d14523c8910314a7173368dc032c818959bf5a638c7217575b738fdb5201c9c7\",\"created\":\"2016-04-14T22:35:35.408222823Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 8080/tcp\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d14523c8910314a7173368dc032c818959bf5a638c7217575b738fdb5201c9c7\",\"parent\":\"360c53a4d22e349d0f6146f4d04d5daf1c687622ab91f4865c8765603edead2e\",\"created\":\"2016-04-14T22:35:35.242539824Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk add --no-cache ca-certificates\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"360c53a4d22e349d0f6146f4d04d5daf1c687622ab91f4865c8765603edead2e\",\"parent\":\"1348eb573a47d363b35f3bf2ddb3df35b92b694824f159798d336bb16e78fac2\",\"created\":\"2016-04-14T22:35:31.003219342Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:89c94340a4f9dc3486eed962158b5606f6b5d0f5322b7ad0cdcc56dfa7951abf in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1348eb573a47d363b35f3bf2ddb3df35b92b694824f159798d336bb16e78fac2\",\"created\":\"2016-04-01T20:53:00.160300546Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:033ab063740d9ff4dcfb1c69eccf25f91d88729f57cd5a73050e014e3e094aa0 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

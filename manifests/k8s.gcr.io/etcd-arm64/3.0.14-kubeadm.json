@@ -1,0 +1,52 @@
+{
+    "name": "google_containers/etcd-arm64",
+    "tag": "3.0.14-kubeadm",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:5b9db747d35b2745cdd045506c57ef26774a672f4ce9d21f8738b2869351610f"
+        },
+        {
+            "blobSum": "sha256:7e457496293113841de807c1babcbf76207ef6c435c9f5810dd9fa103adf5937"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:0d49a44a39919180a2ac5e47c93a07dfb7a6daab6fea21a44c7f7e339759d139"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\",\"config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"ETCD_UNSUPPORTED_ARCH=arm64\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:affa0129eaa32c060ed90a0c9192336b8235364364ac805c61191adebaebcc24\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"698a18782889aa060b9c76190e10291873d1550555ca1819d6302c38d1a25633\",\"container_config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"ETCD_UNSUPPORTED_ARCH=arm64\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENV ETCD_UNSUPPORTED_ARCH=arm64\"],\"Image\":\"sha256:affa0129eaa32c060ed90a0c9192336b8235364364ac805c61191adebaebcc24\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-21T11:09:42.285554156Z\",\"docker_version\":\"1.12.3\",\"id\":\"3c1ddcb9e74b06e46d36b7f9453dc3386464926cb5b16f62ea755097de90ba09\",\"os\":\"linux\",\"parent\":\"ec89ead04a605e514a08dd5ec6b4059de4fe8dd70f993ae748da8b1e7431dc07\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ec89ead04a605e514a08dd5ec6b4059de4fe8dd70f993ae748da8b1e7431dc07\",\"parent\":\"5939418edff524ce582b9eca20126e641a1b0086d68ee97c727b2b0f1e34f674\",\"created\":\"2016-11-21T11:09:41.794485493Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY multi:9674598b6b8dccb443119d3b776623b3f4a5363deb723c61c0470afc35ba2ad3 in /usr/local/bin/ \"]},\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5939418edff524ce582b9eca20126e641a1b0086d68ee97c727b2b0f1e34f674\",\"parent\":\"ae8e0742972824d111fb869ac9694ccc60f77780f81bb3ec28af316d31649b50\",\"created\":\"2016-11-21T11:09:40.645870054Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY multi:0c1e20693dd64fe4e5ec0ad9445110c0b37cb717f79a3080879827e4999b28c9 in /usr/local/bin/ \"]},\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ae8e0742972824d111fb869ac9694ccc60f77780f81bb3ec28af316d31649b50\",\"parent\":\"5294ead0030df35fa64cbc00966197b73adf2c867f976c7c6e58d649e031c15f\",\"created\":\"2016-11-21T11:09:37.773656227Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  EXPOSE 2379/tcp 2380/tcp 4001/tcp 7001/tcp\"]},\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5294ead0030df35fa64cbc00966197b73adf2c867f976c7c6e58d649e031c15f\",\"parent\":\"68dd0e35b6f10300ded1740b45f76ede5eaeb10678f4e8a1493917de4c594667\",\"created\":\"2016-11-21T11:09:37.293411035Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\"]},\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"68dd0e35b6f10300ded1740b45f76ede5eaeb10678f4e8a1493917de4c594667\",\"parent\":\"627378b2050d7adc176708a38800ac24afb6a5c0a01754dc90801ee3a8101a11\",\"created\":\"2016-11-01T13:24:23.65929Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"sh\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"627378b2050d7adc176708a38800ac24afb6a5c0a01754dc90801ee3a8101a11\",\"created\":\"2016-11-01T13:24:23.185742Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:bf1e2858c108a4c5d85d33f1b70eb4d31916c622a855140bf2964df973e2eccb in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

@@ -1,0 +1,40 @@
+{
+    "name": "google_containers/etcd-amd64",
+    "tag": "3.0.3",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:f89b87b56d2f77367ef83747ac0c3b2410f4ee43777357abc2e1855bb6f69c80"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:8ddc19f16526912237dd8af81971d5e4dd0587907234be2b83e249518d5b673f"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Dawn Chen \\u003cdawnchen@google.com\\u003e\",\"config\":{\"Hostname\":\"55cd1f8f6e5b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:314ccc5d274f9ddcebff508e128f5117d7f642821036ffa59bdb9b5a92ca66ed\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"02867ea76bdbef1fc8b56b7cfd5ced7af5a37737cabb6d778df7514489280f1f\",\"container_config\":{\"Hostname\":\"55cd1f8f6e5b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) %s %s in %s \",\"COPY\",\"multi:88ba7d1d8d9587ea7ca51c9ff76a3a14c38a3b0a98b44f47925df408976696fd\",\"/usr/local/bin/\"],\"Image\":\"sha256:314ccc5d274f9ddcebff508e128f5117d7f642821036ffa59bdb9b5a92ca66ed\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-08-03T22:35:02.787767117Z\",\"docker_version\":\"1.12.0-rc2\",\"id\":\"a43266b5a1b0a2d71adfec57d645dbe8883ecc637337d21e91e80e7dcd1a55c2\",\"os\":\"linux\",\"parent\":\"bb829823d07b010c1cf2ec20921511e499dff026eb765792830643b56c3cabc8\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"bb829823d07b010c1cf2ec20921511e499dff026eb765792830643b56c3cabc8\",\"parent\":\"05ef4eb35fe1924c7132360ad0a048342ae0f2dde71e06b46a6a3471dceb3925\",\"created\":\"2016-08-03T22:35:01.845824957Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  EXPOSE 2379/tcp 2380/tcp 4001/tcp 7001/tcp\"]},\"author\":\"Dawn Chen \\u003cdawnchen@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"05ef4eb35fe1924c7132360ad0a048342ae0f2dde71e06b46a6a3471dceb3925\",\"parent\":\"b5447a4455e24042cc40c5294938280ad7399ff826a1f50be64f277b02cbf800\",\"created\":\"2016-08-03T22:35:01.544872312Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Dawn Chen \\u003cdawnchen@google.com\\u003e\"]},\"author\":\"Dawn Chen \\u003cdawnchen@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b5447a4455e24042cc40c5294938280ad7399ff826a1f50be64f277b02cbf800\",\"parent\":\"4185ddbe03f83877b631b5e271a02f6f232de744ae4bfc48ce44216c706cb7fd\",\"created\":\"2016-06-23T23:23:37.198943461Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"sh\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4185ddbe03f83877b631b5e271a02f6f232de744ae4bfc48ce44216c706cb7fd\",\"created\":\"2016-06-23T23:23:36.73131105Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:9ca60502d646bdd815bb51e612c458e2d447b597b95cf435f9673f0966d41c1a in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

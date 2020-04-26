@@ -1,0 +1,28 @@
+{
+    "name": "google_containers/pause-ppc64le",
+    "tag": "3.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:f55323daee571e577bb661db47094f8b73091802bdc8ad30661959412920b5f3"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"5ce568832f5edd2cfe9ad48704312ea0e4bb7617f3c7810e3d982aeec3839c0f\",\"parent\":\"ddaa08ed61c08f781b8e7412d62dee37fc27e59ef594f6533ab19e0d3a633eb2\",\"created\":\"2016-05-04T06:26:51.451707801Z\",\"container\":\"1450804b0995ad26d26a9c621d2dd3771d5a2d6d2a9e7ba19eb730bea22d2028\",\"container_config\":{\"Hostname\":\"ee8546ec5869\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/pause\\\"]}\"],\"Image\":\"ddaa08ed61c08f781b8e7412d62dee37fc27e59ef594f6533ab19e0d3a633eb2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/pause\"],\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"ee8546ec5869\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"ddaa08ed61c08f781b8e7412d62dee37fc27e59ef594f6533ab19e0d3a633eb2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/pause\"],\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ddaa08ed61c08f781b8e7412d62dee37fc27e59ef594f6533ab19e0d3a633eb2\",\"parent\":\"bdb43c586e887b513a056722b50553727b255e3a3d9166f318632d4209963464\",\"created\":\"2016-05-04T06:26:50.93441751Z\",\"container\":\"ee8546ec5869f55e8537be5bcffb1644aad5f2244a95f21819a54ee8e0e29145\",\"container_config\":{\"Hostname\":\"ee8546ec5869\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:77f7d72a0bda17c5f834f4816e641f99c9f893c0623742b8724ce33526aa320a in /pause\"],\"Image\":\"bdb43c586e887b513a056722b50553727b255e3a3d9166f318632d4209963464\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"ee8546ec5869\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"bdb43c586e887b513a056722b50553727b255e3a3d9166f318632d4209963464\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":738536}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"bdb43c586e887b513a056722b50553727b255e3a3d9166f318632d4209963464\",\"created\":\"2016-05-04T06:26:40.628395649Z\",\"container\":\"95722352e41d57660259fbede4413d06889a28eb07a7302d2a7b3f9c71ceaa46\",\"container_config\":{\"Hostname\":\"95722352e41d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ARG ARCH\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"95722352e41d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        }
+    ],
+    "schemaVersion": 1
+}

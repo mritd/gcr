@@ -1,0 +1,184 @@
+{
+    "name": "spinnaker-marketplace/halyard",
+    "tag": "1.11.0-20181003144254",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:e6d16fcbc98fa2ab8c6c18f3b3ba2bef9284d12ce4535214d506014faefab936"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:b6137b641feb2c589f6e7c6b996a8892d0cf7d4655af1865fe4a55d9efe67064"
+        },
+        {
+            "blobSum": "sha256:fb8c963b14da13548186e34f30e72f35da2c6960df8b53e74a345c1debb99f37"
+        },
+        {
+            "blobSum": "sha256:ec2047947cdcd9082e447b5f3820c272552b9251eb203830e298091ee7c4d64f"
+        },
+        {
+            "blobSum": "sha256:11c44bd5817e8e93c01adc73dd6e75fda8ec6f78373fdee8a0394dee8e775ddb"
+        },
+        {
+            "blobSum": "sha256:222517405340c55b5a3c915f8119a618738a1e3d94f29898b24794200b6c47c7"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:97ef6a9f5c4f95fd4aa10be826dd413e24dc1ad15f4d6e0f6d14dcab7311f5a0"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:2760538fe6000d443ada98bfeaca178ac09e818f3b7604a8723e05e7b89661b0"
+        },
+        {
+            "blobSum": "sha256:b919b8fd1620fbf048cb2f5e94af0f35b4981c92b319519625ee5d61c181a9d1"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:8a4b3841871b679275ac91146501ee28b1b961c0e8495af78bb8e19ff9ae548d"
+        },
+        {
+            "blobSum": "sha256:8081dc39373d6d82eda189828a91d6f8ffaa33a764491c97a11946ae26714504"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:40624ba8b77e273f4be3be6b60a55bd8b700624eeb37a26acb3d019f7fd862c8"
+        },
+        {
+            "blobSum": "sha256:80ae6b477848b6e03aad8ec9c74f1fb80364e5c8b5fe9ca3ec793df84247f027"
+        },
+        {
+            "blobSum": "sha256:89d3385f0fd3c0c904ff6e87195bb46f5d9d309e8ddd91bc9b20855d103eeffb"
+        },
+        {
+            "blobSum": "sha256:5cee356eda6bfe3a5a229cd3d964e722ade1da4381842b24e943b03a37aec1f2"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:05d1a5232b461a4b35424129580054caa878cd56f100e34282510bd4b4082e4d"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"delivery-engineering@netflix.com\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"spinnaker\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin/heptio-authenticator-aws\",\"LANG=C.UTF-8\",\"JAVA_HOME=/docker-java-home\",\"JAVA_VERSION=8u181\",\"JAVA_DEBIAN_VERSION=8u181-b13-1~deb9u1\",\"CA_CERTIFICATES_JAVA_VERSION=20170531+nmu1\",\"KUBECTL_RELEASE=1.10.3\",\"HEPTIO_BINARY_RELEASE_DATE=2018-06-05\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"\\\"/opt/halyard/bin/halyard\\\"\"],\"ArgsEscaped\":true,\"Image\":\"sha256:f6b041711f5b7eef336cfc12113bb637f9531d386f7ec02ebb1c870af120832c\",\"Volumes\":null,\"WorkingDir\":\"/workdir\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":null},\"container\":\"f438756ab3d230d25a132d26024639e01db30da330edce4232a7adcc71a18d97\",\"container_config\":{\"Hostname\":\"f438756ab3d2\",\"Domainname\":\"\",\"User\":\"spinnaker\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin/heptio-authenticator-aws\",\"LANG=C.UTF-8\",\"JAVA_HOME=/docker-java-home\",\"JAVA_VERSION=8u181\",\"JAVA_DEBIAN_VERSION=8u181-b13-1~deb9u1\",\"CA_CERTIFICATES_JAVA_VERSION=20170531+nmu1\",\"KUBECTL_RELEASE=1.10.3\",\"HEPTIO_BINARY_RELEASE_DATE=2018-06-05\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"/bin/sh\\\" \\\"-c\\\" \\\"\\\\\\\"/opt/halyard/bin/halyard\\\\\\\"\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:f6b041711f5b7eef336cfc12113bb637f9531d386f7ec02ebb1c870af120832c\",\"Volumes\":null,\"WorkingDir\":\"/workdir\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2018-10-03T18:51:40.716773767Z\",\"docker_version\":\"18.06.1-ce\",\"id\":\"9547b70dcfed6935fc69c36f58b6b13a438e72944451a6f4cb881f7df7afe668\",\"os\":\"linux\",\"parent\":\"4f0b9370a0afff68b81c62a347e4c0cff9aa7260db55d5ade713206a45d2a914\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4f0b9370a0afff68b81c62a347e4c0cff9aa7260db55d5ade713206a45d2a914\",\"parent\":\"e2de741839a0f42f5295a4bb2d6310ba711f4a6a95117db51aa6127a439e0998\",\"created\":\"2018-10-03T18:51:40.513438001Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  USER spinnaker\"]},\"author\":\"delivery-engineering@netflix.com\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e2de741839a0f42f5295a4bb2d6310ba711f4a6a95117db51aa6127a439e0998\",\"parent\":\"620868b57164973382b36086d3446f3b2134b1b1ddf003da9aaab08c1b03206f\",\"created\":\"2018-10-03T18:51:40.317443405Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c useradd -m spinnaker\"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"620868b57164973382b36086d3446f3b2134b1b1ddf003da9aaab08c1b03206f\",\"parent\":\"2e6a4fa3e9ad6c6620aadf6c56d77f7b33f0a426bb9c4febf0bab229f4529c9b\",\"created\":\"2018-10-03T18:51:39.348902629Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/bin/heptio-authenticator-aws\"]},\"author\":\"delivery-engineering@netflix.com\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2e6a4fa3e9ad6c6620aadf6c56d77f7b33f0a426bb9c4febf0bab229f4529c9b\",\"parent\":\"1c5e15ae824cae432848efb974b72b78cd67042fe0495db992723b3dcff4ef6d\",\"created\":\"2018-10-03T18:51:39.069553683Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c curl -o heptio-authenticator-aws https://amazon-eks.s3-us-west-2.amazonaws.com/${KUBECTL_RELEASE}/${HEPTIO_BINARY_RELEASE_DATE}/bin/linux/amd64/heptio-authenticator-aws \\u0026\\u0026   chmod +x ./heptio-authenticator-aws \\u0026\\u0026   mv ./heptio-authenticator-aws /usr/local/bin/heptio-authenticator-aws\"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1c5e15ae824cae432848efb974b72b78cd67042fe0495db992723b3dcff4ef6d\",\"parent\":\"6bdf761d67dcac73b7d25b0934245e0569e2e1bdbcaa8477a4668069b418bb74\",\"created\":\"2018-10-03T18:51:29.304495782Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c curl -LO https://storage.googleapis.com/kubernetes-release/release/v${KUBECTL_RELEASE}/bin/linux/amd64/kubectl \\u0026\\u0026     chmod +x ./kubectl \\u0026\\u0026     mv ./kubectl /usr/local/bin/kubectl\"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6bdf761d67dcac73b7d25b0934245e0569e2e1bdbcaa8477a4668069b418bb74\",\"parent\":\"9807696ec893c8cae7c7759a5655c0e2b93e8caa5983d1b5861e55d48a4ac438\",\"created\":\"2018-10-03T18:51:27.197196426Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c chmod +x /usr/local/bin/hal\"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9807696ec893c8cae7c7759a5655c0e2b93e8caa5983d1b5861e55d48a4ac438\",\"parent\":\"765efb3124436c532b80eeb5b93eefd909bd5627bbc76b9f118e3f0cab92fabf\",\"created\":\"2018-10-03T18:51:26.349370092Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c echo '#!/usr/bin/env bash' | tee /usr/local/bin/hal \\u003e /dev/null \\u0026\\u0026   echo '/opt/halyard/bin/hal \\\"$@\\\"' | tee /usr/local/bin/hal \\u003e /dev/null\"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"765efb3124436c532b80eeb5b93eefd909bd5627bbc76b9f118e3f0cab92fabf\",\"parent\":\"4d076d79a797b685b1b79670be78d2d4d56b11f01e3ea3223b8037b440635477\",\"created\":\"2018-10-03T18:51:24.725556552Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c cp -r ./halyard-web/build/install/halyard /opt \\u0026\\u0026   cd .. \\u0026\\u0026   rm -rf workdir\"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4d076d79a797b685b1b79670be78d2d4d56b11f01e3ea3223b8037b440635477\",\"parent\":\"5e2717f8df38ade124b30f098f23a28cdeebf51ce511812b979b9301f7da9695\",\"created\":\"2018-10-03T18:51:20.080926356Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) WORKDIR /workdir\"]},\"author\":\"delivery-engineering@netflix.com\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5e2717f8df38ade124b30f098f23a28cdeebf51ce511812b979b9301f7da9695\",\"parent\":\"ec315322380cdb3b3f2f556f6995abe2371e92b562f8673cb4f545bea33879ff\",\"created\":\"2018-10-03T18:51:11.947906451Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:e029ec70db1ad7dc14101decdbe2a9ff7f8957850ab7a7b309bc4addd1e2a185 in workdir/ \"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ec315322380cdb3b3f2f556f6995abe2371e92b562f8673cb4f545bea33879ff\",\"parent\":\"8190b9f59354bd1af25e3fc39cdbbffbe229f8eb102ba7d7d7e53a240f3ec7ba\",\"created\":\"2018-10-03T15:25:04.198288343Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV HEPTIO_BINARY_RELEASE_DATE=2018-06-05\"]},\"author\":\"delivery-engineering@netflix.com\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8190b9f59354bd1af25e3fc39cdbbffbe229f8eb102ba7d7d7e53a240f3ec7ba\",\"parent\":\"b50504b04dfdb5a90b2bfe23e575a186a859a11244ab0c8fc5f9309df0aec063\",\"created\":\"2018-10-03T15:25:03.98352792Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV KUBECTL_RELEASE=1.10.3\"]},\"author\":\"delivery-engineering@netflix.com\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b50504b04dfdb5a90b2bfe23e575a186a859a11244ab0c8fc5f9309df0aec063\",\"parent\":\"4e54e99b72ab4cc2d2807eee8df06a19c133695bbb2a87f5de7eeaac2cc03dde\",\"created\":\"2018-10-03T15:25:03.752070255Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER delivery-engineering@netflix.com\"]},\"author\":\"delivery-engineering@netflix.com\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4e54e99b72ab4cc2d2807eee8df06a19c133695bbb2a87f5de7eeaac2cc03dde\",\"parent\":\"caba948456e22af3eda6b175d0bfdee9779a082bd7ec465e0cd2c42b3d74c732\",\"created\":\"2018-09-05T01:22:08.451067202Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c /var/lib/dpkg/info/ca-certificates-java.postinst configure\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"caba948456e22af3eda6b175d0bfdee9779a082bd7ec465e0cd2c42b3d74c732\",\"parent\":\"8b942b59f2f5fbc239aed27885debe2536474e8c69f18e9eb1a8fc04ade5cd97\",\"created\":\"2018-09-05T01:22:06.832636299Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -ex; \\t\\tif [ ! -d /usr/share/man/man1 ]; then \\t\\tmkdir -p /usr/share/man/man1; \\tfi; \\t\\tapt-get update; \\tapt-get install -y --no-install-recommends \\t\\topenjdk-8-jdk=\\\"$JAVA_DEBIAN_VERSION\\\" \\t\\tca-certificates-java=\\\"$CA_CERTIFICATES_JAVA_VERSION\\\" \\t; \\trm -rf /var/lib/apt/lists/*; \\t\\t[ \\\"$(readlink -f \\\"$JAVA_HOME\\\")\\\" = \\\"$(docker-java-home)\\\" ]; \\t\\tupdate-alternatives --get-selections | awk -v home=\\\"$(readlink -f \\\"$JAVA_HOME\\\")\\\" 'index($3, home) == 1 { $2 = \\\"manual\\\"; print | \\\"update-alternatives --set-selections\\\" }'; \\tupdate-alternatives --query java | grep -q 'Status: manual'\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8b942b59f2f5fbc239aed27885debe2536474e8c69f18e9eb1a8fc04ade5cd97\",\"parent\":\"7ff3bb50eb35b75a3c324dd01967120d53e4f4f9db3905c89a31d784d0904cec\",\"created\":\"2018-09-05T01:21:23.399122676Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV CA_CERTIFICATES_JAVA_VERSION=20170531+nmu1\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7ff3bb50eb35b75a3c324dd01967120d53e4f4f9db3905c89a31d784d0904cec\",\"parent\":\"36b9170f11d41fd02b253ecda377219b90fff97db3687c707c4feb2d4c4287d8\",\"created\":\"2018-09-05T01:21:23.234570181Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV JAVA_DEBIAN_VERSION=8u181-b13-1~deb9u1\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"36b9170f11d41fd02b253ecda377219b90fff97db3687c707c4feb2d4c4287d8\",\"parent\":\"984ec5f802a34a2df1fef391ac68ef3d9c3e65dba15a8437ae9f3d568a67c582\",\"created\":\"2018-09-05T01:21:23.087794869Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV JAVA_VERSION=8u181\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"984ec5f802a34a2df1fef391ac68ef3d9c3e65dba15a8437ae9f3d568a67c582\",\"parent\":\"979b4d08f32cfde10f20f14d7d84308d01a51610022d4cd6a488deae7aaefb69\",\"created\":\"2018-09-05T01:21:22.915112032Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV JAVA_HOME=/docker-java-home\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"979b4d08f32cfde10f20f14d7d84308d01a51610022d4cd6a488deae7aaefb69\",\"parent\":\"812eb5db3531a9ff95762c34680abcad54593632921ef1be68834749a5bf3aa0\",\"created\":\"2018-09-05T01:21:22.755272842Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c ln -svT \\\"/usr/lib/jvm/java-8-openjdk-$(dpkg --print-architecture)\\\" /docker-java-home\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"812eb5db3531a9ff95762c34680abcad54593632921ef1be68834749a5bf3aa0\",\"parent\":\"8d8453b5ded6718aafca2704dcf7dac4ab602981abdc637af4fa1f8925165a3c\",\"created\":\"2018-09-05T01:21:22.198879849Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c { \\t\\techo '#!/bin/sh'; \\t\\techo 'set -e'; \\t\\techo; \\t\\techo 'dirname \\\"$(dirname \\\"$(readlink -f \\\"$(which javac || which java)\\\")\\\")\\\"'; \\t} \\u003e /usr/local/bin/docker-java-home \\t\\u0026\\u0026 chmod +x /usr/local/bin/docker-java-home\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8d8453b5ded6718aafca2704dcf7dac4ab602981abdc637af4fa1f8925165a3c\",\"parent\":\"06d12cf9865691e099526bfa5b0c7ef56e3f2d2dd89b1816d46b09c6fa2caafa\",\"created\":\"2018-09-05T01:21:21.615169643Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV LANG=C.UTF-8\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"06d12cf9865691e099526bfa5b0c7ef56e3f2d2dd89b1816d46b09c6fa2caafa\",\"parent\":\"3601e5712664f377d8a3e9dbcc3d43e40f823a52dfd4a689685e09a989630b82\",\"created\":\"2018-09-05T01:21:21.451000158Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tbzip2 \\t\\tunzip \\t\\txz-utils \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3601e5712664f377d8a3e9dbcc3d43e40f823a52dfd4a689685e09a989630b82\",\"parent\":\"21b6124a6ef16f00e802b31a7f68b9ae3516d3b67287e3117cf5c78aae97b7f3\",\"created\":\"2018-09-04T22:34:19.627080813Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tbzr \\t\\tgit \\t\\tmercurial \\t\\topenssh-client \\t\\tsubversion \\t\\t\\t\\tprocps \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"21b6124a6ef16f00e802b31a7f68b9ae3516d3b67287e3117cf5c78aae97b7f3\",\"parent\":\"f35bb45245e983e4705a000b16b3f393526fa48bde955bc849cfa49e7c8e03a9\",\"created\":\"2018-09-04T22:33:43.932154953Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -ex; \\tif ! command -v gpg \\u003e /dev/null; then \\t\\tapt-get update; \\t\\tapt-get install -y --no-install-recommends \\t\\t\\tgnupg \\t\\t\\tdirmngr \\t\\t; \\t\\trm -rf /var/lib/apt/lists/*; \\tfi\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f35bb45245e983e4705a000b16b3f393526fa48bde955bc849cfa49e7c8e03a9\",\"parent\":\"765c0c3bcf1f7ff7c02a3bd64fc4abe8ea7141d097ef9351fb6576488fe4e9c9\",\"created\":\"2018-09-04T22:33:34.272870374Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tca-certificates \\t\\tcurl \\t\\tnetbase \\t\\twget \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"765c0c3bcf1f7ff7c02a3bd64fc4abe8ea7141d097ef9351fb6576488fe4e9c9\",\"parent\":\"098d386606c62ae157105b35f418776f603e2c37c62f7a3725721659ad9eca5c\",\"created\":\"2018-09-04T21:21:24.962310464Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"098d386606c62ae157105b35f418776f603e2c37c62f7a3725721659ad9eca5c\",\"created\":\"2018-09-04T21:21:24.685563594Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:58d5c21fcabcf1eec94e8676a3b1e51c5fdc2db5c7b866a761f907fa30ede4d8 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

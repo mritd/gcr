@@ -1,0 +1,76 @@
+{
+    "name": "spinnaker-marketplace/orca",
+    "tag": "2.11.0-20191017172816-ubuntu",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:dc378b6ab91d4b448f2dc9e551369b5ba7f29a537daf0e22e24bb55109387975"
+        },
+        {
+            "blobSum": "sha256:427163bb820e0caac1a12e1cc210172ae951d01a8ac053e2ea7980cb8dac3eb0"
+        },
+        {
+            "blobSum": "sha256:80acd82ed4a014421a72a7e623cdf32d317fb29a2420e559d2fd3df3081ebb19"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:7fc152dfb3a6b5c9a436b49ff6cd72ed7eb5f1fd349128b50ee04c3c5c2355fb"
+        },
+        {
+            "blobSum": "sha256:ee671aafb583e2321880e275c94d49a49185006730e871435cd851f42d2a775d"
+        },
+        {
+            "blobSum": "sha256:d83811f270d56d34a208f721f3dbf1b9242d1900ad8981fc7071339681998a31"
+        },
+        {
+            "blobSum": "sha256:5667fdb72017d1fb364744ca1abf7b6f3bbe9c98c3786f294a461c2866db69ab"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"delivery-engineering@netflix.com\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"spinnaker\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/opt/orca/bin/orca\"],\"ArgsEscaped\":true,\"Image\":\"sha256:8dd712c8bd8ef6a4d0ecc19748ef7b421e172a0ac75726d3aa985d49b8910a9f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"container\":\"41bc4460351d2412b02198b6bc0e64ad2f482b925e7fc204072638d2131cd677\",\"container_config\":{\"Hostname\":\"41bc4460351d\",\"Domainname\":\"\",\"User\":\"spinnaker\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"/opt/orca/bin/orca\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:8dd712c8bd8ef6a4d0ecc19748ef7b421e172a0ac75726d3aa985d49b8910a9f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"created\":\"2019-10-17T21:34:47.098589783Z\",\"docker_version\":\"18.09.3\",\"id\":\"81ad8169fd66b18465c21ce6ab222fd2b16f06e752796d9c09b7910a0b8d7bb6\",\"os\":\"linux\",\"parent\":\"8589b5b17a41dddf532ab262551b176bc4ed182fbb51731547aafcee941a3ba7\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8589b5b17a41dddf532ab262551b176bc4ed182fbb51731547aafcee941a3ba7\",\"parent\":\"56118f504c0a3c8c1026fc436549832f06b9558fb874d13f3286e8c69bf207f7\",\"created\":\"2019-10-17T21:34:46.890785603Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  USER spinnaker\"]},\"author\":\"delivery-engineering@netflix.com\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"56118f504c0a3c8c1026fc436549832f06b9558fb874d13f3286e8c69bf207f7\",\"parent\":\"f814696e08a454abad763629efb9d4d521bf319170047e18b3fdb36d60faf797\",\"created\":\"2019-10-17T21:34:46.649316002Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c adduser --disabled-login --system spinnaker\"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f814696e08a454abad763629efb9d4d521bf319170047e18b3fdb36d60faf797\",\"parent\":\"03ed3ae91ea3cf99857825a1fcebf0ccfd4eccfb8e135c945c0f4eeb27d4be8a\",\"created\":\"2019-10-17T21:34:44.64587374Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get -y install openjdk-8-jre-headless wget\"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"03ed3ae91ea3cf99857825a1fcebf0ccfd4eccfb8e135c945c0f4eeb27d4be8a\",\"parent\":\"77f822a1d5071e05d509ef1eecae8d0aff827f96a4756c7ccdd5972fea92dc3e\",\"created\":\"2019-10-17T21:34:03.608113846Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:7e52c478d962cdc584ce6525eae733b15a6bab8b599d410822629e94ff567849 in /opt/orca \"]},\"author\":\"delivery-engineering@netflix.com\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"77f822a1d5071e05d509ef1eecae8d0aff827f96a4756c7ccdd5972fea92dc3e\",\"parent\":\"a6ff24ae1bf357087d0cf2aeafd554dc395ca77034a3a8bdb4ca2d543184e680\",\"created\":\"2019-10-17T21:34:01.022879765Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER delivery-engineering@netflix.com\"]},\"author\":\"delivery-engineering@netflix.com\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a6ff24ae1bf357087d0cf2aeafd554dc395ca77034a3a8bdb4ca2d543184e680\",\"parent\":\"4b728884276a5a8a34fbbb300b46b18c6b9382cdeb8a85d0520c8d34068e5fb0\",\"created\":\"2019-09-18T23:20:27.499267707Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4b728884276a5a8a34fbbb300b46b18c6b9382cdeb8a85d0520c8d34068e5fb0\",\"parent\":\"66c93443725d82003c60a47d21f5484432b5ec76c8bfadd32c8a41edba1f8060\",\"created\":\"2019-09-18T23:20:27.334214267Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir -p /run/systemd \\u0026\\u0026 echo 'docker' \\u003e /run/systemd/container\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"66c93443725d82003c60a47d21f5484432b5ec76c8bfadd32c8a41edba1f8060\",\"parent\":\"86feef564c750ab53d7473a1507b6b1109fd2cbc7bfdb244bc5645eec1f3675f\",\"created\":\"2019-09-18T23:20:26.643052498Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -xe \\t\\t\\u0026\\u0026 echo '#!/bin/sh' \\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 echo 'exit 101' \\u003e\\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 chmod +x /usr/sbin/policy-rc.d \\t\\t\\u0026\\u0026 dpkg-divert --local --rename --add /sbin/initctl \\t\\u0026\\u0026 cp -a /usr/sbin/policy-rc.d /sbin/initctl \\t\\u0026\\u0026 sed -i 's/^exit.*/exit 0/' /sbin/initctl \\t\\t\\u0026\\u0026 echo 'force-unsafe-io' \\u003e /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \\t\\t\\u0026\\u0026 echo 'DPkg::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'APT::Update::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'Dir::Cache::pkgcache \\\"\\\"; Dir::Cache::srcpkgcache \\\"\\\";' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\t\\u0026\\u0026 echo 'Acquire::Languages \\\"none\\\";' \\u003e /etc/apt/apt.conf.d/docker-no-languages \\t\\t\\u0026\\u0026 echo 'Acquire::GzipIndexes \\\"true\\\"; Acquire::CompressionTypes::Order:: \\\"gz\\\";' \\u003e /etc/apt/apt.conf.d/docker-gzip-indexes \\t\\t\\u0026\\u0026 echo 'Apt::AutoRemove::SuggestsImportant \\\"false\\\";' \\u003e /etc/apt/apt.conf.d/docker-autoremove-suggests\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"86feef564c750ab53d7473a1507b6b1109fd2cbc7bfdb244bc5645eec1f3675f\",\"parent\":\"53e1edbd56e089206a1ef26dacddf818d2926905e4981d7d98d2a9b017aca0a8\",\"created\":\"2019-09-18T23:20:25.907034433Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c [ -z \\\"$(apt-get indextargets)\\\" ]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"53e1edbd56e089206a1ef26dacddf818d2926905e4981d7d98d2a9b017aca0a8\",\"created\":\"2019-09-18T23:20:25.001198355Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:288ac0434f65264f3c50cf3e2766c5dbf3fa953c89995dd9445063fd565aac81 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

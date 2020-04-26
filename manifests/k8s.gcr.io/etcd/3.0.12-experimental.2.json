@@ -1,0 +1,46 @@
+{
+    "name": "google_containers/etcd",
+    "tag": "3.0.12-experimental.2",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:c7f195da9f9e25bf8292560e0ced66e3740402665f524109e7dc1c0c5cb6c323"
+        },
+        {
+            "blobSum": "sha256:8341f5f0e92a0bffc4ca3e6a0d67d48ce745a87fa6b42ef9c85b043826bc8039"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:56bec22e355981d8ba0878c6c2f23b21f422f30ab0aba188b54f1ffeff59c190"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"d62117d032d9afd48ff2dec67c984ab337cf8c380be26a55c2e2d1b57abfb10b\",\"parent\":\"20a086a4f4b08b8c699afb853b75bcb4bf18ca4998829617ba96fb6041e44407\",\"created\":\"2016-10-24T14:08:10.035391788Z\",\"container\":\"0b61dea70b49b12a0bb7c0502485664ec89919fc24cb2e2c3258676d2bd0b72e\",\"container_config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY multi:5dbc76fd7623d09645b9cb1037081079ac6d9aec02c56c1353f138c5e853338e in /usr/local/bin/\"],\"Image\":\"20a086a4f4b08b8c699afb853b75bcb4bf18ca4998829617ba96fb6041e44407\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\",\"config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"20a086a4f4b08b8c699afb853b75bcb4bf18ca4998829617ba96fb6041e44407\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":37220643}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"20a086a4f4b08b8c699afb853b75bcb4bf18ca4998829617ba96fb6041e44407\",\"parent\":\"fdc562c0b5f0e35f0cbb4ee15815d1a158bc12aa093689c7dc6964ef73619b97\",\"created\":\"2016-10-24T14:08:08.990935283Z\",\"container\":\"3ec050f0f2a3436a986355dd5bdbd21dbeca163e9b2c6b05f1f51789ec76493e\",\"container_config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY multi:37ddd60b9bc58d7bf95d838dee9f486f3f8c4c58fff72855ffe75baef2fafd3c in /usr/local/bin/\"],\"Image\":\"fdc562c0b5f0e35f0cbb4ee15815d1a158bc12aa093689c7dc6964ef73619b97\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\",\"config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"fdc562c0b5f0e35f0cbb4ee15815d1a158bc12aa093689c7dc6964ef73619b97\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":136618048}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"fdc562c0b5f0e35f0cbb4ee15815d1a158bc12aa093689c7dc6964ef73619b97\",\"parent\":\"9914043308fdedb626e81459fe01e1bcdfe6a6e70f8aa8d4983ac652f47915d7\",\"created\":\"2016-10-24T14:08:08.041897911Z\",\"container\":\"458572a37f86300c36c28cfa9a9bc41f86e25a6bc9e95b7e223305939d7ff341\",\"container_config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE 2379/tcp 2380/tcp 4001/tcp 7001/tcp\"],\"Image\":\"9914043308fdedb626e81459fe01e1bcdfe6a6e70f8aa8d4983ac652f47915d7\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\",\"config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2379/tcp\":{},\"2380/tcp\":{},\"4001/tcp\":{},\"7001/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"9914043308fdedb626e81459fe01e1bcdfe6a6e70f8aa8d4983ac652f47915d7\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9914043308fdedb626e81459fe01e1bcdfe6a6e70f8aa8d4983ac652f47915d7\",\"parent\":\"9967c5ad88de8c101809f7f22d4774b6791fe46ac3033d57abf7ebb1dd8e36ee\",\"created\":\"2016-10-24T14:08:07.594879035Z\",\"container\":\"6b45c485329cb81ad0fbf0689e798b4153b8494ae504bd4860f5ae106f663e4a\",\"container_config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\"],\"Image\":\"5356a35496ab68a1f4fbf80060b3b04153dc1f00ab4e28f41443d9955bf675bc\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Wojciech Tyczynski \\u003cwojtekt@google.com\\u003e\",\"config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"5356a35496ab68a1f4fbf80060b3b04153dc1f00ab4e28f41443d9955bf675bc\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:1679bae2167496818312013654f5c66a16e185d0a0f6b762b53c8558014457c6\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"container\":\"8bb318a3b4672c53a1747991c95fff3306eea13ec308740ebe0c81b56ece530f\",\"container_config\":{\"Hostname\":\"4a74292706a0\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"sh\\\"]\"],\"Image\":\"sha256:1679bae2167496818312013654f5c66a16e185d0a0f6b762b53c8558014457c6\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"created\":\"2016-10-07T21:03:58.469866982Z\",\"docker_version\":\"1.12.1\",\"id\":\"9967c5ad88de8c101809f7f22d4774b6791fe46ac3033d57abf7ebb1dd8e36ee\",\"os\":\"linux\",\"parent\":\"a61cd723bcf2b0ccaaa3b8f779dfca17040bd459d9e615b82a7ea17993ec59f2\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a61cd723bcf2b0ccaaa3b8f779dfca17040bd459d9e615b82a7ea17993ec59f2\",\"created\":\"2016-10-07T21:03:58.16783626Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:ced3aa7577c8f970403004e45dd91e9240b1e3ee8bd109178822310bb5c4a4f7 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

@@ -1,0 +1,70 @@
+{
+    "name": "google_containers/resource_consumer",
+    "tag": "beta4",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:636b445916ced617c634ebd5d960cd09baa5612e5a0a26473215dbeb271b6fd6"
+        },
+        {
+            "blobSum": "sha256:d8834e366edb824a5454599690e33413f8a585d9e1359123a61e92ce216fab3b"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:0ec2351c2124c3eb4f7b5f7ad6f001a34cbad3a9bd42f183623dfd9cc650d509"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:8b87079b7a06f9b72e3cca2c984c60e118229c60f0bff855d822f758c112b485"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"7bc99127763e7b1a4e8de4b57b8e14e635586032bee5e3d18743fd8d5a9d1772\",\"parent\":\"66d4ebbe76dacc8de9bba26d60ae730dbc90721f9f98eb027d5cde02e04e0ef9\",\"created\":\"2016-05-17T08:37:47.852825861Z\",\"container\":\"2b5869058c8bd101928ed08354170c4fd8b894c3919ff1419f97ff5057569205\",\"container_config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/consumer\\\"]}\"],\"Image\":\"66d4ebbe76dacc8de9bba26d60ae730dbc90721f9f98eb027d5cde02e04e0ef9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/consumer\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Ewa Socala \\u003csocaa@google.com\\u003e\",\"config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"66d4ebbe76dacc8de9bba26d60ae730dbc90721f9f98eb027d5cde02e04e0ef9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/consumer\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"66d4ebbe76dacc8de9bba26d60ae730dbc90721f9f98eb027d5cde02e04e0ef9\",\"parent\":\"03b4231893afd3a3ae864700334860ac37b3a54146b5d254a823dd31dc89c3c7\",\"created\":\"2016-05-17T08:37:47.341107551Z\",\"container\":\"72f0866e8eea64725c2c9ee710d0375f8dde7cf99d82444893a5e7100eb03151\",\"container_config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE 8080/tcp\"],\"Image\":\"03b4231893afd3a3ae864700334860ac37b3a54146b5d254a823dd31dc89c3c7\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Ewa Socala \\u003csocaa@google.com\\u003e\",\"config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"03b4231893afd3a3ae864700334860ac37b3a54146b5d254a823dd31dc89c3c7\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"03b4231893afd3a3ae864700334860ac37b3a54146b5d254a823dd31dc89c3c7\",\"parent\":\"9f019e220c2803d3bc4be6db56242cf5ed3fdb9ccc69c31d60588fc0b8e4feff\",\"created\":\"2016-05-17T08:37:46.808828358Z\",\"container\":\"8f2fd46a47720846416dfeeaff92956f6f980b5afe2a9e165694e5c2f7219d6e\",\"container_config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD dir:7756f77cd28070a0a6ce32336d930c7c87e1fe889a77ee2ac16cad5a687cbd02 in /consume-cpu\"],\"Image\":\"9f019e220c2803d3bc4be6db56242cf5ed3fdb9ccc69c31d60588fc0b8e4feff\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Ewa Socala \\u003csocaa@google.com\\u003e\",\"config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"9f019e220c2803d3bc4be6db56242cf5ed3fdb9ccc69c31d60588fc0b8e4feff\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":2090265}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9f019e220c2803d3bc4be6db56242cf5ed3fdb9ccc69c31d60588fc0b8e4feff\",\"parent\":\"a522f1e403eafab6fdbb44e709529a3706195fb02bb762eb40f3921d276d1bc0\",\"created\":\"2016-05-17T08:37:46.330200095Z\",\"container\":\"243730ee9346926eafa20b39ad6d6de9ede244479f985c0f0824e24916087dbf\",\"container_config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:88b91f9b62b147bd9f4e16631d82e2a598b199b4e9e249b41966fc2a9c930b7a in /consumer\"],\"Image\":\"a522f1e403eafab6fdbb44e709529a3706195fb02bb762eb40f3921d276d1bc0\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Ewa Socala \\u003csocaa@google.com\\u003e\",\"config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"a522f1e403eafab6fdbb44e709529a3706195fb02bb762eb40f3921d276d1bc0\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":6024074}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a522f1e403eafab6fdbb44e709529a3706195fb02bb762eb40f3921d276d1bc0\",\"parent\":\"b7e39cbe5aad122f233a8fe25ca24ef525e0612c95a3e241000ea1ef5e4e24cf\",\"created\":\"2016-05-17T08:37:45.803105846Z\",\"container\":\"965eca043a211e1e18f059fdae60491e8935fb79fbdbdb522771a881b16f3559\",\"container_config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Ewa Socala \\u003csocaa@google.com\\u003e\"],\"Image\":\"d0690f237319152012da143dfde43f72809e68e5e9a2b6de2c9018a37092a63a\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Ewa Socala \\u003csocaa@google.com\\u003e\",\"config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"d0690f237319152012da143dfde43f72809e68e5e9a2b6de2c9018a37092a63a\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Jessica Frazelle \\u003cjess@docker.com\\u003e\",\"config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:d9874d800de320cb20f9ac1b609be0c62f3203dea6356b20ffdaf443aeeaa333\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"aefe6b84e067ed26c2b8ff96237d520ec9962e45582a5454429cf657ffe6874d\",\"container_config\":{\"Hostname\":\"f416997e8b71\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"stress\\\"]}\"],\"ArgsEscaped\":true,\"Image\":\"sha256:d9874d800de320cb20f9ac1b609be0c62f3203dea6356b20ffdaf443aeeaa333\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"stress\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-05-17T03:10:35.650648697Z\",\"docker_version\":\"1.10.2\",\"id\":\"b7e39cbe5aad122f233a8fe25ca24ef525e0612c95a3e241000ea1ef5e4e24cf\",\"os\":\"linux\",\"parent\":\"1351f8dd5a4115c3b3e9fb874b8f18c667467ce02b09d621aee5fc9cbeacdd7b\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1351f8dd5a4115c3b3e9fb874b8f18c667467ce02b09d621aee5fc9cbeacdd7b\",\"parent\":\"1f8c9c887b891fe58de76f1e70f93c66a7e2d2fbbb50ec8462e7a25638024510\",\"created\":\"2016-05-17T03:10:35.500115916Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y \\tstress \\t--no-install-recommends \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1f8c9c887b891fe58de76f1e70f93c66a7e2d2fbbb50ec8462e7a25638024510\",\"parent\":\"5b66679e02f4f061b76d54f6ade02a52ffc502b6791e95f6ad8374f613e11c57\",\"created\":\"2016-05-17T03:10:23.948088057Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER Jessica Frazelle \\u003cjess@docker.com\\u003e\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5b66679e02f4f061b76d54f6ade02a52ffc502b6791e95f6ad8374f613e11c57\",\"parent\":\"cacc9997641591171d0150e25466017daa0c316325113569e533989c23e76ed0\",\"created\":\"2016-05-03T20:57:42.27113855Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cacc9997641591171d0150e25466017daa0c316325113569e533989c23e76ed0\",\"created\":\"2016-05-03T20:57:39.257486754Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:dc2eddd5d35b9d66e4db747f5939b2be7f863dcee64c934b0da690f55a23aee8 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

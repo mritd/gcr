@@ -1,0 +1,46 @@
+{
+    "name": "google_containers/dnsmasq-metrics-arm64",
+    "tag": "1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:08569248d6169ad71517f3d5cfffcd7a192c0a63fdd427960f8f22382ba6832f"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:0d49a44a39919180a2ac5e47c93a07dfb7a6daab6fea21a44c7f7e339759d139"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Bowei Du \\u003cbowei@google.com\\u003e\",\"config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"sha256:5d1adead2a456c67c02868ae3cd5db3fb9dba6b2ac6652efe71a68951b80efaa\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/dnsmasq-metrics\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"acb68aa91969160d50e2ea60f0428c23ffcbe09924380a59fe3d1e0450991b61\",\"container_config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"/dnsmasq-metrics\\\"]\"],\"Image\":\"sha256:5d1adead2a456c67c02868ae3cd5db3fb9dba6b2ac6652efe71a68951b80efaa\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/dnsmasq-metrics\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-27T19:16:32.871568726Z\",\"docker_version\":\"1.12.3\",\"id\":\"313e6a8fa4a7748f11e26323395c045617e37ecaeef2fdcccd6cd2391ad4ca09\",\"os\":\"linux\",\"parent\":\"e3da4cb384374193d92354079523f2c6c5d7940e46a5c9ef5d1d3dab650dc254\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e3da4cb384374193d92354079523f2c6c5d7940e46a5c9ef5d1d3dab650dc254\",\"parent\":\"5a6821c47d0c2114e0d08e8259c763728a818fe71a11718156a4256348fb9fc7\",\"created\":\"2016-11-27T19:16:32.715867349Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  USER [nobody:nobody]\"]},\"author\":\"Bowei Du \\u003cbowei@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5a6821c47d0c2114e0d08e8259c763728a818fe71a11718156a4256348fb9fc7\",\"parent\":\"5294ead0030df35fa64cbc00966197b73adf2c867f976c7c6e58d649e031c15f\",\"created\":\"2016-11-27T19:16:32.543520064Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:407b00c2f29b14f832b5fec2340f815da05525d4a523a0241e87258602deda63 in /dnsmasq-metrics \"]},\"author\":\"Bowei Du \\u003cbowei@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5294ead0030df35fa64cbc00966197b73adf2c867f976c7c6e58d649e031c15f\",\"parent\":\"68dd0e35b6f10300ded1740b45f76ede5eaeb10678f4e8a1493917de4c594667\",\"created\":\"2016-11-27T19:16:32.235553852Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Bowei Du \\u003cbowei@google.com\\u003e\"]},\"author\":\"Bowei Du \\u003cbowei@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"68dd0e35b6f10300ded1740b45f76ede5eaeb10678f4e8a1493917de4c594667\",\"parent\":\"627378b2050d7adc176708a38800ac24afb6a5c0a01754dc90801ee3a8101a11\",\"created\":\"2016-11-01T13:24:23.65929Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"sh\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"627378b2050d7adc176708a38800ac24afb6a5c0a01754dc90801ee3a8101a11\",\"created\":\"2016-11-01T13:24:23.185742Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:bf1e2858c108a4c5d85d33f1b70eb4d31916c622a855140bf2964df973e2eccb in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

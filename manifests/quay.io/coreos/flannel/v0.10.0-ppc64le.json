@@ -1,0 +1,76 @@
+{
+    "name": "coreos/flannel",
+    "tag": "v0.10.0-ppc64le",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:51d5ee35b910a6a60dc6edcd3dfa32c1b2b2f0b47c9135cc93c045fcfe8e9328"
+        },
+        {
+            "blobSum": "sha256:30635769bf57558c8c3c3d6037029379cef0b763c4d5f76557a896a979b0392a"
+        },
+        {
+            "blobSum": "sha256:fd754440cc5e7f637b8f7a8a08561bcdbda966244c696abd78330ef04db4f059"
+        },
+        {
+            "blobSum": "sha256:530e5a57cd0b1253697831f3761343a03ec9176e396049879aa86f00fca09784"
+        },
+        {
+            "blobSum": "sha256:e43e33ebc6512d55b66bdf4108af4d488cda6e8d02e0cec00f2a0a70300c581e"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:9fd90b777cc38b5b6ca1b2407e647fdc22ef31b57ef98e924e7e0635adffc385"
+        },
+        {
+            "blobSum": "sha256:0da653ea85b50d280ec56ca2eafb7e8b37590630356e043fa9ff162d55732a23"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"FLANNEL_ARCH=ppc64le\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:740d774391c1e7f46cb11e5a1b6a7e65d6990df717c097f0c2e1a61729a9332f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/opt/bin/flanneld\"],\"OnBuild\":null,\"Labels\":{\"maintainer\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}},\"container\":\"86320ebb5cb91c3d78833b52f87068d49239c45b529da9a61fa03f4355e0e59f\",\"container_config\":{\"Hostname\":\"86320ebb5cb9\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"FLANNEL_ARCH=ppc64le\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"/opt/bin/flanneld\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:740d774391c1e7f46cb11e5a1b6a7e65d6990df717c097f0c2e1a61729a9332f\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/opt/bin/flanneld\"],\"OnBuild\":null,\"Labels\":{\"maintainer\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}},\"created\":\"2018-01-23T18:30:15.576735269Z\",\"docker_version\":\"17.12.0-ce\",\"id\":\"3e7e5f6972e3c723bbae8aaf3f162c7329803fc59ccb5ba2275a836d3d6f2007\",\"os\":\"linux\",\"parent\":\"c26eb381813780b04dbb155d6cf77dd2988d4bab53bb21a2f14106ca15fd847b\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c26eb381813780b04dbb155d6cf77dd2988d4bab53bb21a2f14106ca15fd847b\",\"parent\":\"62500d6940009a8e7278fc5a8a3682fa5bdd64e76bd995088d917b9aa6126cf3\",\"created\":\"2018-01-23T18:30:15.16781795Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:8f67962c12e58671bee18c93535885714647b91271193b7dc5832188905ec9d1 in /opt/bin/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"62500d6940009a8e7278fc5a8a3682fa5bdd64e76bd995088d917b9aa6126cf3\",\"parent\":\"e7cc3a510ea7d19a2babd528dd1730b8d7c2c829b181c02ba2bb0bea8f4b46ff\",\"created\":\"2018-01-23T18:30:14.92866791Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:2be50edc40af881f3e1de878786846f8da08e302c374b2fd1ececac603a49c40 in /opt/bin/flanneld \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e7cc3a510ea7d19a2babd528dd1730b8d7c2c829b181c02ba2bb0bea8f4b46ff\",\"parent\":\"cedc5fbd83dd00e7d01379c0841a86239d7e8dc5a0dde99f76366180805873e9\",\"created\":\"2018-01-23T18:30:14.347737799Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk add wireguard-tools --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cedc5fbd83dd00e7d01379c0841a86239d7e8dc5a0dde99f76366180805873e9\",\"parent\":\"1e5fe23472eac86df5c3389cc7a53059f40e4a4e0f6bc1129eaa31a8f44cf2bd\",\"created\":\"2018-01-23T18:30:09.230726835Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk add --no-cache iproute2 net-tools ca-certificates iptables \\u0026\\u0026 update-ca-certificates\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1e5fe23472eac86df5c3389cc7a53059f40e4a4e0f6bc1129eaa31a8f44cf2bd\",\"parent\":\"a4cb0b1d267f0cd9d9e59e76f38e7b2ee96db925588d554ae662288c595d5176\",\"created\":\"2018-01-23T18:30:02.283555664Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:46f84bb5bd75b399308505f1a320c17e69b91e8f7301211ea3019f9e3b66a0ed in /usr/bin/qemu-ppc64le-static \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a4cb0b1d267f0cd9d9e59e76f38e7b2ee96db925588d554ae662288c595d5176\",\"parent\":\"e9e080a4e3eace73908a2df4146cf8924819dcd0d5680193e5f74a9680220f69\",\"created\":\"2018-01-23T18:30:01.954153226Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV FLANNEL_ARCH=ppc64le\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e9e080a4e3eace73908a2df4146cf8924819dcd0d5680193e5f74a9680220f69\",\"parent\":\"a443d339e114fcd4b90c9d5af561ad93b99e09dff30594b1d245a73b53262239\",\"created\":\"2018-01-23T18:30:01.692550712Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  LABEL maintainer=Tom Denham \\u003ctom@tigera.io\\u003e\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a443d339e114fcd4b90c9d5af561ad93b99e09dff30594b1d245a73b53262239\",\"parent\":\"0a88f188e765bf928ca7fc6369715063dfeac8fcc7426c6a0b1f40ead61dae19\",\"created\":\"2017-12-01T18:41:57.277119403Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/sh\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0a88f188e765bf928ca7fc6369715063dfeac8fcc7426c6a0b1f40ead61dae19\",\"parent\":\"2fae7df87fcbe2b54461f586400682e57811f8b54a4ba378d55ed972fe948365\",\"created\":\"2017-12-01T18:41:55.614953378Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:0f1d36dd7d8d53613b275660a88c5bf9b608ea8aa73a8054cb8bdbd73fd971ac in /etc/localtime \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2fae7df87fcbe2b54461f586400682e57811f8b54a4ba378d55ed972fe948365\",\"created\":\"2017-12-01T18:41:54.180033875Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:791370adae5cfa8feec749693f5a995a01f58f0462b7aa675fc5bf991e1282b5 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

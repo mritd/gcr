@@ -1,0 +1,58 @@
+{
+    "name": "coreos/flannel",
+    "tag": "v0.6.2-ppc64le",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:72d9b9f7419916983060c803f5c99899f81f6f7e8ea1dd06c09812937315cff7"
+        },
+        {
+            "blobSum": "sha256:fe3a9ef8db8ae4dfc0417f8fcb426b9c607f44e9dc0ff89b7125828a016a0fa4"
+        },
+        {
+            "blobSum": "sha256:cd5fff87729418600b74a1d7aa83728d662587f831f8d0479ec24f874b7ea8d8"
+        },
+        {
+            "blobSum": "sha256:1b19bf14190329844395acad3c107e94187e0cff8ccb29c1bd04f057c21831bb"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:ec65dd117fc483683f934c37975f8fd4bf348a3724fe658d9f4df18e906837ae"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\",\"config\":{\"Hostname\":\"3c9925261587\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/opt/bin/flanneld\"],\"Image\":\"sha256:814fb714ec9cca0974fe2ddfa8d537109cc2290fe124064449579e52a3f1a304\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"44ac79c009e15559340c49b055dffb38977761d0db8bea179b1bbadb3a14fe6c\",\"container_config\":{\"Hostname\":\"3c9925261587\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"/opt/bin/flanneld\\\"]\"],\"Image\":\"sha256:814fb714ec9cca0974fe2ddfa8d537109cc2290fe124064449579e52a3f1a304\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-09-22T23:24:05.840758046Z\",\"docker_version\":\"1.12.1\",\"id\":\"bfae2bb7493f84e62e4fca236318f3ef6cb7ebc591111ef6ad10c2c6e78c78ac\",\"os\":\"linux\",\"parent\":\"eab6beb991fd0561fc05756addf2b6a8df9e1e486d3838110eea2234891392fc\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"eab6beb991fd0561fc05756addf2b6a8df9e1e486d3838110eea2234891392fc\",\"parent\":\"da3e92ea901af408ed61f52aa7f4c6da5e9e212929b05adcc9835863abf7f409\",\"created\":\"2016-09-22T23:24:05.600819759Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:c83bf6ab665faaee37435ae01008acf954c03ad6c5c5842eaf3b87a40d6337d5 in /lib/libpthread.so.0 \"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"da3e92ea901af408ed61f52aa7f4c6da5e9e212929b05adcc9835863abf7f409\",\"parent\":\"33781df0f9180062e120283c4d433296c9caed84b23b07c3e93672488bef274f\",\"created\":\"2016-09-22T23:24:05.244935715Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:71a99daa19aed034868189893ee8985bb61941bdddb040b021b18c7f13a99c70 in /opt/bin/ \"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"33781df0f9180062e120283c4d433296c9caed84b23b07c3e93672488bef274f\",\"parent\":\"7e2464d7c7b54884e20572d40a461aff87b652472ae18ce5f10c1acd652430f0\",\"created\":\"2016-09-22T23:24:04.908837189Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:2feb9b3723e5f0c8e02895cfc22e7d065844f614534c76f1209631c3bb7dee9d in /usr/local/bin/iptables \"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7e2464d7c7b54884e20572d40a461aff87b652472ae18ce5f10c1acd652430f0\",\"parent\":\"0729ebb3d8cad8caacebae190cac40a829714253ebcac7307b2c663742b1b303\",\"created\":\"2016-09-22T23:24:04.568795987Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:d78219746b34fded8471f120f53df9db0e2b7a56536481e1914d7c409a98a09a in /opt/bin/flanneld \"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0729ebb3d8cad8caacebae190cac40a829714253ebcac7307b2c663742b1b303\",\"parent\":\"5c13b590fd2a9de2c3ba25bb74a84fb9ea7242d51570b3629e678c7999542b4c\",\"created\":\"2016-08-18T21:38:16.504862158Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Tom Denham \\u003ctom@tigera.io\\u003e\"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5c13b590fd2a9de2c3ba25bb74a84fb9ea7242d51570b3629e678c7999542b4c\",\"parent\":\"14023ea0c4c08f139ccd7d853d4312bdbe02f3d1232c34789a39d19e7af1b47c\",\"created\":\"2016-08-12T00:09:59.643418Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"sh\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"14023ea0c4c08f139ccd7d853d4312bdbe02f3d1232c34789a39d19e7af1b47c\",\"created\":\"2016-08-12T00:09:59.169994Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:dce8eb0a99ce97b6e05a10ef1c7ab29cc3450fa95a417d4a424efd5469e629a7 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 2,
+    "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+    "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "size": 2260,
+        "digest": "sha256:26f97df33cd790683e5971c864101001dcb9351a2cae0dc261705a04b21fb20b"
+    },
+    "layers": [
+        {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "size": 92,
+            "digest": "sha256:0185beac0e0bf0924c38578ccd95f7925e8380568bf8cb82e6eb65014bfe829e"
+        },
+        {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "size": 5593,
+            "digest": "sha256:4dd595065a5a84bcf3ffb6df98834b48283b248c4356610c49a310d88e2a0c1e"
+        },
+        {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "size": 409810,
+            "digest": "sha256:92da1d01b47b2c573209a2c94fcb113b3cda40d35affffe0320d9688d74a1761"
+        }
+    ]
+}

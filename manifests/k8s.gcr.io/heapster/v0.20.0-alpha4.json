@@ -1,0 +1,58 @@
+{
+    "name": "google_containers/heapster",
+    "tag": "v0.20.0-alpha4",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:12f3aa1a77afb390e1d33c98ac9ca1f7cdf5a95ab7d9e807b0e6b6fd7a2f4c68"
+        },
+        {
+            "blobSum": "sha256:3894f2806a1b46840751bb1c8313b9ecd0a9dbbf2576db18354455001a361529"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:83c1694ea737f966156ff211386809a14407be813431c467f5ab80a3a1528ca8"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:12b41071e6ce9005c70d448cb8035486489f9d50134a1b04206b46e413ac3a3f"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"vishnuk@google.com\",\"config\":{\"Hostname\":\"afbbf75ae75d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"sha256:872060babc8127d31a2939857275ddbdb65a7565257ca38d353e433752ae2dfa\",\"Volumes\":{\"/var/run/heapster/hosts\":{}},\"WorkingDir\":\"\",\"Entrypoint\":[\"/heapster\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"ab2f6280f38e1d4ddb6a2139b20de866d86ad84194444672716fe0465418133b\",\"container_config\":{\"Hostname\":\"afbbf75ae75d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/heapster\\\"]}\"],\"Image\":\"sha256:872060babc8127d31a2939857275ddbdb65a7565257ca38d353e433752ae2dfa\",\"Volumes\":{\"/var/run/heapster/hosts\":{}},\"WorkingDir\":\"\",\"Entrypoint\":[\"/heapster\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-02-05T14:13:03.264248246Z\",\"docker_version\":\"1.10.0\",\"id\":\"711b270e7c1995a38ecced5b6cf91e62e7011112cf64be8ec2c0b17f63a26636\",\"os\":\"linux\",\"parent\":\"c827258932cbcb9b842d96b899bb1be10af8961f4f939f3d48723d28d8f7565c\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c827258932cbcb9b842d96b899bb1be10af8961f4f939f3d48723d28d8f7565c\",\"parent\":\"e0e7fcb0bc293fcfe0446c5813f3b704f23a7cd28408d83d1de7df8814b14416\",\"created\":\"2016-02-05T14:13:02.829732925Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:572e2d51bcde410553ef0fd4f8f03bd629931a802520cb70d0e6ba19489da508 in /eventer\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e0e7fcb0bc293fcfe0446c5813f3b704f23a7cd28408d83d1de7df8814b14416\",\"parent\":\"1b19dcc08c583aa85acea240319fe68fe4047dc38f7c182837aa6b4db0072920\",\"created\":\"2016-02-05T14:13:01.757692204Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:f3cf76e35b3a4165fec0fee3f0f1ce3b588fb3dffc643047f0e1c85a64a9f34b in /heapster\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1b19dcc08c583aa85acea240319fe68fe4047dc38f7c182837aa6b4db0072920\",\"parent\":\"7d4b842ce2dba9f650828b2b73efcccfd0be44e73dd3bb3cf1162e814b0d2e04\",\"created\":\"2015-12-09T14:11:46.808848369Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) VOLUME [/var/run/heapster/hosts]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7d4b842ce2dba9f650828b2b73efcccfd0be44e73dd3bb3cf1162e814b0d2e04\",\"parent\":\"4067d22d604610c8b55dfdb1dd30ba42c2e4298c110583b41bef5209d95dfd1e\",\"created\":\"2015-12-09T14:11:46.308221771Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c for cert in `ls -1 /etc/ssl/certs/*.crt | grep -v /etc/ssl/certs/ca-certificates.crt`; do cat \\\"$cert\\\" \\u003e\\u003e /etc/ssl/certs/ca-certificates.crt; done\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4067d22d604610c8b55dfdb1dd30ba42c2e4298c110583b41bef5209d95dfd1e\",\"parent\":\"f823699fb6659e77670ef1036f09b1249c772680c4ac34d7e5daafe8d9c49c3b\",\"created\":\"2015-12-09T14:11:45.023605651Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk --update add curl ca-certificates tar \\u0026\\u0026     curl -Ls https://circle-artifacts.com/gh/andyshinn/alpine-pkg-glibc/8/artifacts/0/home/ubuntu/alpine-pkg-glibc/packages/x86_64/glibc-2.21-r2.apk \\u003e /tmp/glibc-2.21-r2.apk \\u0026\\u0026     apk add --allow-untrusted /tmp/glibc-2.21-r2.apk\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f823699fb6659e77670ef1036f09b1249c772680c4ac34d7e5daafe8d9c49c3b\",\"parent\":\"87c6be56c3b71ec339ec4c6a7356774b2775a957197592b64c866c22ae183bc6\",\"created\":\"2015-12-09T14:11:29.095328489Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER vishnuk@google.com\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"87c6be56c3b71ec339ec4c6a7356774b2775a957197592b64c866c22ae183bc6\",\"created\":\"2015-09-14T20:01:14.810993981Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:43a95cc218d164ff589cb91519964373d53b607469f5ccce725631916392cd88 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

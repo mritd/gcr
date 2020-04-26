@@ -1,0 +1,76 @@
+{
+    "name": "google-containers/kube-addon-manager-amd64",
+    "tag": "v6.1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:297d5898ff2438c14862deb14c602b60e135c3eba5310fd79fedca3c6df3c70f"
+        },
+        {
+            "blobSum": "sha256:01c5ce6eabeab42bacf56d59c79912637a84b32d4d903cf09e426db75aad6726"
+        },
+        {
+            "blobSum": "sha256:af8d33dd72b50e29d83326558f06719f2c61c9bc2f02abe2040b3032d162dc82"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:4339c827c4716e85a13d462dc03b4e64a61d0d9cc1a4525b5e74693f116abbb3"
+        },
+        {
+            "blobSum": "sha256:a60f276fb68cf37a0128178fbeebcaf8c6a54e3d84f7da74e471aab9023932d5"
+        },
+        {
+            "blobSum": "sha256:9ea4c8559127516bdcf0371c2b595713e2c55e97562038f2ee47547256329b55"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3690ec4760f95690944da86dc4496148a63d85c9e3100669a318110092f6862f"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LC_ALL=en_US.UTF-8\"],\"Cmd\":[\"/opt/kube-addons.sh\"],\"ArgsEscaped\":true,\"Image\":\"sha256:5211877ca50beb046fe17607424be8e9abd0babbef10978b46953a1ae6c1efe6\",\"Volumes\":null,\"WorkingDir\":\"/root\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"915817a8d023f769b77489b48c319d5d6a3707009570b1477ff3433bb49f2043\",\"container_config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LC_ALL=en_US.UTF-8\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"/opt/kube-addons.sh\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:5211877ca50beb046fe17607424be8e9abd0babbef10978b46953a1ae6c1efe6\",\"Volumes\":null,\"WorkingDir\":\"/root\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-29T21:32:10.391774799Z\",\"docker_version\":\"1.12.3\",\"id\":\"e64304f3e62401090fc25a820c930041d514c80c561cbb8558570bffcfc2dd10\",\"os\":\"linux\",\"parent\":\"980ac7f2dcf7fe4ddccd2fa33d4032a1f634364a7450e3d8dccdb4394655df64\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"980ac7f2dcf7fe4ddccd2fa33d4032a1f634364a7450e3d8dccdb4394655df64\",\"parent\":\"de85fd6923cb9098543e46e55391b1137946c63b8c669e8cfddd4d9c23bfc38d\",\"created\":\"2016-11-29T21:32:10.200227767Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:f9c04ce745438c64ee00d51c3522bb3d6ff670b2f2c4c03818dadbcb0d77d287 in /usr/local/bin/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"de85fd6923cb9098543e46e55391b1137946c63b8c669e8cfddd4d9c23bfc38d\",\"parent\":\"9c4e2e68c3701a58428d7f9b69b8605fc9abc228eb0a76b49250527b94d39298\",\"created\":\"2016-11-29T21:32:09.412083311Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:28fafce423e38ad7e928383b827bb9f5b99ba1ea59a9ae109cc1e2052fa4027d in /opt/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9c4e2e68c3701a58428d7f9b69b8605fc9abc228eb0a76b49250527b94d39298\",\"parent\":\"fb76c9acc468d88bf8e75ead56b37e7e4ae845d24165bd3d407ad932afee6dee\",\"created\":\"2016-11-29T21:32:09.164002627Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:f0bf43c6fcf08d47a7b366659d5a4ab8408f6f34e33be3bae8a6b8e5809c64b5 in /opt/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"fb76c9acc468d88bf8e75ead56b37e7e4ae845d24165bd3d407ad932afee6dee\",\"parent\":\"30c05ea7e1fb2e5f42d8646d2d5faf3716eea9e8f5692f9b083cf29fc05f2b49\",\"created\":\"2016-10-18T20:37:25.372523047Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  WORKDIR /root\"]},\"author\":\"Chaiwat Suttipongsakul \\\"cwt@bashell.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"30c05ea7e1fb2e5f42d8646d2d5faf3716eea9e8f5692f9b083cf29fc05f2b49\",\"parent\":\"83ec178193c8ee22c9ee3dc4d0e277255e10bac2255f00bb76e3f1fb1ee74bcf\",\"created\":\"2016-10-18T20:37:24.833113899Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV LC_ALL=en_US.UTF-8\"]},\"author\":\"Chaiwat Suttipongsakul \\\"cwt@bashell.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"83ec178193c8ee22c9ee3dc4d0e277255e10bac2255f00bb76e3f1fb1ee74bcf\",\"parent\":\"8e0aa5e09bed805274ce6b11d19d1f0ae09f16a1a6aa239d756cc69f50d83e1b\",\"created\":\"2016-10-18T20:37:24.420986423Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c sed -i -e \\\"s/bin\\\\/ash/bin\\\\/bash/\\\" /etc/passwd\"]},\"author\":\"Chaiwat Suttipongsakul \\\"cwt@bashell.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8e0aa5e09bed805274ce6b11d19d1f0ae09f16a1a6aa239d756cc69f50d83e1b\",\"parent\":\"34a31d726272ebd82d0c52fe6b2ef77417a16fc6379931d79c648e8bc9fe91ff\",\"created\":\"2016-10-18T20:37:23.603132324Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk add bash\"]},\"author\":\"Chaiwat Suttipongsakul \\\"cwt@bashell.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"34a31d726272ebd82d0c52fe6b2ef77417a16fc6379931d79c648e8bc9fe91ff\",\"parent\":\"db1d48cc60e1d888c9c57d75e0bc64f6a7f70d6e3bd8af91f106d60ac65cb37e\",\"created\":\"2016-10-18T20:37:21.221228548Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk update \\u0026\\u0026 apk upgrade\"]},\"author\":\"Chaiwat Suttipongsakul \\\"cwt@bashell.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"db1d48cc60e1d888c9c57d75e0bc64f6a7f70d6e3bd8af91f106d60ac65cb37e\",\"parent\":\"4b59778f82f9d17a484a278bd23d2d0b3c7ddcf022ab5250cf4f59308b3bc3f5\",\"created\":\"2016-10-18T20:37:20.241482221Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Chaiwat Suttipongsakul \\\"cwt@bashell.com\\\"\"]},\"author\":\"Chaiwat Suttipongsakul \\\"cwt@bashell.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4b59778f82f9d17a484a278bd23d2d0b3c7ddcf022ab5250cf4f59308b3bc3f5\",\"created\":\"2016-10-18T20:31:22.321427771Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:7afbc23fda8b0b3872623c16af8e3490b2cee951aed14b3794389c2f946cc8c7 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

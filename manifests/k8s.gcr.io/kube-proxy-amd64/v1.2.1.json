@@ -1,0 +1,34 @@
+{
+    "name": "google_containers/kube-proxy-amd64",
+    "tag": "v1.2.1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:70792f9de1e288790492289638fd65f17aae523fdf818f07f60cddaf1daf2800"
+        },
+        {
+            "blobSum": "sha256:0744e3f7f3db111566f029789a5d55314475442cc14658d0186537e73cce2f28"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:237d5fcd25cfc217c7f2ddd2be7172e9fa5c181acc58d0a188de333bebec5f73"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"ee7df00aea62e435c0128b8713e77d36429a71e57c320586940942f2d4d5ddf5\",\"parent\":\"6d3b3130ab2cd391f389f81dee6f339c70cbbee8d211ed636d9e9d4bd7cdd37e\",\"created\":\"2016-04-01T18:15:22.446265506Z\",\"container\":\"b5cfa9dd6f728c54d17dc4e763e9e02f8cc9cb68b4a00e5b806d57ba0463947e\",\"container_config\":{\"Hostname\":\"206de6b7c8f7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:37e8ff286a28032d5385038043a2dc506fdfcb530a7856997195c108dfeea581 in /usr/local/bin/kube-proxy\"],\"Image\":\"7d963518b46a640cd45b3c015e1fc57c9a7fc6879d0ffc53ba79c400f69ffc79\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"206de6b7c8f7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/bash\"],\"Image\":\"7d963518b46a640cd45b3c015e1fc57c9a7fc6879d0ffc53ba79c400f69ffc79\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":36465392}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6d3b3130ab2cd391f389f81dee6f339c70cbbee8d211ed636d9e9d4bd7cdd37e\",\"parent\":\"1d6f63d023f51ae1bbc8c5623bcde3de05751dbe9bba5ae4b3405005f8b856c9\",\"created\":\"2015-11-13T01:40:33.55588449Z\",\"container\":\"f531dc05156c38268eb63f4c07c3a327bc47ae0d17560030505b7a6a9eb08030\",\"container_config\":{\"Hostname\":\"206de6b7c8f7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"apt-get update \\u0026\\u0026     apt-get install -y iptables \\u0026\\u0026     ls /var/lib/apt/lists/*debian* | xargs rm\"],\"Image\":\"91bac885982d483318e92036e26574e0c329d0d52299fe47462c12c5e554eb67\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.0\",\"config\":{\"Hostname\":\"206de6b7c8f7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/bash\"],\"Image\":\"91bac885982d483318e92036e26574e0c329d0d52299fe47462c12c5e554eb67\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":4069261}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1d6f63d023f51ae1bbc8c5623bcde3de05751dbe9bba5ae4b3405005f8b856c9\",\"parent\":\"ef2704e74ecc859442589f139553775bfa5a8a892afb40e480017fe23036eec8\",\"created\":\"2015-11-10T00:31:11.959319476Z\",\"container\":\"ba1f8314e1b51b1d4d75568e69230a7d6b327fba17eb1929c3ee8b63ba6e240b\",\"container_config\":{\"Hostname\":\"206de6b7c8f7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/bin/bash\\\"]\"],\"Image\":\"ef2704e74ecc859442589f139553775bfa5a8a892afb40e480017fe23036eec8\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.0\",\"config\":{\"Hostname\":\"206de6b7c8f7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/bash\"],\"Image\":\"ef2704e74ecc859442589f139553775bfa5a8a892afb40e480017fe23036eec8\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ef2704e74ecc859442589f139553775bfa5a8a892afb40e480017fe23036eec8\",\"created\":\"2015-11-10T00:31:06.742694709Z\",\"container\":\"206de6b7c8f70250e6c76ca1d68bbb3373ced66804c8557205a0b783a697722a\",\"container_config\":{\"Hostname\":\"206de6b7c8f7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:3037fa9e903e9ae5338ac1dd3adf8d3ff2d165d3a9b550c64879651582c77dc4 in /\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.0\",\"config\":{\"Hostname\":\"206de6b7c8f7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":125112192}"
+        }
+    ],
+    "schemaVersion": 1
+}

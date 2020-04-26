@@ -1,0 +1,34 @@
+{
+    "name": "google_containers/kube-ui",
+    "tag": "v4",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:705fbc799e732cac02452b9fa439c7c44ca61bc6f45f53ffc911695701e13d5c"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"b3822824c7277a4105bd7f05c2bc03cc9945a3b075a74c3a89706be64f3eb7a5\",\"parent\":\"1c6f326a586e9a495de9cb67f5a6ce7e5304e8edc7643f461b1015d23b1a42b1\",\"created\":\"2015-12-15T18:08:37.595901833Z\",\"container\":\"5bae4ebe73bc47778a8a66f5dfead3235eb7c7a86589d03e73cee95c46a31319\",\"container_config\":{\"Hostname\":\"df144aa55f8d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/kube-ui\\\"]}\"],\"Image\":\"1c6f326a586e9a495de9cb67f5a6ce7e5304e8edc7643f461b1015d23b1a42b1\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/kube-ui\"],\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Tim St. Clair \\u003cstclair@google.com\\u003e\",\"config\":{\"Hostname\":\"df144aa55f8d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"1c6f326a586e9a495de9cb67f5a6ce7e5304e8edc7643f461b1015d23b1a42b1\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/kube-ui\"],\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1c6f326a586e9a495de9cb67f5a6ce7e5304e8edc7643f461b1015d23b1a42b1\",\"parent\":\"4152712bdb6b1481a38d7e7d6b2192a8ec56760e090023edfe3d3d84117249c2\",\"created\":\"2015-12-15T18:08:37.425106394Z\",\"container\":\"9ba6425975c9ea3292d039e32267cf7620ed8d8aa7bea48dcd7b8fda7f6f7e36\",\"container_config\":{\"Hostname\":\"df144aa55f8d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE 8080/tcp\"],\"Image\":\"4152712bdb6b1481a38d7e7d6b2192a8ec56760e090023edfe3d3d84117249c2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Tim St. Clair \\u003cstclair@google.com\\u003e\",\"config\":{\"Hostname\":\"df144aa55f8d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"4152712bdb6b1481a38d7e7d6b2192a8ec56760e090023edfe3d3d84117249c2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4152712bdb6b1481a38d7e7d6b2192a8ec56760e090023edfe3d3d84117249c2\",\"parent\":\"37f52014af0a0251938f4b05ffc1d75b08b47d46d3fca2dd70aad6d651d9330c\",\"created\":\"2015-12-15T18:08:37.242584414Z\",\"container\":\"df144aa55f8df96ca83b0f9a084265128c130fdb68494530d1311d76a882e95e\",\"container_config\":{\"Hostname\":\"df144aa55f8d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:4a486928d62deab490dac10ec64f62e480b1f8f3226a4499338b6a423cf00f18 in kube-ui\"],\"Image\":\"37f52014af0a0251938f4b05ffc1d75b08b47d46d3fca2dd70aad6d651d9330c\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Tim St. Clair \\u003cstclair@google.com\\u003e\",\"config\":{\"Hostname\":\"df144aa55f8d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"37f52014af0a0251938f4b05ffc1d75b08b47d46d3fca2dd70aad6d651d9330c\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":5676927}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"37f52014af0a0251938f4b05ffc1d75b08b47d46d3fca2dd70aad6d651d9330c\",\"created\":\"2015-12-15T02:29:49.583365112Z\",\"container\":\"e5e8d516962f70616bf3ceb03f468552dd5238e4203431794a2501ad2052e828\",\"container_config\":{\"Hostname\":\"e5e8d516962f\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Tim St. Clair \\u003cstclair@google.com\\u003e\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"author\":\"Tim St. Clair \\u003cstclair@google.com\\u003e\",\"config\":{\"Hostname\":\"e5e8d516962f\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        }
+    ],
+    "schemaVersion": 1
+}

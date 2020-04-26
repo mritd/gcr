@@ -1,0 +1,22 @@
+{
+    "name": "google_containers/ubuntu-slim",
+    "tag": "0.4",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:169bb74c2cc68bbd24ee28091fa9de059d9e92d4d947f42e06288f270038bc45"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"8b7b3c9dc23033fa949d2bbfdf223e6a19cbaf9f4fccb82d7f78749006ce7296\",\"parent\":\"885858784f077c480fa1a2e3ff7158a34913e8b57d818291a21c272cbedb204d\",\"created\":\"2016-08-22T18:51:30.424861689Z\",\"container\":\"0ed246a6b66fdc127ad532de2ce05640ad873a6188a1a274a435fab1de9afa6d\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/bin/sh\\\"]\"],\"Image\":\"885858784f077c480fa1a2e3ff7158a34913e8b57d818291a21c272cbedb204d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\"],\"Image\":\"885858784f077c480fa1a2e3ff7158a34913e8b57d818291a21c272cbedb204d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"885858784f077c480fa1a2e3ff7158a34913e8b57d818291a21c272cbedb204d\",\"created\":\"2016-08-22T18:51:29.041729218Z\",\"container\":\"fd0d62fec9a3be06ffcc87cbcffac22b3d736a95a2ded042ae3418cf1f6ec853\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:ae304d8386be9f9c0b6d1fcc7707761d52bf3c8a4f7b4cca60131d53db04f24a in /\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":56567147}"
+        }
+    ],
+    "schemaVersion": 1
+}

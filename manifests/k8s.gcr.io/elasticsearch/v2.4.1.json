@@ -1,0 +1,172 @@
+{
+    "name": "google_containers/elasticsearch",
+    "tag": "v2.4.1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:1351b011b63bd831b47cb155dc3d46daab16559254ea4afd7055aacaaf8a551c"
+        },
+        {
+            "blobSum": "sha256:f38eda11039798c415f9dacfd34be36b178d08cbd41b35bb1fbe6a15349f0cd6"
+        },
+        {
+            "blobSum": "sha256:976b1271c2ecf26f58e69d97395d1f3a8e50c52d0bd9321983c91f9b5bea7518"
+        },
+        {
+            "blobSum": "sha256:2ee41ff03c33d5a7b67a654784d7210f4c10b10219250d8da7d37e355c733e55"
+        },
+        {
+            "blobSum": "sha256:06dbadc7e0dd7a334edf5fd8a53e4773e9d2f374cc05021602db2b248dd6b03b"
+        },
+        {
+            "blobSum": "sha256:2e53bc96a04d7b3f4c3f04c8eef21b8ea720de788809f1816a1c1b649dcb5a0e"
+        },
+        {
+            "blobSum": "sha256:6e8a23b5aaaddc808905deddac1b07bebbbafb7b90daf80037c49f6dc6783d6f"
+        },
+        {
+            "blobSum": "sha256:64fb22c146a4f7ebb632b1cdb821a8c5c14d35eda8c735a9430bbcf99212ad0e"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:6ca3bc2ad3b37551550f7c86d23f4e25066740db6d2f99c3ba99c0f9e0a4d3ec"
+        },
+        {
+            "blobSum": "sha256:7018f4ec6e0ab2d452cd6ac9600b8cfa25bcd10c603db8ad9107677e9f8fe15e"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:1624a2f8d1142bb2aed22223df10c5416ff37b599ff48c724d23347d37b2b20e"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:eef540699244c02b2a8e14c3b4f335314506cb4b12e15c867535cb20ac429a37"
+        },
+        {
+            "blobSum": "sha256:3e2e387eb26a1afa07fb24ab119e8680fc80f43a194890da1d1bb21f76e23c5e"
+        },
+        {
+            "blobSum": "sha256:2ed832147d3ea5c74d4d4d6fc60a671648b293e13ec5686f18944b0c17b80bcf"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:1fad42e8a0d9781677d366b1100defcadbe653280300cf62a23e07eb5e9d3a41"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"config\":{\"Hostname\":\"6b3797ab1e90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"9200/tcp\":{},\"9300/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre\",\"JAVA_VERSION=8u111\",\"JAVA_DEBIAN_VERSION=8u111-b14-2~bpo8+1\",\"CA_CERTIFICATES_JAVA_VERSION=20140324\",\"DEBIAN_FRONTEND=noninteractive\",\"ELASTICSEARCH_VERSION=2.4.1\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"/run.sh\"],\"ArgsEscaped\":true,\"Image\":\"sha256:de0c783f28010800d4ff9aa524584979b4a72853e08f235f4c7076fa06bd8bc6\",\"Volumes\":{\"/data\":{}},\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"73e65569a9ede612aa17ad243b7a8e12298029931bc30e55bb2181340baacc35\",\"container_config\":{\"Hostname\":\"6b3797ab1e90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"9200/tcp\":{},\"9300/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre\",\"JAVA_VERSION=8u111\",\"JAVA_DEBIAN_VERSION=8u111-b14-2~bpo8+1\",\"CA_CERTIFICATES_JAVA_VERSION=20140324\",\"DEBIAN_FRONTEND=noninteractive\",\"ELASTICSEARCH_VERSION=2.4.1\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"/bin/sh\\\" \\\"-c\\\" \\\"/run.sh\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:de0c783f28010800d4ff9aa524584979b4a72853e08f235f4c7076fa06bd8bc6\",\"Volumes\":{\"/data\":{}},\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-22T21:16:53.935615217Z\",\"docker_version\":\"1.12.3\",\"id\":\"7f0b3a6c70b5b5d0d2403898980d393234bec4bdd29e6b4166481f25db50f7e6\",\"os\":\"linux\",\"parent\":\"d76e65eecb9e1b07d1d9573f34369e5282f1b3c1c0cc9b2af87ac99fed74ec70\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d76e65eecb9e1b07d1d9573f34369e5282f1b3c1c0cc9b2af87ac99fed74ec70\",\"parent\":\"646a5e06ada505ce77168fd36176d8e814cec466685c94f82f89b23eeb934b1a\",\"created\":\"2016-11-22T21:16:53.739691444Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  EXPOSE 9200/tcp 9300/tcp\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"646a5e06ada505ce77168fd36176d8e814cec466685c94f82f89b23eeb934b1a\",\"parent\":\"935abb4ae847575150f6a8d2602c3384eb532a166fcab6cbb660c1278f184c35\",\"created\":\"2016-11-22T21:16:53.539557256Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  VOLUME [/data]\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"935abb4ae847575150f6a8d2602c3384eb532a166fcab6cbb660c1278f184c35\",\"parent\":\"efd2cad6eba19e36e538dffaa0f478fe249bfe4a8bdcf4796400da8ab17d16f3\",\"created\":\"2016-11-22T21:16:53.3407803Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c useradd --no-create-home --user-group elasticsearch     \\u0026\\u0026 mkdir /data     \\u0026\\u0026 chown -R elasticsearch:elasticsearch /elasticsearch\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"efd2cad6eba19e36e538dffaa0f478fe249bfe4a8bdcf4796400da8ab17d16f3\",\"parent\":\"7b7f4b187a20614766dc9a1ce82d02588cf856fc96e0c0846bbbbaa378e0f46d\",\"created\":\"2016-11-22T21:16:52.087497955Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:b466e2f2f9c9ab1864e533c640458ff30886fc45a7f71dc7ab96255cd2d12646 in / \"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7b7f4b187a20614766dc9a1ce82d02588cf856fc96e0c0846bbbbaa378e0f46d\",\"parent\":\"6f8111847b3e9838cb92153a5d68ae0cf93e951e200db7ebca98a90c093601b2\",\"created\":\"2016-11-18T11:15:42.779633243Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:90e7784ef21072eef91fac9c07a71d7ce8cbdd660a0695d933185c97b2fffa6c in / \"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6f8111847b3e9838cb92153a5d68ae0cf93e951e200db7ebca98a90c093601b2\",\"parent\":\"7134c82edb25c285aee93a05219b757832633b0ff344226ead0a6d7f2ed1056f\",\"created\":\"2016-11-18T11:15:42.487607529Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:12d0a672bee6dfb420593e0189bd077608f856b4313b8a404b140619b2d384c7 in /elasticsearch/config \"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7134c82edb25c285aee93a05219b757832633b0ff344226ead0a6d7f2ed1056f\",\"parent\":\"420a4ebf9f6d63650f600f3e03b74ef50a1b05c31ed4f3adbbeef808616c4152\",\"created\":\"2016-11-18T11:15:42.235421371Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:84152e00ac95c420e3f7eae923ace342fa60099ba74d97ed72244c1f76728174 in /elasticsearch/config/templates/template-k8s-logstash.json \"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"420a4ebf9f6d63650f600f3e03b74ef50a1b05c31ed4f3adbbeef808616c4152\",\"parent\":\"879f1b3034c85f310447409bf2d71e01a2ac8f5b5e1f80a547624ae2135c9569\",\"created\":\"2016-11-18T11:15:41.940013235Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir -p /elasticsearch/config/templates\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"879f1b3034c85f310447409bf2d71e01a2ac8f5b5e1f80a547624ae2135c9569\",\"parent\":\"97ff950385c211c3f7d0c56ffe47a2c8ae391f82a837c0015b93a17d1df31c49\",\"created\":\"2016-11-18T11:15:41.296286373Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -x     \\u0026\\u0026 cd /     \\u0026\\u0026 mkdir /elasticsearch     \\u0026\\u0026 curl -O https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/$ELASTICSEARCH_VERSION/elasticsearch-$ELASTICSEARCH_VERSION.tar.gz     \\u0026\\u0026 tar xf elasticsearch-$ELASTICSEARCH_VERSION.tar.gz -C /elasticsearch --strip-components=1     \\u0026\\u0026 rm elasticsearch-$ELASTICSEARCH_VERSION.tar.gz\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"97ff950385c211c3f7d0c56ffe47a2c8ae391f82a837c0015b93a17d1df31c49\",\"parent\":\"1aa75846c7ef1c23e17b139eb4b97d49ec4de30b9a9219e83fea29a64173088c\",\"created\":\"2016-11-18T11:15:36.132978701Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update     \\u0026\\u0026 apt-get install -y curl     \\u0026\\u0026 apt-get clean\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1aa75846c7ef1c23e17b139eb4b97d49ec4de30b9a9219e83fea29a64173088c\",\"parent\":\"64cada3ecff2c6035160cf52b1aeec9cb53c51171dcfae63a91e1207a4133346\",\"created\":\"2016-11-18T11:15:29.211549923Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV ELASTICSEARCH_VERSION=2.4.1\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"64cada3ecff2c6035160cf52b1aeec9cb53c51171dcfae63a91e1207a4133346\",\"parent\":\"b41d7510c6fed5480bbdc2f728abe830f7bf38856a4b2679a1b14a6fa560be69\",\"created\":\"2016-11-18T11:15:29.027491897Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV DEBIAN_FRONTEND=noninteractive\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b41d7510c6fed5480bbdc2f728abe830f7bf38856a4b2679a1b14a6fa560be69\",\"parent\":\"613eb77cb9c32bcee1e6665fed869eee1cefa47d0288f875bfb55d3329c90415\",\"created\":\"2016-11-18T11:15:28.867466897Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Mik Vyatskov \\\"vmik@google.com\\\"\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"613eb77cb9c32bcee1e6665fed869eee1cefa47d0288f875bfb55d3329c90415\",\"parent\":\"c10dc0ad8b26124dd196bd98ca384b659a7cf0aa92226d4d00bf46aaeac02ea6\",\"created\":\"2016-11-08T18:54:26.541139649Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c /var/lib/dpkg/info/ca-certificates-java.postinst configure\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c10dc0ad8b26124dd196bd98ca384b659a7cf0aa92226d4d00bf46aaeac02ea6\",\"parent\":\"e1466cd9c9a7df8edf9567b4111975bd3b02d5cfaf6af6e09aa96a044d65364d\",\"created\":\"2016-11-08T18:54:18.100544866Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -x \\t\\u0026\\u0026 apt-get update \\t\\u0026\\u0026 apt-get install -y \\t\\topenjdk-8-jre-headless=\\\"$JAVA_DEBIAN_VERSION\\\" \\t\\tca-certificates-java=\\\"$CA_CERTIFICATES_JAVA_VERSION\\\" \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/* \\t\\u0026\\u0026 [ \\\"$JAVA_HOME\\\" = \\\"$(docker-java-home)\\\" ]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e1466cd9c9a7df8edf9567b4111975bd3b02d5cfaf6af6e09aa96a044d65364d\",\"parent\":\"1e50dba21d48a0ec243808a678d5637bdafe2aa77bc64cd52b34d41a5bffa894\",\"created\":\"2016-11-08T18:53:56.1838569Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV CA_CERTIFICATES_JAVA_VERSION=20140324\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1e50dba21d48a0ec243808a678d5637bdafe2aa77bc64cd52b34d41a5bffa894\",\"parent\":\"e00c51ca8196409081c67cdcb616dba5ddcc5e952302996a8aa6aaa9bb174d87\",\"created\":\"2016-11-08T18:53:55.855907025Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV JAVA_DEBIAN_VERSION=8u111-b14-2~bpo8+1\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e00c51ca8196409081c67cdcb616dba5ddcc5e952302996a8aa6aaa9bb174d87\",\"parent\":\"c5c0cfbe3105c8f831eabf7531bccf9c756ea92c4bcd2653ed80982018cb9b8d\",\"created\":\"2016-11-08T18:53:55.483957464Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV JAVA_VERSION=8u111\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c5c0cfbe3105c8f831eabf7531bccf9c756ea92c4bcd2653ed80982018cb9b8d\",\"parent\":\"625bd09e63594cb3eb3c14d3961bbdb3e4b3e577cef3e2f84095bb0ce5c27498\",\"created\":\"2016-11-08T18:53:55.147731048Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"625bd09e63594cb3eb3c14d3961bbdb3e4b3e577cef3e2f84095bb0ce5c27498\",\"parent\":\"ecc84b66746d6a4c3b26f66f6d8b07597e2f9342e8ac66c0fd85cb10a12afab2\",\"created\":\"2016-11-08T18:53:54.797186165Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c { \\t\\techo '#!/bin/sh'; \\t\\techo 'set -e'; \\t\\techo; \\t\\techo 'dirname \\\"$(dirname \\\"$(readlink -f \\\"$(which javac || which java)\\\")\\\")\\\"'; \\t} \\u003e /usr/local/bin/docker-java-home \\t\\u0026\\u0026 chmod +x /usr/local/bin/docker-java-home\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ecc84b66746d6a4c3b26f66f6d8b07597e2f9342e8ac66c0fd85cb10a12afab2\",\"parent\":\"541f7f1e19699593a1643fe4a35e240fa44773c8f43fc2b1b893ed5d4fb8898a\",\"created\":\"2016-11-08T18:53:53.946185733Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV LANG=C.UTF-8\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"541f7f1e19699593a1643fe4a35e240fa44773c8f43fc2b1b893ed5d4fb8898a\",\"parent\":\"1f791bf08379f6620757928af158e528abef0fd8b77944e735a1477ed398a925\",\"created\":\"2016-11-08T18:53:53.54849029Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c echo 'deb http://deb.debian.org/debian jessie-backports main' \\u003e /etc/apt/sources.list.d/jessie-backports.list\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1f791bf08379f6620757928af158e528abef0fd8b77944e735a1477ed398a925\",\"parent\":\"9290679c9e8ba556eb67370f84fa56d2c314899d3a5bca8130e526877e966451\",\"created\":\"2016-11-08T18:52:12.406272697Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tbzip2 \\t\\tunzip \\t\\txz-utils \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9290679c9e8ba556eb67370f84fa56d2c314899d3a5bca8130e526877e966451\",\"parent\":\"a49093637027de65274daa2964b835b076c26844bca1fc32eaea341ffaf58ed4\",\"created\":\"2016-11-07T22:27:33.390267021Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tca-certificates \\t\\tcurl \\t\\twget \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a49093637027de65274daa2964b835b076c26844bca1fc32eaea341ffaf58ed4\",\"parent\":\"1f59ab4d35d5c115e0b2537d88ab4f7da37ad871c97f72978957f0a637849e70\",\"created\":\"2016-11-07T20:30:26.295992141Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1f59ab4d35d5c115e0b2537d88ab4f7da37ad871c97f72978957f0a637849e70\",\"created\":\"2016-11-07T20:30:25.741961434Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:41ea5187c50116884c38d9ec51d920d79cfaeb2a61c52e07a97f457419a10a4f in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

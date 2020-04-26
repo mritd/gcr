@@ -1,0 +1,28 @@
+{
+    "name": "google_containers/portforwardtester",
+    "tag": "1.2",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3a395e3c381fa3e4622d442cc91973a04d6ffbc01e655f704af2c8864faed641"
+        },
+        {
+            "blobSum": "sha256:f00b75714af383a9ab5020b41e0525a38fbf46525dea98a2ef19f5983d967bcf"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"b88a2f3db61a\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"sha256:164adfe837c90d34595fa8fd59df3cef415ef07158a352b0477ab4bdee7e4f87\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/portforwardtester\"],\"OnBuild\":null,\"Labels\":{}},\"container\":\"f4a64c3a4fc8062837a3189c875b247a26229b1335b968395798d8c3d3115b6d\",\"container_config\":{\"Hostname\":\"b88a2f3db61a\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"/portforwardtester\\\"]\"],\"Image\":\"sha256:164adfe837c90d34595fa8fd59df3cef415ef07158a352b0477ab4bdee7e4f87\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/portforwardtester\"],\"OnBuild\":null,\"Labels\":{}},\"created\":\"2016-11-29T15:13:57.871636986Z\",\"docker_version\":\"1.12.3\",\"id\":\"ba0981634a2bd3729ad74068c2c2a24af29b2e80121dc7d353c7b86dd4962c0d\",\"os\":\"linux\",\"parent\":\"b343c47aa61295cd5fd907fe1873933526dbf8ecf80fc90a21a19a4452ed87b6\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b343c47aa61295cd5fd907fe1873933526dbf8ecf80fc90a21a19a4452ed87b6\",\"parent\":\"30de19d6a9d41c844660f62f1f68868ee1ea3e205b8161c44b82fdf60e844636\",\"created\":\"2016-11-29T15:13:57.299796497Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:5de2d8e5c3c10dd39b9dc084ca0c973a50628404ede43df745c73e40dc842df3 in portforwardtester.go \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"30de19d6a9d41c844660f62f1f68868ee1ea3e205b8161c44b82fdf60e844636\",\"created\":\"2016-11-29T15:13:56.64771128Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:e68a73ce0aaffda6ac87cc329200afd69da49aea4c1374fb65a8819621af264f in portforwardtester \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

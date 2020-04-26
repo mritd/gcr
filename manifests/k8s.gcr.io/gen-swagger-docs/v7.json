@@ -1,0 +1,118 @@
+{
+    "name": "google_containers/gen-swagger-docs",
+    "tag": "v7",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:dbc0bcf0c7f89a138a167cc8c19b33d00f6f32c5647d6419956a816c09b2874e"
+        },
+        {
+            "blobSum": "sha256:56ba10068c67d654daf397653680adcb16187d370129e685921e45d35f29f406"
+        },
+        {
+            "blobSum": "sha256:225838be21630145c99ae131f3405856e5021082936913284f212c553c8e26a9"
+        },
+        {
+            "blobSum": "sha256:11aeb4876b949cdadc2117c791816b2ce18d73ba19c153d33f7cda29b93d55f3"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:34e3316a703f71097f582b9a00cd4b732523e8470c56ce3d54568d07f8f79fea"
+        },
+        {
+            "blobSum": "sha256:026d06bb77557485c2317ccb1a91157f91e0e4a952af5ae74b7aa770feba3813"
+        },
+        {
+            "blobSum": "sha256:a30607f3daa1b49a9713af787c3ff3229be4f0ecdb0624bc4a9b4aa20bb1257b"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:9aa4ff75c34e19aedf7992e935a2ed2d898cd678ffae12ed678af88247060edd"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:be275827e8b7f9057582be291be9d0b1ea48379640585e97987ac337c495c0cd"
+        },
+        {
+            "blobSum": "sha256:ab30c63719b10dd434ddbe896879bd9b637fe4e16749a94d3dc827450dc2a437"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:5c90d4a2d1a8dfffd05ff2dd659923f0ca2d843b5e45d030e17abbcd06a11b5b"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"6250540837a8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre\",\"JAVA_VERSION=7u101\",\"JAVA_DEBIAN_VERSION=7u101-2.6.6-2~deb8u1\",\"GRADLE_USER_HOME=/gradle-cache\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:6d74ff1960c44c130206b3e242bbabd85eab12034c5969160c08e916d2787ad4\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"build/gen-swagger-docs.sh\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"7ad71dabfe716d6b4836666ac2641f7bf861d7279ea6604fd53d1bef2553803c\",\"container_config\":{\"Hostname\":\"6250540837a8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre\",\"JAVA_VERSION=7u101\",\"JAVA_DEBIAN_VERSION=7u101-2.6.6-2~deb8u1\",\"GRADLE_USER_HOME=/gradle-cache\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT [\\\"build/gen-swagger-docs.sh\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:6d74ff1960c44c130206b3e242bbabd85eab12034c5969160c08e916d2787ad4\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"build/gen-swagger-docs.sh\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-07-06T17:23:23.892958776Z\",\"docker_version\":\"1.11.2\",\"id\":\"4a088b78c94443e2f6024919373915a9fadc932f372a0d87fbe519710c4ca691\",\"os\":\"linux\",\"parent\":\"49628f196d47fc77b4636e5676babc3278e98a2920befe337d70a6d3abb8958f\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"49628f196d47fc77b4636e5676babc3278e98a2920befe337d70a6d3abb8958f\",\"parent\":\"537e698efcef55173893e1be2fa7346840391cacbdb56a530a93727a2d7457b2\",\"created\":\"2016-07-06T17:23:23.744033988Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c chmod -R 777 build/ \\t\\u0026\\u0026 chmod -R 777 gradle-cache/\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"537e698efcef55173893e1be2fa7346840391cacbdb56a530a93727a2d7457b2\",\"parent\":\"f27ccd4cf6a0e2b581d476db7acbe637b8078021febdfa5a105e2ac8968a8e65\",\"created\":\"2016-07-06T17:23:22.053186293Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir -p /output /swagger-source \\t\\u0026\\u0026 wget https://raw.githubusercontent.com/kubernetes/kubernetes/master/api/swagger-spec/v1.json -O /swagger-source/v1.json \\t\\u0026\\u0026 wget https://raw.githubusercontent.com/GoogleCloudPlatform/kubernetes/master/pkg/api/v1/register.go -O /register.go \\t\\u0026\\u0026 build/gen-swagger-docs.sh v1 \\t\\u0026\\u0026 rm -rf /output/* /swagger-source/* /register.go\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f27ccd4cf6a0e2b581d476db7acbe637b8078021febdfa5a105e2ac8968a8e65\",\"parent\":\"54e8a1bef868ca929f0c039b4d724fd0d509b839b7ea36558ae05ba0abd1b54e\",\"created\":\"2016-07-06T17:22:54.133059981Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:ed2ccf73b4934321cf80ebc4a83e105d0637343f934a333e434e70896752bf40 in build/\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"54e8a1bef868ca929f0c039b4d724fd0d509b839b7ea36558ae05ba0abd1b54e\",\"parent\":\"72379401f4f6c07c3576cb4a8284605b30314900f3dcdc8a7cfdaeb6e510c093\",\"created\":\"2016-07-06T17:22:54.006724415Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:1762926ea3ee40522074a28fd8f431ddbd6d9893cc71d71a386ab8a2c352be69 in build/\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"72379401f4f6c07c3576cb4a8284605b30314900f3dcdc8a7cfdaeb6e510c093\",\"parent\":\"7855af8f73c8b4206c45417d7605c4ae7906bcbb3145182b489a4d6869f8a19a\",\"created\":\"2016-07-06T17:22:53.866505703Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV GRADLE_USER_HOME=/gradle-cache\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7855af8f73c8b4206c45417d7605c4ae7906bcbb3145182b489a4d6869f8a19a\",\"parent\":\"1f1ec47736ab3821f5627857458e5ccc1b1f82a094aaeec5c1c081a2f1b6ad7a\",\"created\":\"2016-07-06T17:22:53.758929419Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c wget -O /tmp/gradle.zip https://services.gradle.org/distributions/gradle-2.5-bin.zip \\t\\u0026\\u0026 mkdir -p build/ \\t\\u0026\\u0026 unzip /tmp/gradle.zip -d build/ \\t\\u0026\\u0026 rm /tmp/gradle.zip \\t\\u0026\\u0026 mkdir -p gradle-cache/\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1f1ec47736ab3821f5627857458e5ccc1b1f82a094aaeec5c1c081a2f1b6ad7a\",\"parent\":\"cc5b39d4a8b7fb8a0ca187a3cd1ce530af5956fb42fa7fbe905751b3d6e31e43\",\"created\":\"2016-07-06T17:22:51.039178995Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y \\tasciidoctor \\tunzip \\t--no-install-recommends \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cc5b39d4a8b7fb8a0ca187a3cd1ce530af5956fb42fa7fbe905751b3d6e31e43\",\"parent\":\"499b5c54f1ed9a1d339dc7d2bff4412b3f62c2f5f043dda802feab339f92b595\",\"created\":\"2016-06-09T22:10:07.127046156Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -x \\t\\u0026\\u0026 apt-get update \\t\\u0026\\u0026 apt-get install -y \\t\\topenjdk-7-jre-headless=\\\"$JAVA_DEBIAN_VERSION\\\" \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/* \\t\\u0026\\u0026 [ \\\"$JAVA_HOME\\\" = \\\"$(docker-java-home)\\\" ]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"499b5c54f1ed9a1d339dc7d2bff4412b3f62c2f5f043dda802feab339f92b595\",\"parent\":\"ec7e4967fab4e3b389a8584c62bcc8ad28ad92fd849681422a998bc080a27e9b\",\"created\":\"2016-06-09T22:08:26.894999181Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV JAVA_DEBIAN_VERSION=7u101-2.6.6-2~deb8u1\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ec7e4967fab4e3b389a8584c62bcc8ad28ad92fd849681422a998bc080a27e9b\",\"parent\":\"b50599b96e33a5e0772319e44e91b00a01364067e235044329f24a213156ac95\",\"created\":\"2016-06-09T22:08:26.604194863Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV JAVA_VERSION=7u101\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b50599b96e33a5e0772319e44e91b00a01364067e235044329f24a213156ac95\",\"parent\":\"02dec3806bdabc1af772c196c330b331578385733e7921ded138541e6f497439\",\"created\":\"2016-06-09T22:08:26.303783606Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"02dec3806bdabc1af772c196c330b331578385733e7921ded138541e6f497439\",\"parent\":\"14fa7ed0654bd10e1e2bf457b4b927184668eb773e4f3cea2bb0770f2854e012\",\"created\":\"2016-06-09T22:08:26.028541438Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c { \\t\\techo '#!/bin/sh'; \\t\\techo 'set -e'; \\t\\techo; \\t\\techo 'dirname \\\"$(dirname \\\"$(readlink -f \\\"$(which javac || which java)\\\")\\\")\\\"'; \\t} \\u003e /usr/local/bin/docker-java-home \\t\\u0026\\u0026 chmod +x /usr/local/bin/docker-java-home\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"14fa7ed0654bd10e1e2bf457b4b927184668eb773e4f3cea2bb0770f2854e012\",\"parent\":\"35e170305690c5326ede2fb0d16695a3de51f978d93c1dba22be08ad75b036a2\",\"created\":\"2016-06-09T22:08:24.904360309Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV LANG=C.UTF-8\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"35e170305690c5326ede2fb0d16695a3de51f978d93c1dba22be08ad75b036a2\",\"parent\":\"4c76b3c135637de0018f575020919b06ce846cd8e77295eb6b5f10c378ca1332\",\"created\":\"2016-06-09T22:08:24.641520134Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tbzip2 \\t\\tunzip \\t\\txz-utils \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4c76b3c135637de0018f575020919b06ce846cd8e77295eb6b5f10c378ca1332\",\"parent\":\"435cb21051b6acf1c846fa0550c9a8de3dd529ead7064958ab4278a1f2bd3a36\",\"created\":\"2016-06-09T21:35:50.029803171Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tca-certificates \\t\\tcurl \\t\\twget \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"435cb21051b6acf1c846fa0550c9a8de3dd529ead7064958ab4278a1f2bd3a36\",\"parent\":\"7d78525320442999cccbd4b15232adf41588ddca6ecb281f1d3a8bbf45862997\",\"created\":\"2016-06-09T21:28:43.776404816Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7d78525320442999cccbd4b15232adf41588ddca6ecb281f1d3a8bbf45862997\",\"created\":\"2016-06-09T21:28:42.397841831Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:76679eeb94129df23c99013487d6b6bd779d2107bf07d194a524fdbb6a961530 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

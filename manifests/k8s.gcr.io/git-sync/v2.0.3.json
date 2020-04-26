@@ -1,0 +1,70 @@
+{
+    "name": "google-containers/git-sync",
+    "tag": "v2.0.3",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:589819cc031fc4637a93d902ecee96c74a3211d8d49f18514f83de74cb1662cf"
+        },
+        {
+            "blobSum": "sha256:f81b12999bcd1979d7f0e8eae7bbf14e1abe67e04024028076d61448676155b8"
+        },
+        {
+            "blobSum": "sha256:1d5d936241d44e2156f042669ef23822bb90738339b5b6cd5a0b2ecb418fa17f"
+        },
+        {
+            "blobSum": "sha256:adc1d43dc4dd2b0477d04ef68acb988e8643f5d8b11e5e4a77fcb9b001882b9f"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:f44fab714e549a26d6d3a8161074023c85205eaa1f4f883e776c50635e7a0210"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3690ec4760f95690944da86dc4496148a63d85c9e3100669a318110092f6862f"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\",\"config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"GIT_SYNC_DEST=/git\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:b7e7fabfd15fa5471b77e3de7d09bba1ad8116082856b7e9143c7972d1dc192d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/git-sync\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"9a99681c857e9b1a9613a55846d6a9306ab641f3c107a70d77da28a2e785a858\",\"container_config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"GIT_SYNC_DEST=/git\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"/git-sync\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:b7e7fabfd15fa5471b77e3de7d09bba1ad8116082856b7e9143c7972d1dc192d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/git-sync\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-10-30T23:56:47.280203658Z\",\"docker_version\":\"1.12.3\",\"id\":\"18a5963f042f3605fb14b17fc75f6dd0c2a254b7c793663680cfb05d6e843a79\",\"os\":\"linux\",\"parent\":\"6a812fb307c11fb99c905babcb50e6e8fcc321ff7e092c55cd264e8e167e292b\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6a812fb307c11fb99c905babcb50e6e8fcc321ff7e092c55cd264e8e167e292b\",\"parent\":\"f3b8984053623d52ee1c93d97b75b1e7ffaec292c7913679df0a80c1feaa7f35\",\"created\":\"2016-10-30T23:56:46.780167401Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  USER [nobody:nobody]\"]},\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f3b8984053623d52ee1c93d97b75b1e7ffaec292c7913679df0a80c1feaa7f35\",\"parent\":\"a2476bcc91e55db4aeadd2d00aaa4ed9d2e6866aed8a85eba366cefc9b70b2a9\",\"created\":\"2016-10-30T23:56:46.224321919Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c chmod 755 /usr/bin/ssh\"]},\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a2476bcc91e55db4aeadd2d00aaa4ed9d2e6866aed8a85eba366cefc9b70b2a9\",\"parent\":\"928591dd515cba8ce022b55bf4ff13c7cb661ca3e6ca50b5bc9186fb726f4ca7\",\"created\":\"2016-10-30T23:56:44.796292709Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:152c1acc8ddd133f781041d1b969dbf5d0612649cd3ce8caac8e216bd00c35b3 in /usr/bin/ssh \"]},\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"928591dd515cba8ce022b55bf4ff13c7cb661ca3e6ca50b5bc9186fb726f4ca7\",\"parent\":\"1a5ba1c1d771e0bdf085c9040b1c126c3d6e670eb9b83f46e5dead74743831ed\",\"created\":\"2016-10-30T23:56:44.252662421Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mv /usr/bin/ssh /usr/bin/ssh-binary\"]},\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1a5ba1c1d771e0bdf085c9040b1c126c3d6e670eb9b83f46e5dead74743831ed\",\"parent\":\"8dfb01678928e912b5fe45412392bb6b51b5d1abe0e9b6244de825612984cd1f\",\"created\":\"2016-10-30T23:56:42.908961384Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk update --no-cache \\u0026\\u0026 apk add     ca-certificates     coreutils     git     openssh-client\"]},\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8dfb01678928e912b5fe45412392bb6b51b5d1abe0e9b6244de825612984cd1f\",\"parent\":\"72e968881b94830019d77322d4b723010bf640b0afa86480dafe413c3a1a07b1\",\"created\":\"2016-10-29T09:04:37.732369965Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV GIT_SYNC_DEST=/git\"]},\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"72e968881b94830019d77322d4b723010bf640b0afa86480dafe413c3a1a07b1\",\"parent\":\"db1d48cc60e1d888c9c57d75e0bc64f6a7f70d6e3bd8af91f106d60ac65cb37e\",\"created\":\"2016-10-29T09:04:37.31057469Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:6cdb43a5d4d6d865e7371216640ecd54eab1fadfaed52ee0c721705c00d2d0a8 in /git-sync \"]},\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"db1d48cc60e1d888c9c57d75e0bc64f6a7f70d6e3bd8af91f106d60ac65cb37e\",\"parent\":\"4b59778f82f9d17a484a278bd23d2d0b3c7ddcf022ab5250cf4f59308b3bc3f5\",\"created\":\"2016-10-28T22:10:15.800511234Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Tim Hockin \\u003cthockin@google.com\\u003e\"]},\"author\":\"Tim Hockin \\u003cthockin@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4b59778f82f9d17a484a278bd23d2d0b3c7ddcf022ab5250cf4f59308b3bc3f5\",\"created\":\"2016-10-18T20:31:22.321427771Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:7afbc23fda8b0b3872623c16af8e3490b2cee951aed14b3794389c2f946cc8c7 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

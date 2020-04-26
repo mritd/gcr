@@ -1,0 +1,76 @@
+{
+    "name": "coreos/flannel",
+    "tag": "v0.9.0-rc1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:c102d44bcecfd553a14fd398bb4819bb0b31e3730cdfd41e2a9dcdbaa983d6e5"
+        },
+        {
+            "blobSum": "sha256:4b49dbf57a3c9bebaa130ad39945f284a840147d4a1b07cc04a560dd242d2ae9"
+        },
+        {
+            "blobSum": "sha256:a5d7d8daf23292788650541a49e90d22555b4d40c18391176fba7c08b94c079e"
+        },
+        {
+            "blobSum": "sha256:8f4dde5859ad4cad614bea26c57b6f104147dbeb13f1bfa6e95ab9ba169c1a93"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:16a827ca53c8b6646804263e0c93049981bc5c90e4de7bd9d7bf168e7eff5b67"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:6d987f6f42797d81a318c40d442369ba3dc124883a0964d40b0c8f4f7561d913"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"FLANNEL_ARCH=amd64\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:3c5fb69b325978fde7370a29077952f1c888f8f1ed9281c3f0e51dd44ad0ee46\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/opt/bin/flanneld\"],\"OnBuild\":[],\"Labels\":null},\"container\":\"8c36c882f6cac06c18ffbe20e493e1149f25da41e22d4a29778a3f093cb15e41\",\"container_config\":{\"Hostname\":\"8c36c882f6ca\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"FLANNEL_ARCH=amd64\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"/opt/bin/flanneld\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:3c5fb69b325978fde7370a29077952f1c888f8f1ed9281c3f0e51dd44ad0ee46\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/opt/bin/flanneld\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2017-09-18T21:52:55.602560573Z\",\"docker_version\":\"17.06.2-ce\",\"id\":\"1e5481f9095e0cd52ca6f50ea30ffaf0c1a5e0704a5fef3f6e67a219157de6fd\",\"os\":\"linux\",\"parent\":\"2bb4dfd8fdb19fd5b0f2a6d3f533a1f9b032908834b09a07d2e480bbbfb4b4c3\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2bb4dfd8fdb19fd5b0f2a6d3f533a1f9b032908834b09a07d2e480bbbfb4b4c3\",\"parent\":\"6a2c53d6df2e61a8dc41c973869caad7ef7cef3a4e8359d580f60a23f5a8916c\",\"created\":\"2017-09-18T21:52:55.316279073Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:184c2d85eccf6e45803eb15dba4bb117bff2e5ab8d0ec3765aa0ffd903f042ce in /opt/bin/ \"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6a2c53d6df2e61a8dc41c973869caad7ef7cef3a4e8359d580f60a23f5a8916c\",\"parent\":\"a7b8ff893c878d532b127c67640f5d8e928edb2ec7de0878ed1ea67479055706\",\"created\":\"2017-09-18T21:52:54.94620682Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:28d9acfe28bc2cd6c70de01b09a1d7b064025dfa930dc4c448e55eb1b477944f in /usr/local/bin/iptables \"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a7b8ff893c878d532b127c67640f5d8e928edb2ec7de0878ed1ea67479055706\",\"parent\":\"b72363833157a665f9d600dbee586cb8d31c861156a515bc8b3a94cd7dbb6129\",\"created\":\"2017-09-18T21:52:54.539060173Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:1505b86f1d12e14471b1ec32113aa92037d02eb4b39f3bffe572f6667cee82d1 in /opt/bin/flanneld \"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b72363833157a665f9d600dbee586cb8d31c861156a515bc8b3a94cd7dbb6129\",\"parent\":\"696b5c4fa9e78754333d808688af4e98c1343d2d4d67bdecf6c1d8a02fbed920\",\"created\":\"2017-09-17T22:52:20.432305351Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apk add --no-cache iproute2 net-tools ca-certificates \\u0026\\u0026 update-ca-certificates\"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"696b5c4fa9e78754333d808688af4e98c1343d2d4d67bdecf6c1d8a02fbed920\",\"parent\":\"02c0a07d28115a89d9f41da2312679aae69fb0f1f902715157f6bcdf8b02cf82\",\"created\":\"2017-09-17T22:52:03.721101684Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV FLANNEL_ARCH=amd64\"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"02c0a07d28115a89d9f41da2312679aae69fb0f1f902715157f6bcdf8b02cf82\",\"parent\":\"d164cf6cd65ec47b20a86c1a9cadcf9f45d30b7e3fc89dcd2d47f50fa455c83b\",\"created\":\"2017-09-17T22:52:03.511572209Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Tom Denham \\u003ctom@tigera.io\\u003e\"]},\"author\":\"Tom Denham \\u003ctom@tigera.io\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d164cf6cd65ec47b20a86c1a9cadcf9f45d30b7e3fc89dcd2d47f50fa455c83b\",\"parent\":\"aa52987fd3d14274d26ea77926fe2869f4cc2d84a40f608d99b27340251e8453\",\"created\":\"2017-09-13T18:05:23.426285642Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV LANG=C.UTF-8\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"aa52987fd3d14274d26ea77926fe2869f4cc2d84a40f608d99b27340251e8453\",\"parent\":\"15e0dc04655d169bbdc7e942756a594e808c6c50214aca9b97deb36715ec2e36\",\"created\":\"2017-09-13T18:05:23.323283146Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c ALPINE_GLIBC_BASE_URL=\\\"https://github.com/sgerrand/alpine-pkg-glibc/releases/download\\\" \\u0026\\u0026     ALPINE_GLIBC_PACKAGE_VERSION=\\\"2.25-r0\\\" \\u0026\\u0026     ALPINE_GLIBC_BASE_PACKAGE_FILENAME=\\\"glibc-$ALPINE_GLIBC_PACKAGE_VERSION.apk\\\" \\u0026\\u0026     ALPINE_GLIBC_BIN_PACKAGE_FILENAME=\\\"glibc-bin-$ALPINE_GLIBC_PACKAGE_VERSION.apk\\\" \\u0026\\u0026     ALPINE_GLIBC_I18N_PACKAGE_FILENAME=\\\"glibc-i18n-$ALPINE_GLIBC_PACKAGE_VERSION.apk\\\" \\u0026\\u0026     apk add --no-cache --virtual=.build-dependencies wget ca-certificates \\u0026\\u0026     wget         \\\"https://raw.githubusercontent.com/andyshinn/alpine-pkg-glibc/master/sgerrand.rsa.pub\\\"         -O \\\"/etc/apk/keys/sgerrand.rsa.pub\\\" \\u0026\\u0026     wget         \\\"$ALPINE_GLIBC_BASE_URL/$ALPINE_GLIBC_PACKAGE_VERSION/$ALPINE_GLIBC_BASE_PACKAGE_FILENAME\\\"         \\\"$ALPINE_GLIBC_BASE_URL/$ALPINE_GLIBC_PACKAGE_VERSION/$ALPINE_GLIBC_BIN_PACKAGE_FILENAME\\\"         \\\"$ALPINE_GLIBC_BASE_URL/$ALPINE_GLIBC_PACKAGE_VERSION/$ALPINE_GLIBC_I18N_PACKAGE_FILENAME\\\" \\u0026\\u0026     apk add --no-cache         \\\"$ALPINE_GLIBC_BASE_PACKAGE_FILENAME\\\"         \\\"$ALPINE_GLIBC_BIN_PACKAGE_FILENAME\\\"         \\\"$ALPINE_GLIBC_I18N_PACKAGE_FILENAME\\\" \\u0026\\u0026         rm \\\"/etc/apk/keys/sgerrand.rsa.pub\\\" \\u0026\\u0026     /usr/glibc-compat/bin/localedef --force --inputfile POSIX --charmap UTF-8 C.UTF-8 || true \\u0026\\u0026     echo \\\"export LANG=C.UTF-8\\\" \\u003e /etc/profile.d/locale.sh \\u0026\\u0026         apk del glibc-i18n \\u0026\\u0026         rm \\\"/root/.wget-hsts\\\" \\u0026\\u0026     apk del .build-dependencies \\u0026\\u0026     rm         \\\"$ALPINE_GLIBC_BASE_PACKAGE_FILENAME\\\"         \\\"$ALPINE_GLIBC_BIN_PACKAGE_FILENAME\\\"         \\\"$ALPINE_GLIBC_I18N_PACKAGE_FILENAME\\\"\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"15e0dc04655d169bbdc7e942756a594e808c6c50214aca9b97deb36715ec2e36\",\"parent\":\"a52c7d714e5fc2f9c1e6bb2f8393636861045890c2731c53436924c9e2ad327c\",\"created\":\"2017-09-13T14:32:26.049525424Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/sh\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a52c7d714e5fc2f9c1e6bb2f8393636861045890c2731c53436924c9e2ad327c\",\"created\":\"2017-09-13T14:32:25.788552283Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:4583e12bf5caec40b861a3409f2a1624c3f3556cc457edb99c9707f00e779e45 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

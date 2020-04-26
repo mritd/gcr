@@ -1,0 +1,34 @@
+{
+    "name": "coreos/flannel",
+    "tag": "0.2.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:65cea3f2976b4b53a32d69ca5a946608704d5161b140b8f4d3e45c971166ba17"
+        },
+        {
+            "blobSum": "sha256:56eabdf0f9be7a2f15951b13cb94d73c7a8508291c7dcef9b772afe19982d8bf"
+        },
+        {
+            "blobSum": "sha256:13c55ba0c9c5851dfe0236b8dcea2497a7d5adb8914570867713a9b4bf73be87"
+        },
+        {
+            "blobSum": "sha256:7bfac849346597508453f320de609535bccb77a027bea6abb5189c9ea0257075"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"0f57eaf357cc5a3699c492d89528289a29f94a66f34aa4f1666c941f79558ecc\",\"parent\":\"2dca8e60fcca14dc3cd23cfc19cea2c1c9665c0069c4edb8547be124380ef448\",\"created\":\"2014-12-22T23:16:03.923061048Z\",\"container\":\"8aafeacfabdb5d9cd133fe0c22dbef73d93c2bcc4a955678bbc7dcbc910470df\",\"container_config\":{\"Hostname\":\"c58f871ef834\",\"Domainname\":\"\",\"User\":\"\",\"Memory\":0,\"MemorySwap\":0,\"CpuShares\":0,\"Cpuset\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"PortSpecs\":null,\"ExposedPorts\":null,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [/bin/sh -c /opt/bin/flanneld]\"],\"Image\":\"2dca8e60fcca14dc3cd23cfc19cea2c1c9665c0069c4edb8547be124380ef448\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"NetworkDisabled\":false,\"OnBuild\":[]},\"docker_version\":\"1.2.0\",\"author\":\"Eugene Yakubovich \\u003ceugene.yakubovich@coreos.com\\u003e\",\"config\":{\"Hostname\":\"c58f871ef834\",\"Domainname\":\"\",\"User\":\"\",\"Memory\":0,\"MemorySwap\":0,\"CpuShares\":0,\"Cpuset\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"PortSpecs\":null,\"ExposedPorts\":null,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"/opt/bin/flanneld\"],\"Image\":\"2dca8e60fcca14dc3cd23cfc19cea2c1c9665c0069c4edb8547be124380ef448\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"NetworkDisabled\":false,\"OnBuild\":[]},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":0}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2dca8e60fcca14dc3cd23cfc19cea2c1c9665c0069c4edb8547be124380ef448\",\"parent\":\"bf191c79c5f2a038699b9eba514082e04d4b93c48f41b8502a9eb733fb71c366\",\"created\":\"2014-12-22T23:16:03.719141696Z\",\"container\":\"c58f871ef834bd23620bf6cce20df1cde61fd1caa57872d752e3a377adc64529\",\"container_config\":{\"Hostname\":\"c58f871ef834\",\"Domainname\":\"\",\"User\":\"\",\"Memory\":0,\"MemorySwap\":0,\"CpuShares\":0,\"Cpuset\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"PortSpecs\":null,\"ExposedPorts\":null,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:c1d173a56befabe39a248158947523867e71aa9a61e30974c4cfb6985c823da5 in /opt/bin/\"],\"Image\":\"bf191c79c5f2a038699b9eba514082e04d4b93c48f41b8502a9eb733fb71c366\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"NetworkDisabled\":false,\"OnBuild\":[]},\"docker_version\":\"1.2.0\",\"author\":\"Eugene Yakubovich \\u003ceugene.yakubovich@coreos.com\\u003e\",\"config\":{\"Hostname\":\"c58f871ef834\",\"Domainname\":\"\",\"User\":\"\",\"Memory\":0,\"MemorySwap\":0,\"CpuShares\":0,\"Cpuset\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"PortSpecs\":null,\"ExposedPorts\":null,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"bf191c79c5f2a038699b9eba514082e04d4b93c48f41b8502a9eb733fb71c366\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"NetworkDisabled\":false,\"OnBuild\":[]},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":7808523}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"bf191c79c5f2a038699b9eba514082e04d4b93c48f41b8502a9eb733fb71c366\",\"parent\":\"91a6195f52a2c01646c3c5952c1fcc8e15f9d2a5ac049edb0ec8412a1cd1c6fe\",\"created\":\"2014-09-22T20:33:14.664532888Z\",\"container\":\"0c3189483789908805169428763f9a8506b75b087e948d0a64ae8ce9a483f05e\",\"container_config\":{\"Hostname\":\"0c3189483789\",\"Domainname\":\"\",\"User\":\"\",\"Memory\":0,\"MemorySwap\":0,\"CpuShares\":0,\"Cpuset\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"PortSpecs\":null,\"ExposedPorts\":null,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Eugene Yakubovich \\u003ceugene.yakubovich@coreos.com\\u003e\"],\"Image\":\"91a6195f52a2c01646c3c5952c1fcc8e15f9d2a5ac049edb0ec8412a1cd1c6fe\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"NetworkDisabled\":false,\"OnBuild\":[]},\"docker_version\":\"1.2.0\",\"author\":\"Eugene Yakubovich \\u003ceugene.yakubovich@coreos.com\\u003e\",\"config\":{\"Hostname\":\"0c3189483789\",\"Domainname\":\"\",\"User\":\"\",\"Memory\":0,\"MemorySwap\":0,\"CpuShares\":0,\"Cpuset\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"PortSpecs\":null,\"ExposedPorts\":null,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"91a6195f52a2c01646c3c5952c1fcc8e15f9d2a5ac049edb0ec8412a1cd1c6fe\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"NetworkDisabled\":false,\"OnBuild\":[]},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":0}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"91a6195f52a2c01646c3c5952c1fcc8e15f9d2a5ac049edb0ec8412a1cd1c6fe\",\"comment\":\"Imported from -\",\"created\":\"2014-09-22T20:24:37.550619232Z\",\"container_config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"Memory\":0,\"MemorySwap\":0,\"CpuShares\":0,\"Cpuset\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"PortSpecs\":null,\"ExposedPorts\":null,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"NetworkDisabled\":false,\"OnBuild\":null},\"docker_version\":\"1.2.0\",\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":9724086}"
+        }
+    ],
+    "schemaVersion": 1
+}

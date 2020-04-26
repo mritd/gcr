@@ -1,0 +1,34 @@
+{
+    "name": "google_containers/nettest",
+    "tag": "1.8",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:dfa20bbb9916135347bcaddde6df46514d3a23bb34ba914d5cbd32114542bb0f"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"1cb06ed7242928f9319332f08cc3acd715514a37acdf8305b29c89e8618265cf\",\"parent\":\"9634a644dfd57db65c16259c281917400fbefb46b08b7ff8d95c5c05b2f9f1c8\",\"created\":\"2016-03-01T19:18:07.178813813Z\",\"container\":\"53297da3d753e0637f10062a97738758c7581dff97037c27c00f5a543e521078\",\"container_config\":{\"Hostname\":\"7133d035ad5b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/webserver\\\"]}\"],\"Image\":\"9634a644dfd57db65c16259c281917400fbefb46b08b7ff8d95c5c05b2f9f1c8\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/webserver\"],\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Daniel Smith \\u003cdbsmith@google.com\\u003e\",\"config\":{\"Hostname\":\"7133d035ad5b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"9634a644dfd57db65c16259c281917400fbefb46b08b7ff8d95c5c05b2f9f1c8\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/webserver\"],\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9634a644dfd57db65c16259c281917400fbefb46b08b7ff8d95c5c05b2f9f1c8\",\"parent\":\"92b1ddf3e0bde6e794726ff31e37e41246c05fdc75370288f1849540acba0b4d\",\"created\":\"2016-03-01T19:18:07.011560854Z\",\"container\":\"2a8a8b9d0603564dd15bb265ff8ebe416c878698c4a936437446fd343a6d7c5d\",\"container_config\":{\"Hostname\":\"7133d035ad5b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) EXPOSE 8080/tcp\"],\"Image\":\"92b1ddf3e0bde6e794726ff31e37e41246c05fdc75370288f1849540acba0b4d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Daniel Smith \\u003cdbsmith@google.com\\u003e\",\"config\":{\"Hostname\":\"7133d035ad5b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"92b1ddf3e0bde6e794726ff31e37e41246c05fdc75370288f1849540acba0b4d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"92b1ddf3e0bde6e794726ff31e37e41246c05fdc75370288f1849540acba0b4d\",\"parent\":\"1ef706950516b88003ed51dfbb5603c939ed7d3ad9a82d09ab6b285a0a3f9690\",\"created\":\"2016-03-01T19:18:06.784321173Z\",\"container\":\"7133d035ad5ba41131ee3a56cf0cf8236574fff25a663e6c8736f09b14ada147\",\"container_config\":{\"Hostname\":\"7133d035ad5b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:cacdc4a1948250e1f958d73feae0f6ce04adebbe0cf9e03038f9c65465d3c82b in webserver\"],\"Image\":\"2c2adf0f0088e0ec1b38f7bea861fbf9bb236a2e98d6de4078717c9eb7661e78\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Daniel Smith \\u003cdbsmith@google.com\\u003e\",\"config\":{\"Hostname\":\"7133d035ad5b\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"2c2adf0f0088e0ec1b38f7bea861fbf9bb236a2e98d6de4078717c9eb7661e78\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":25164808}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1ef706950516b88003ed51dfbb5603c939ed7d3ad9a82d09ab6b285a0a3f9690\",\"created\":\"2016-02-24T21:29:46.381375442Z\",\"container\":\"10e424a0e9dffd1de8530da8f6171939befc1fc05e20bc32bbaa659f2fd49268\",\"container_config\":{\"Hostname\":\"10e424a0e9df\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Daniel Smith \\u003cdbsmith@google.com\\u003e\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"author\":\"Daniel Smith \\u003cdbsmith@google.com\\u003e\",\"config\":{\"Hostname\":\"10e424a0e9df\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        }
+    ],
+    "schemaVersion": 1
+}

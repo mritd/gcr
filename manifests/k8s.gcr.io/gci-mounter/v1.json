@@ -1,0 +1,64 @@
+{
+    "name": "google_containers/gci-mounter",
+    "tag": "v1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:e21b90ae2bc4a4b9e349259ec3611146ebd912da2663cbb985e40b1daa8fc82e"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:668604fde02e75dddb4b44c80d4ce20baaac4832c41c3a945f4a236cd7d2f164"
+        },
+        {
+            "blobSum": "sha256:2879a7ad31445fe2cea410b8ba76704003c11ee05c0a4d32d1113009ea1a1aae"
+        },
+        {
+            "blobSum": "sha256:de413bb911fd848383ef2e5068a42c258c898d6ee869fb441fb2391eb327b576"
+        },
+        {
+            "blobSum": "sha256:fc19d60a83f11bbddc7bd2dfca6095b49100314bfde61d83729112a6b6e11d48"
+        },
+        {
+            "blobSum": "sha256:6bbedd9b76a496816d86a0af731ea984f40467ef8fb23be752f801cb80436ac6"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"vishh@google.com\",\"config\":{\"Hostname\":\"87503d09d967\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:26c2fc08283da28f3c8e9e08628b3ee65fe80521b3f78a4b240a8ad94c80678b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/bin/mount\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"dc54efc7485ebe325413a46927cce63a0e1da1a6b4af584c2eb21be2813e4f57\",\"container_config\":{\"Hostname\":\"87503d09d967\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT [\\\"/bin/mount\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:26c2fc08283da28f3c8e9e08628b3ee65fe80521b3f78a4b240a8ad94c80678b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/bin/mount\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-10-21T22:36:27.127892595Z\",\"docker_version\":\"1.11.2\",\"id\":\"62be0b519a8004f739c46a4b6857ab02172604ba55b2f2be65eb0b223c08aebf\",\"os\":\"linux\",\"parent\":\"56d0736540ada29c8241f38a7b425357f779cab4685178a50eb9b9976f7a04db\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"56d0736540ada29c8241f38a7b425357f779cab4685178a50eb9b9976f7a04db\",\"parent\":\"9790d6886da23bd31c7b1c67453b02a1f8781223f79af1962be1ba19fdc79073\",\"created\":\"2016-10-21T22:36:26.814328033Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y nfs-common=1:1.2.8-9ubuntu12 glusterfs-client=3.7.6-1ubuntu1\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9790d6886da23bd31c7b1c67453b02a1f8781223f79af1962be1ba19fdc79073\",\"parent\":\"801f200083c1625dcb5eca030bc0365f05dffd2f8336faf7de4dffdc10c05e74\",\"created\":\"2016-10-21T22:35:03.970665163Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER vishh@google.com\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"801f200083c1625dcb5eca030bc0365f05dffd2f8336faf7de4dffdc10c05e74\",\"parent\":\"c53777cbfc31ede9e301ef2d6452c6ad12e75dec11c36f5eb0f60fe1a45a795f\",\"created\":\"2016-10-13T21:13:21.562394737Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c53777cbfc31ede9e301ef2d6452c6ad12e75dec11c36f5eb0f60fe1a45a795f\",\"parent\":\"6ed49a73d8f0ce90830e51e9f3281957e75eb66729925228b026d3ffcdc0a431\",\"created\":\"2016-10-13T21:13:21.274471322Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir -p /run/systemd \\u0026\\u0026 echo 'docker' \\u003e /run/systemd/container\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6ed49a73d8f0ce90830e51e9f3281957e75eb66729925228b026d3ffcdc0a431\",\"parent\":\"6571ba684f54b0200982f324b5b84346e4aa0a97fdd006b36d8404eab3e8f6e8\",\"created\":\"2016-10-13T21:13:20.29446866Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c sed -i 's/^#\\\\s*\\\\(deb.*universe\\\\)$/\\\\1/g' /etc/apt/sources.list\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6571ba684f54b0200982f324b5b84346e4aa0a97fdd006b36d8404eab3e8f6e8\",\"parent\":\"25810b66099e15e2dfb77854398382225a4fad58569e95371c7a94cdb738e68e\",\"created\":\"2016-10-13T21:13:19.414933547Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"25810b66099e15e2dfb77854398382225a4fad58569e95371c7a94cdb738e68e\",\"parent\":\"58488e45273c55f8ea2084f796f1adc64db379dd75578a546b3b1b26d380e416\",\"created\":\"2016-10-13T21:13:18.548723604Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -xe \\t\\t\\u0026\\u0026 echo '#!/bin/sh' \\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 echo 'exit 101' \\u003e\\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 chmod +x /usr/sbin/policy-rc.d \\t\\t\\u0026\\u0026 dpkg-divert --local --rename --add /sbin/initctl \\t\\u0026\\u0026 cp -a /usr/sbin/policy-rc.d /sbin/initctl \\t\\u0026\\u0026 sed -i 's/^exit.*/exit 0/' /sbin/initctl \\t\\t\\u0026\\u0026 echo 'force-unsafe-io' \\u003e /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \\t\\t\\u0026\\u0026 echo 'DPkg::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'APT::Update::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'Dir::Cache::pkgcache \\\"\\\"; Dir::Cache::srcpkgcache \\\"\\\";' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\t\\u0026\\u0026 echo 'Acquire::Languages \\\"none\\\";' \\u003e /etc/apt/apt.conf.d/docker-no-languages \\t\\t\\u0026\\u0026 echo 'Acquire::GzipIndexes \\\"true\\\"; Acquire::CompressionTypes::Order:: \\\"gz\\\";' \\u003e /etc/apt/apt.conf.d/docker-gzip-indexes \\t\\t\\u0026\\u0026 echo 'Apt::AutoRemove::SuggestsImportant \\\"false\\\";' \\u003e /etc/apt/apt.conf.d/docker-autoremove-suggests\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"58488e45273c55f8ea2084f796f1adc64db379dd75578a546b3b1b26d380e416\",\"created\":\"2016-10-13T21:13:17.391115077Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:b1cd0e54ba28cb1d6db4b93f98d5e02f5e2bcd96c55cb91731ba499861001e30 in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

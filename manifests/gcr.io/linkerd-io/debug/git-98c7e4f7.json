@@ -1,0 +1,40 @@
+{
+    "name": "linkerd-io/debug",
+    "tag": "git-98c7e4f7",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3b3dffd738eeeb92d5313b8215ad40e0640c7d72599723e92d64af989e767731"
+        },
+        {
+            "blobSum": "sha256:6c5c122c0700df08a1d6e80b9906cc4c74a5633b6ab5d4e6fe954adbf746a805"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:6ae821421a7debccb4151f7a50dc8ec0317674429bec0f275402d697047a8e96"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:ec601141a6436300573a44dc67ab5ab79adb747522850ebe783f66a3f3a82de9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"tshark\",\"-i\",\"any\"],\"OnBuild\":[],\"Labels\":null},\"container\":\"96412054aa1ce3893b54442ba0583007a05cf7fd686a2d30c3cbfde3609dd1af\",\"container_config\":{\"Hostname\":\"96412054aa1c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"tshark\\\" \\\"-i\\\" \\\"any\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:ec601141a6436300573a44dc67ab5ab79adb747522850ebe783f66a3f3a82de9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"tshark\",\"-i\",\"any\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2019-07-02T21:16:23.582396893Z\",\"docker_version\":\"3.0.4\",\"id\":\"e49829d833a1a8e70f68c4d613284b8c65e7ba5e6f1308cd056749aaeb8d91ba\",\"os\":\"linux\",\"parent\":\"e331ba5d425c57fd1ad9a250377bee17ef9333319209991c2a799f4756139760\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e331ba5d425c57fd1ad9a250377bee17ef9333319209991c2a799f4756139760\",\"parent\":\"10cb1b7dfcb63e2e5692efb608c5a2b4b19cfc3a7facea4ba818b8c7d2a73d66\",\"created\":\"2019-07-02T21:16:16.23911128Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends     tcpdump     iproute2     lsof     tshark \\u0026\\u0026     rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"10cb1b7dfcb63e2e5692efb608c5a2b4b19cfc3a7facea4ba818b8c7d2a73d66\",\"parent\":\"22ccd32b0697ae811e3451811b526685e471d2f47cebffa2b01190822b946510\",\"created\":\"2019-02-23T00:09:40.038199291Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update     \\u0026\\u0026 apt-get install -y --no-install-recommends         curl         dnsutils         iptables         jq         nghttp2     \\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"22ccd32b0697ae811e3451811b526685e471d2f47cebffa2b01190822b946510\",\"parent\":\"4e6f114e37abfd9d73f221b02991f70a2584b297ec6de7d10164ff32f419ed53\",\"created\":\"2019-02-06T03:30:19.375667032Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4e6f114e37abfd9d73f221b02991f70a2584b297ec6de7d10164ff32f419ed53\",\"created\":\"2019-02-06T03:30:19.069711374Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:5a6d066ba71fb0a4789971d41a896c905e3df4989b15e2079c09ddaad6ca3ccd in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

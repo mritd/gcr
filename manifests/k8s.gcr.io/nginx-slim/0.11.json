@@ -1,0 +1,58 @@
+{
+    "name": "google_containers/nginx-slim",
+    "tag": "0.11",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:456d13d70c344e966d4844d491ee596153ed2fb5beda67717cd0f5dcc65c370a"
+        },
+        {
+            "blobSum": "sha256:652d803de2ec44551ab8c55a87e418a1179cbdaf2bd5e8dc97ad2471157974dd"
+        },
+        {
+            "blobSum": "sha256:597d67cf35838dfe518f96171bf5cedf8116291fb4fa7fbc4786e728b2332f94"
+        },
+        {
+            "blobSum": "sha256:424b9a0b0816f5fd1d12f8d3c23f43e551672859e99eca7ebcdfda08f9f6ec23"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3e0b2de6a4051bcdad98ced5e88879d08b66e226ccee323e794d13750a50dd3a"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"3d6ab825df48\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"443/tcp\":{},\"80/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"nginx\",\"-g\",\"daemon off;\"],\"ArgsEscaped\":true,\"Image\":\"sha256:b34c5443933543de85795ad03f75e95f1544f9bb6c32111db59f041d4593458a\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"fd734b5392de3b2e1dec570ac800943ae3b5602e42a3bb0822e9ddee0b41a434\",\"container_config\":{\"Hostname\":\"3d6ab825df48\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"443/tcp\":{},\"80/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"nginx\\\" \\\"-g\\\" \\\"daemon off;\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:b34c5443933543de85795ad03f75e95f1544f9bb6c32111db59f041d4593458a\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-29T17:02:56.145110293Z\",\"docker_version\":\"1.12.3\",\"id\":\"ae92159f836231da64b7a9b3911f98d66c661487e9e2a08b5d5d6bbc0ca27695\",\"os\":\"linux\",\"parent\":\"990ea59909458ac59e13d67120de2c68b51e37ccb4ce2b532fa2920ad484719d\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"990ea59909458ac59e13d67120de2c68b51e37ccb4ce2b532fa2920ad484719d\",\"parent\":\"ebfc0f5ddde627e95d2df441210237633851546fe6ebf7c961cb6c27e83090a8\",\"created\":\"2016-11-29T17:02:55.48488648Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  EXPOSE 443/tcp 80/tcp\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ebfc0f5ddde627e95d2df441210237633851546fe6ebf7c961cb6c27e83090a8\",\"parent\":\"46fac6f2d990f2e1b20a7e2d9db1961f51e4d5e9928f89569795ec492267336e\",\"created\":\"2016-11-29T17:02:54.877420028Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c ln -sf /dev/stderr /var/log/nginx/error.log\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"46fac6f2d990f2e1b20a7e2d9db1961f51e4d5e9928f89569795ec492267336e\",\"parent\":\"b23c9e4438c3b42f782d0e490c1be8a4c2131152884c25c6e34c7c4105fdf8e3\",\"created\":\"2016-11-29T17:02:53.084679058Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c ln -sf /dev/stdout /var/log/nginx/access.log\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b23c9e4438c3b42f782d0e490c1be8a4c2131152884c25c6e34c7c4105fdf8e3\",\"parent\":\"72b5c8a523e59bb79b80d62b55f74a084784d6f19e35f1751f9bca2fbaec98a0\",\"created\":\"2016-11-29T17:02:51.353395213Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c /tmp/build.sh\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"72b5c8a523e59bb79b80d62b55f74a084784d6f19e35f1751f9bca2fbaec98a0\",\"parent\":\"9408f57d0f2ff5c721da5662ac79bb101f0895d7e6c664858bda51e1870b5ff2\",\"created\":\"2016-11-29T16:58:31.697279405Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:87b631b817ebf6f2a395f2d5c187931dc0e78671da4dc275aedcbe98ef168a0d in /tmp \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9408f57d0f2ff5c721da5662ac79bb101f0895d7e6c664858bda51e1870b5ff2\",\"parent\":\"5d5d782193711611746b7fc4b5966de22baae5615c7c2114ec1aae49e36e61ce\",\"created\":\"2016-10-17T17:25:23.79843797Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/sh\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5d5d782193711611746b7fc4b5966de22baae5615c7c2114ec1aae49e36e61ce\",\"created\":\"2016-10-17T17:25:22.283057666Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:ec6a64b68241e87fbb7568ff2a9a9a4b1c44155d759aa8fc00c54d3985f7d9a6 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

@@ -1,0 +1,124 @@
+{
+    "name": "google_containers/mysql-galera",
+    "tag": "e2e",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:c644129e27eb0bf8241542ccb71303dee4af9f43c7a87d7450afe79ce0140a8f"
+        },
+        {
+            "blobSum": "sha256:0fb15022a4b868971715c993d079d9de6a84754c770d0f0b623a63d408f85db6"
+        },
+        {
+            "blobSum": "sha256:be2f4bfd5b278beb2ce46881c86cd92ca320f48a2ca0d44fd55717f980de2c10"
+        },
+        {
+            "blobSum": "sha256:a32128eb9046aad23260f16929a46c529026fdbedb1aa0a76196fe5fb1f658d8"
+        },
+        {
+            "blobSum": "sha256:102f214aec6547c8afd4ae56ec590f51f6deb40717f2d74b0015d2a290573841"
+        },
+        {
+            "blobSum": "sha256:f69f42ed2e07d4f6b106daae994151e44c8d82e10aeab083f2cea1008a5f4d0c"
+        },
+        {
+            "blobSum": "sha256:595164ffaee51823e62d19955a83f25f5f1007f6db4091bd5e5587018f56c9f2"
+        },
+        {
+            "blobSum": "sha256:4ee8b44a8aa3d5a6a1e37da18aab5adda57509a61433fb5855c66ab2c9e34ad6"
+        },
+        {
+            "blobSum": "sha256:177266e257a876d7f033a2a734eba7c5c7425796dda36e8d41bae9f6807041d1"
+        },
+        {
+            "blobSum": "sha256:42026ce199fb34d7140691a860174e3be3ad08bfdda469b693ff1776bd0408b0"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:28a2f68d1120598986362662445c47dce7ec13c2662479e7aab9f0ecad4a7416"
+        },
+        {
+            "blobSum": "sha256:fd2731e4c50ce221d785d4ce26a8430bca9a95bfe4162fafc997a1cc65682cce"
+        },
+        {
+            "blobSum": "sha256:5a132a7e7af11f304041e93efb9cb2a0a7839bccaec5a03cfbdc9a3f5d0eb481"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"erkan yanar \\u003cerkan.yanar@linsenraum.de\\u003e\",\"config\":{\"Hostname\":\"c24ffee5b2b8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"3306/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"VERSION=20160303\",\"DEBIAN_FRONTEND=noninteractive\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:6b5a592ee08aa29609bfb1f94f3b6f67f05b9d632383e73f3b9a9025175f9724\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/entrypoint.sh\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"15b55257ef4c654efd9206caceb5e6553f31c2b45de80401935eeea30045f61c\",\"container_config\":{\"Hostname\":\"c24ffee5b2b8\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"3306/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"VERSION=20160303\",\"DEBIAN_FRONTEND=noninteractive\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/entrypoint.sh\\\"]}\"],\"ArgsEscaped\":true,\"Image\":\"sha256:6b5a592ee08aa29609bfb1f94f3b6f67f05b9d632383e73f3b9a9025175f9724\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/entrypoint.sh\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-03-03T23:06:35.861800179Z\",\"docker_version\":\"1.10.2\",\"id\":\"43efcb6624459a172ed2f4ec38fdf6b3cb484c7f25dff78828a8510e5d2c9021\",\"os\":\"linux\",\"parent\":\"502535a0d7c2e054627516f54db9b958ef3ae6582cca5cec2557fef03dd591a8\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"502535a0d7c2e054627516f54db9b958ef3ae6582cca5cec2557fef03dd591a8\",\"parent\":\"b67cda93a1db4e904f7dc7e35164aca4bacf80a2423ce4b7d0993a30980e8481\",\"created\":\"2016-03-03T23:06:35.739157662Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 3306/tcp\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b67cda93a1db4e904f7dc7e35164aca4bacf80a2423ce4b7d0993a30980e8481\",\"parent\":\"ab5c050bdd344092b6e7a3db17c8db41f5ec485b48d89d9dc8247c4ce9060d88\",\"created\":\"2016-03-03T23:06:35.61350753Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c chmod 700 /entrypoint.sh\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ab5c050bdd344092b6e7a3db17c8db41f5ec485b48d89d9dc8247c4ce9060d88\",\"parent\":\"94b96715f5579528797a614a8102b8ab5ecb0798b744b47445c14ad1f5da5f31\",\"created\":\"2016-03-03T23:06:35.151876674Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:66ecf92d87fe50a722f0812336191e1d24d0cd8ac62180c3ce30196d1c28333c in /entrypoint.sh\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"94b96715f5579528797a614a8102b8ab5ecb0798b744b47445c14ad1f5da5f31\",\"parent\":\"3cdad58dc39192e3d96a0dcf4c161c17d828a31075b7e337b4b3be4a9948f7f9\",\"created\":\"2016-03-03T23:06:34.946620578Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:adcc042dd1c28b152d5e7ab150c387f8d05f6ad3babd1b8f1e6a1e5a94f30067 in /etc/mysql/my.cnf\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3cdad58dc39192e3d96a0dcf4c161c17d828a31075b7e337b4b3be4a9948f7f9\",\"parent\":\"5d55708647286e40dfb21ce41c59a5c9a0074b5d8ca1a98c77aac4bb0d48258d\",\"created\":\"2016-03-03T23:06:34.743672385Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c rm -r /var/lib/mysql\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5d55708647286e40dfb21ce41c59a5c9a0074b5d8ca1a98c77aac4bb0d48258d\",\"parent\":\"5f2ace4cb4fc0d42e8477c8348e07219b353e71fb3e1fd90b7708286423b73fb\",\"created\":\"2016-03-03T23:06:29.189202561Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get install -y galera-3 galera-arbitrator-3 mysql-wsrep-5.6 rsync lsof\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5f2ace4cb4fc0d42e8477c8348e07219b353e71fb3e1fd90b7708286423b73fb\",\"parent\":\"1978e8bf6592f7c0aba65468525eb234514b161b6c40b72b4de72fbd78f52083\",\"created\":\"2016-03-03T23:00:43.71643479Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1978e8bf6592f7c0aba65468525eb234514b161b6c40b72b4de72fbd78f52083\",\"parent\":\"587e4a246bf8b0f4b834bcc4af325d23ceb87446d9d23795b8e94956dfe1346c\",\"created\":\"2016-03-03T23:00:34.949290772Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c add-apt-repository 'deb http://releases.galeracluster.com/ubuntu trusty main'\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"587e4a246bf8b0f4b834bcc4af325d23ceb87446d9d23795b8e94956dfe1346c\",\"parent\":\"9e01ad8ecda1935a85d0c4d042f1e2ef419a25e7592eadc702b98fe789a8aa50\",\"created\":\"2016-03-03T23:00:33.584092125Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 BC19DDBA\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9e01ad8ecda1935a85d0c4d042f1e2ef419a25e7592eadc702b98fe789a8aa50\",\"parent\":\"4c6a05b2fa0b9f076bf05550a1dcbeaa884875052213c351138747a4b0cdd93b\",\"created\":\"2016-03-03T23:00:31.680290263Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get install -y  software-properties-common\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4c6a05b2fa0b9f076bf05550a1dcbeaa884875052213c351138747a4b0cdd93b\",\"parent\":\"dc219536d8ddfbcd1310ea14d65ea8ea21212d06aa1d292c0f21a8ee607ba5bc\",\"created\":\"2016-03-03T22:59:52.113083458Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"dc219536d8ddfbcd1310ea14d65ea8ea21212d06aa1d292c0f21a8ee607ba5bc\",\"parent\":\"d25a3130261482b4a5ee260e31dec564f32a37b762e13909a11a79a139c58774\",\"created\":\"2016-03-03T22:59:40.107137255Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV DEBIAN_FRONTEND=noninteractive\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d25a3130261482b4a5ee260e31dec564f32a37b762e13909a11a79a139c58774\",\"parent\":\"a38ddea4358d0f62b1b3b703bd7d93e88ffa9031ba22c63944ad99c8c6ba7e19\",\"created\":\"2016-03-03T22:59:39.985700434Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV VERSION=20160303\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a38ddea4358d0f62b1b3b703bd7d93e88ffa9031ba22c63944ad99c8c6ba7e19\",\"parent\":\"41346fa9c7451828ca030b10bbb7fd8a404ccf100c4b16308c14d2f0a6934489\",\"created\":\"2016-03-03T22:59:39.879307226Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER erkan yanar \\u003cerkan.yanar@linsenraum.de\\u003e\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"41346fa9c7451828ca030b10bbb7fd8a404ccf100c4b16308c14d2f0a6934489\",\"parent\":\"444000c10ea22c619f17e7cdede0f47814e7a379afd11f0752f12c97d78318cc\",\"created\":\"2016-03-03T21:38:53.80360049Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"444000c10ea22c619f17e7cdede0f47814e7a379afd11f0752f12c97d78318cc\",\"parent\":\"afac7dd00a3dfea414c4368d86f3b95f74c451caf8f5840aab3da08f82bee13e\",\"created\":\"2016-03-03T21:38:53.085760873Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c sed -i 's/^#\\\\s*\\\\(deb.*universe\\\\)$/\\\\1/g' /etc/apt/sources.list\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"afac7dd00a3dfea414c4368d86f3b95f74c451caf8f5840aab3da08f82bee13e\",\"parent\":\"004fc8e57a1459a838e94d8c8648534780ed1e28e98ae3c1c1255fc5b0796f1f\",\"created\":\"2016-03-03T21:38:51.45368726Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c echo '#!/bin/sh' \\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 echo 'exit 101' \\u003e\\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 chmod +x /usr/sbin/policy-rc.d \\t\\t\\u0026\\u0026 dpkg-divert --local --rename --add /sbin/initctl \\t\\u0026\\u0026 cp -a /usr/sbin/policy-rc.d /sbin/initctl \\t\\u0026\\u0026 sed -i 's/^exit.*/exit 0/' /sbin/initctl \\t\\t\\u0026\\u0026 echo 'force-unsafe-io' \\u003e /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \\t\\t\\u0026\\u0026 echo 'DPkg::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'APT::Update::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'Dir::Cache::pkgcache \\\"\\\"; Dir::Cache::srcpkgcache \\\"\\\";' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\t\\u0026\\u0026 echo 'Acquire::Languages \\\"none\\\";' \\u003e /etc/apt/apt.conf.d/docker-no-languages \\t\\t\\u0026\\u0026 echo 'Acquire::GzipIndexes \\\"true\\\"; Acquire::CompressionTypes::Order:: \\\"gz\\\";' \\u003e /etc/apt/apt.conf.d/docker-gzip-indexes\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"004fc8e57a1459a838e94d8c8648534780ed1e28e98ae3c1c1255fc5b0796f1f\",\"created\":\"2016-03-03T21:38:46.169812943Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:b9504126dc55908988977286e89c43c7ea73a506d43fae82c29ef132e21b6ece in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

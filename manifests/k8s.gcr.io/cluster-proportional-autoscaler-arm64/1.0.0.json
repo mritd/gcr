@@ -1,0 +1,46 @@
+{
+    "name": "google_containers/cluster-proportional-autoscaler-arm64",
+    "tag": "1.0.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:52cf6f301355217c1a13fad2822897620c271f787030a9ea34140120e750389e"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:0d49a44a39919180a2ac5e47c93a07dfb7a6daab6fea21a44c7f7e339759d139"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"262d3bdf73007b699100ab1d2ea96c3fdfda5c024a6475788e51ebf41bcea4e5\",\"parent\":\"ed719fa020a4019a4cca85cbd92d359ab2a97372ef5c9a7eb1afb3a14f8bfad2\",\"created\":\"2016-11-07T20:02:45.324821354Z\",\"container\":\"255bc3e77633fa7a9c55365a6876c229e4f895c900e1fb2c26b42fba6b632b14\",\"container_config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/cluster-proportional-autoscaler\\\"]}\"],\"Image\":\"ed719fa020a4019a4cca85cbd92d359ab2a97372ef5c9a7eb1afb3a14f8bfad2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/cluster-proportional-autoscaler\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Zihong Zheng \\u003czihongz@google.com\\u003e\",\"config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"ed719fa020a4019a4cca85cbd92d359ab2a97372ef5c9a7eb1afb3a14f8bfad2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/cluster-proportional-autoscaler\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ed719fa020a4019a4cca85cbd92d359ab2a97372ef5c9a7eb1afb3a14f8bfad2\",\"parent\":\"a73ac18a8dabfeab969d00bb13e9848ebd314973d36a1ee38c3381b12f80753d\",\"created\":\"2016-11-07T20:02:45.144648124Z\",\"container\":\"3917e5342106e253060f83dec91f70583338757e0ff7342e1103be0e19652664\",\"container_config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) USER [nobody:nobody]\"],\"Image\":\"a73ac18a8dabfeab969d00bb13e9848ebd314973d36a1ee38c3381b12f80753d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Zihong Zheng \\u003czihongz@google.com\\u003e\",\"config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"a73ac18a8dabfeab969d00bb13e9848ebd314973d36a1ee38c3381b12f80753d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a73ac18a8dabfeab969d00bb13e9848ebd314973d36a1ee38c3381b12f80753d\",\"parent\":\"d16fcb56bbbce196d860e54c8fbd2c7e66d646cef175b3c81ee14517216cc6e2\",\"created\":\"2016-11-07T20:02:44.794790937Z\",\"container\":\"7b463406e3a8b066897900f34bcc3d5748219fe6865b0771eb0437919b46c257\",\"container_config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:5993c54277b2cf8ab631a16dc46f5bbac355971441571e135bd4912e3fcf4af4 in /cluster-proportional-autoscaler\"],\"Image\":\"d16fcb56bbbce196d860e54c8fbd2c7e66d646cef175b3c81ee14517216cc6e2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Zihong Zheng \\u003czihongz@google.com\\u003e\",\"config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"d16fcb56bbbce196d860e54c8fbd2c7e66d646cef175b3c81ee14517216cc6e2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":45358332}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d16fcb56bbbce196d860e54c8fbd2c7e66d646cef175b3c81ee14517216cc6e2\",\"parent\":\"017e6985aa9f5fcea07e847ab0eb92f51f4b844a666760a48d27a43b69b9930c\",\"created\":\"2016-11-07T20:02:44.514991921Z\",\"container\":\"c3faf0a474019a0358c6d3858b2a962bd7042499897c01760b616ca1cd997b20\",\"container_config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Zihong Zheng \\u003czihongz@google.com\\u003e\"],\"Image\":\"5a6b746958639862fef9f35578c319305ec85a91f46d62a8d643e3b5c02846eb\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Zihong Zheng \\u003czihongz@google.com\\u003e\",\"config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"5a6b746958639862fef9f35578c319305ec85a91f46d62a8d643e3b5c02846eb\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"arm64\",\"config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:02af350d237c38fb140c6df4829a0b719b8d44a4c3e0dfc3919cfdfa76b7a030\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"container\":\"0f560b9c02534f2b120b0c73db51484fb4754b8eb84a2678105f57c9ea46e171\",\"container_config\":{\"Hostname\":\"dda39ed162a7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"sh\\\"]\"],\"Image\":\"sha256:02af350d237c38fb140c6df4829a0b719b8d44a4c3e0dfc3919cfdfa76b7a030\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"created\":\"2016-11-01T13:24:23.65929Z\",\"docker_version\":\"1.12.1\",\"id\":\"017e6985aa9f5fcea07e847ab0eb92f51f4b844a666760a48d27a43b69b9930c\",\"os\":\"linux\",\"parent\":\"627378b2050d7adc176708a38800ac24afb6a5c0a01754dc90801ee3a8101a11\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"627378b2050d7adc176708a38800ac24afb6a5c0a01754dc90801ee3a8101a11\",\"created\":\"2016-11-01T13:24:23.185742Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:bf1e2858c108a4c5d85d33f1b70eb4d31916c622a855140bf2964df973e2eccb in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

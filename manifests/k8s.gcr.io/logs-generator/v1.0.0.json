@@ -1,0 +1,40 @@
+{
+    "name": "google_containers/logs-generator",
+    "tag": "v1.0.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:41c63cbd7c5f22668f2042babcdd313ce09ec0d1ed761a118cd8bf75373ecb53"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:169bb74c2cc68bbd24ee28091fa9de059d9e92d4d947f42e06288f270038bc45"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"5bd69e989352fea9747519a8a2fc1ac9a8085f45f2bdb545addf4aea0192d26f\",\"parent\":\"f365cf6d3e7d612c5370c605e171ba5990bbfa1721951e59b05069dcd2c6171c\",\"created\":\"2016-10-12T08:22:23.648142525Z\",\"container\":\"388f4f3be9ec1203511c078f1a6a886d2da21852bb74205d7bd7bc09937cf70a\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/bin/sh\\\" \\\"-c\\\" \\\"/logs-generator --logtostderr   --log-lines-total=${LOGS_GENERATOR_LINES_TOTAL}   --run-duration=${LOGS_GENERATOR_DURATION}\\\"]}\"],\"Image\":\"f365cf6d3e7d612c5370c605e171ba5990bbfa1721951e59b05069dcd2c6171c\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/bin/sh\",\"-c\",\"/logs-generator --logtostderr   --log-lines-total=${LOGS_GENERATOR_LINES_TOTAL}   --run-duration=${LOGS_GENERATOR_DURATION}\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Mik Vyatskov \\u003cvmik@google.com\\u003e\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"f365cf6d3e7d612c5370c605e171ba5990bbfa1721951e59b05069dcd2c6171c\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/bin/sh\",\"-c\",\"/logs-generator --logtostderr   --log-lines-total=${LOGS_GENERATOR_LINES_TOTAL}   --run-duration=${LOGS_GENERATOR_DURATION}\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f365cf6d3e7d612c5370c605e171ba5990bbfa1721951e59b05069dcd2c6171c\",\"parent\":\"7c97659067aacf9eaa379ec81a5fd8533d9adb8979371a315d59b25c8b37f690\",\"created\":\"2016-10-12T08:22:23.461384065Z\",\"container\":\"fb7f93de26362b102a106d6d976dac509100e0547b89f77062bfe3b2ecb37e12\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:6249429e659f7988a20357d14f824158a01a540b337dc0d38ee70aa7b48d3f73 in /\"],\"Image\":\"7c97659067aacf9eaa379ec81a5fd8533d9adb8979371a315d59b25c8b37f690\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Mik Vyatskov \\u003cvmik@google.com\\u003e\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\"],\"Image\":\"7c97659067aacf9eaa379ec81a5fd8533d9adb8979371a315d59b25c8b37f690\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":1600993}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7c97659067aacf9eaa379ec81a5fd8533d9adb8979371a315d59b25c8b37f690\",\"parent\":\"8b7b3c9dc23033fa949d2bbfdf223e6a19cbaf9f4fccb82d7f78749006ce7296\",\"created\":\"2016-10-11T18:49:34.472870272Z\",\"container\":\"d6f1efe071014b7f94624020bc92503d13d8eb5ddfc2636a59674e548d5d4a10\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Mik Vyatskov \\u003cvmik@google.com\\u003e\"],\"Image\":\"d0f863ed5a5b07141241e893e197cce0e1ce202588fb77929d02255502319332\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Mik Vyatskov \\u003cvmik@google.com\\u003e\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\"],\"Image\":\"d0f863ed5a5b07141241e893e197cce0e1ce202588fb77929d02255502319332\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8b7b3c9dc23033fa949d2bbfdf223e6a19cbaf9f4fccb82d7f78749006ce7296\",\"parent\":\"885858784f077c480fa1a2e3ff7158a34913e8b57d818291a21c272cbedb204d\",\"created\":\"2016-08-22T18:51:30.424861689Z\",\"container\":\"0ed246a6b66fdc127ad532de2ce05640ad873a6188a1a274a435fab1de9afa6d\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/bin/sh\\\"]\"],\"Image\":\"885858784f077c480fa1a2e3ff7158a34913e8b57d818291a21c272cbedb204d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\"],\"Image\":\"885858784f077c480fa1a2e3ff7158a34913e8b57d818291a21c272cbedb204d\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"885858784f077c480fa1a2e3ff7158a34913e8b57d818291a21c272cbedb204d\",\"created\":\"2016-08-22T18:51:29.041729218Z\",\"container\":\"fd0d62fec9a3be06ffcc87cbcffac22b3d736a95a2ded042ae3418cf1f6ec853\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:ae304d8386be9f9c0b6d1fcc7707761d52bf3c8a4f7b4cca60131d53db04f24a in /\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":56567147}"
+        }
+    ],
+    "schemaVersion": 1
+}

@@ -1,0 +1,100 @@
+{
+    "name": "google_containers/submit-queue",
+    "tag": "2016-11-28-0cd58ea",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:ab8314c45eda46dbe94f46c02ecbe098a5d168220d5b238a44a7a2e542cf4435"
+        },
+        {
+            "blobSum": "sha256:d7ff54645401910ef35424eed699a20ac3c74776b44dbfa75178dc58236df082"
+        },
+        {
+            "blobSum": "sha256:f2151044ef27cb57e250bf49f7fc001c46c1e87c218145c7ac4d7c9a0659cf27"
+        },
+        {
+            "blobSum": "sha256:fe0d2b5628b0b8efc25454c55a320da80a81521b1520615e7d406e8da35d9441"
+        },
+        {
+            "blobSum": "sha256:f38ef422aea3d61d1105f76fd07cd35d0030c92c8f14bc992a9d92487a478231"
+        },
+        {
+            "blobSum": "sha256:d17f7e4654f45478623fc512ec1282b87fd6fd831e7038442e2f8996fba83690"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:414c8ed4b1b24ad56c5f99da6b0ee021711b92aae16dda1c25b19dfc08e156e8"
+        },
+        {
+            "blobSum": "sha256:db0fe5074d70bf0bd1a14f87039449cde1ae551d86e5f51a08ee2d06dae0dcdd"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:14c935ef769c0bb962e9d68a0399db5f42469fbc98db77cd4e4e1d195fcf13a2"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\",\"config\":{\"Hostname\":\"404382d51ba3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"--dry-run\",\"--token-file=/token\"],\"Image\":\"sha256:17807e2d0f47ee4eb51b01a7ad7b2c4fe5fa1e4a088707efb5001b32c41e0abc\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/mungegithub\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"5a62a9c1bfa2dd46cef3072321c90174a5c82ca342bb027f648de2e16e0c8630\",\"container_config\":{\"Hostname\":\"404382d51ba3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"8080/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"DEBIAN_FRONTEND=noninteractive\",\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:96f6303f29583a006dc4f37602e9b4ecf6e764f673f15378585297f6b48f17d1 in /mungegithub \"],\"Image\":\"sha256:17807e2d0f47ee4eb51b01a7ad7b2c4fe5fa1e4a088707efb5001b32c41e0abc\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/mungegithub\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-28T23:27:53.828300961Z\",\"docker_version\":\"1.12.3\",\"id\":\"2000abe0f22fc53a73805c484f5f1d3bed91b881f0694e2d6f415357858bbb29\",\"os\":\"linux\",\"parent\":\"970d6a691ea2d9be44712a2a2c726981288859e97fae512e6891a81631554ac7\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"970d6a691ea2d9be44712a2a2c726981288859e97fae512e6891a81631554ac7\",\"parent\":\"66d605970e6c4731f5cab2f80369db01bbdb3018cb25aac9a4efe2592835d9ce\",\"created\":\"2016-11-17T19:51:32.934291344Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD dir:58a1d267906630c3e35d1e6388457e9fbe0b5a97579c60529ed6765b94f580f2 in /www \"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"66d605970e6c4731f5cab2f80369db01bbdb3018cb25aac9a4efe2592835d9ce\",\"parent\":\"3965b48c3bb4d111a2c7c39545ccaef4b10a353f0a85ceb660dbd691ba39f888\",\"created\":\"2016-11-17T19:51:32.649603524Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:3182f263a69714cc18b6ebcb3c004d87854ff65117ccacf951537ecb49fa0d0d in /whitelist.txt \"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3965b48c3bb4d111a2c7c39545ccaef4b10a353f0a85ceb660dbd691ba39f888\",\"parent\":\"6ed75be8c194124c6e10844a7645d5e3e3c1fce787a465ab54846bface8d3c54\",\"created\":\"2016-11-17T19:51:32.421500152Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:056420448fa4c232302dc6594dfa656feb2fa7be40b10566db3a71b19c16b19a in /committers.txt \"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6ed75be8c194124c6e10844a7645d5e3e3c1fce787a465ab54846bface8d3c54\",\"parent\":\"44add25a126e896e24602c4e562593a2d530daf3f979a9e8ca3fc93da948e744\",\"created\":\"2016-11-16T21:47:22.169304067Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:e2d9dbfc836cdf8f11a819ad04207ea2a421f5ad76ea7ca50ecaee9a8f03c7de in /block-path.yaml \"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"44add25a126e896e24602c4e562593a2d530daf3f979a9e8ca3fc93da948e744\",\"parent\":\"c5130cdff2bb1ddb563fec7fda2afc258d8b49abfe8b59456f5ddb2b7935ae11\",\"created\":\"2016-11-16T21:47:21.901334613Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:aff761911e4d413ac1c09f4eb75baa94d60485a28426b85778441759b6a4540d in /path-label.txt \"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c5130cdff2bb1ddb563fec7fda2afc258d8b49abfe8b59456f5ddb2b7935ae11\",\"parent\":\"f206bccfe7986564530c2f71ce3eb0de1d23faff12923c002d7471fdbcde0f66\",\"created\":\"2016-11-16T21:47:21.68140517Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"--dry-run\\\" \\\"--token-file=/token\\\"]\"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f206bccfe7986564530c2f71ce3eb0de1d23faff12923c002d7471fdbcde0f66\",\"parent\":\"e79e4b08740382a9c0265b4df039689de52cd98baff20858d947714d932ad79e\",\"created\":\"2016-11-16T21:47:21.5134755Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENTRYPOINT [\\\"/mungegithub\\\"]\"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e79e4b08740382a9c0265b4df039689de52cd98baff20858d947714d932ad79e\",\"parent\":\"12319ebe5638552501dafb3771b5b6ae1f93bd428103978197b6e25d555a2d5c\",\"created\":\"2016-11-16T21:47:21.349474184Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  EXPOSE 8080/tcp\"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"12319ebe5638552501dafb3771b5b6ae1f93bd428103978197b6e25d555a2d5c\",\"parent\":\"3e73e9c5a506d97f1ef6c56c0d25878ef2d997851c66d312f2c959b7aef8d9eb\",\"created\":\"2016-11-16T21:47:21.044042711Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get install -y -qq ca-certificates git\"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3e73e9c5a506d97f1ef6c56c0d25878ef2d997851c66d312f2c959b7aef8d9eb\",\"parent\":\"3fdb2abc89057c6b200ecd491eafe2c7a7fe231c4e7862d18890417ac311a8c8\",\"created\":\"2016-11-16T21:46:41.041599837Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update\"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3fdb2abc89057c6b200ecd491eafe2c7a7fe231c4e7862d18890417ac311a8c8\",\"parent\":\"db780cfd7e6ec9941f1d5c4b53b6c9a9bcaf8bab7df2e06183186d20bcbc0227\",\"created\":\"2016-11-16T21:46:35.065863258Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Brendan Burns \\u003cbburns@google.com\\u003e\"]},\"author\":\"Brendan Burns \\u003cbburns@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"db780cfd7e6ec9941f1d5c4b53b6c9a9bcaf8bab7df2e06183186d20bcbc0227\",\"parent\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"created\":\"2016-01-22T23:27:09.879923503Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:93048e87705623fb01ea5e30d3124423847bbff9ecebb06ba8f0f4a3acb23865 in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8e9880e2f2f433621c34c94d346eecaf8e8e500e3e55f52a6c322d2f747ae137\",\"parent\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2016-01-22T23:26:43.248910636Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2016-01-22T23:26:43.17119614Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV DEBIAN_FRONTEND=noninteractive\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

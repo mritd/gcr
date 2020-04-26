@@ -1,0 +1,28 @@
+{
+    "name": "istio-release/sidecar_injector",
+    "tag": "master-20190507-09-16",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:756252c78ccc52c617a2fe19ea04e2904d7ba73d0fbd526973a7a09c273e9efb"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:4f7b37a34edb497eb8bd09c5d3f4a070eedfc61b340011e1630efaed066cdd01"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"sha256:7394d74d0f7dda11672e1cee1fe4a427e3552492718195e513d8a84a50865c8c\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/usr/local/bin/sidecar-injector\"],\"OnBuild\":null,\"Labels\":null},\"container_config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:b91a0cf4459634fcff2f6d3a55c16a44d09b2eaf3489a73b825d9806b00ce841 in / \"],\"Image\":\"sha256:7394d74d0f7dda11672e1cee1fe4a427e3552492718195e513d8a84a50865c8c\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/usr/local/bin/sidecar-injector\"],\"OnBuild\":null,\"Labels\":null},\"created\":\"2019-05-07T11:58:10.927259887Z\",\"docker_version\":\"18.06.1-ce\",\"id\":\"51beafa2e134a9e20128905e92bdfd681f8db63d3f986b94b24ed28ce59b657f\",\"os\":\"linux\",\"parent\":\"cd15e59e5e84ff10c52441404205919a6ad37c06e976bda18b11cb206d60a9d0\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cd15e59e5e84ff10c52441404205919a6ad37c06e976bda18b11cb206d60a9d0\",\"parent\":\"508670c66d9d45705be52ba91e788c058cda323b8678c7dfef63cac459bc257b\",\"created\":\"2019-05-07T11:54:53.421903308Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENTRYPOINT [\\\"/usr/local/bin/sidecar-injector\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"508670c66d9d45705be52ba91e788c058cda323b8678c7dfef63cac459bc257b\",\"created\":\"2019-05-07T11:54:50.399545839Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:3492bd81e39230a042c26b4ed4adfa0718f3f8df184c513557741fa4f797626d in /usr/local/bin/ \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

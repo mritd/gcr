@@ -1,0 +1,70 @@
+{
+    "name": "istio-release/proxy_init",
+    "tag": "rkpagadala-test38",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:f332a404d3d43cde8c8e8f3d9da043e8681255f98bffc59dc8d91cb9fbb0658d"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3f970ee09ea7de68bab66b5c1c9993c016fc74ed09482031cfee3a6993f7196"
+        },
+        {
+            "blobSum": "sha256:5c8b2b565326bc181af5c26087bf0bd801ec738020be96e9c77ffef57ef97af5"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:2e3debadcbf7e542e2aefbce1b64a358b1931fb403b3e4aeca27cb4d809d56c2"
+        },
+        {
+            "blobSum": "sha256:c7fb3351ecad291a88b92b600037e2435c84a347683d540042086fe72c902b8a"
+        },
+        {
+            "blobSum": "sha256:ebbcacd28e101968415b0c812b2d2dc60f969e36b0b08c073bf796e12b1bb449"
+        },
+        {
+            "blobSum": "sha256:504facff238fde83f1ca8f9f54520b4219c5b8f80be9616ddc52d31448a044bd"
+        },
+        {
+            "blobSum": "sha256:3b37166ec61459e76e33282dda08f2a9cd698ca7e3d6bc44e6a6e7580cdeff8e"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:e7dd3f971a7ab8b1070c4a20ded9cb2745cda2f39bac2eb9d80a0d74443a6faf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/usr/local/bin/istio-iptables.sh\"],\"OnBuild\":null,\"Labels\":null},\"container_config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:5c9cce5d8a41e598dec72b4e63ef2b5105e899266f30b8b81490211cf69832f4 in / \"],\"ArgsEscaped\":true,\"Image\":\"sha256:e7dd3f971a7ab8b1070c4a20ded9cb2745cda2f39bac2eb9d80a0d74443a6faf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/usr/local/bin/istio-iptables.sh\"],\"OnBuild\":null,\"Labels\":null},\"created\":\"2018-10-01T23:49:53.791715412Z\",\"docker_version\":\"17.12.0-ce\",\"id\":\"4187c9fed61a9052206fe911c5eafb431b27e93e7c2a515922a9beed9e52d5b8\",\"os\":\"linux\",\"parent\":\"645aa39331ec56454ae9ac77938ffccb964b6b18a4f1770c35c606ea439669ac\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"645aa39331ec56454ae9ac77938ffccb964b6b18a4f1770c35c606ea439669ac\",\"parent\":\"33d9eba2e65ad844fb8cbdc6005ffa2ade4728611e49092a9e3d3a24aa10d4b4\",\"created\":\"2018-10-01T23:42:17.152141521Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENTRYPOINT [\\\"/usr/local/bin/istio-iptables.sh\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"33d9eba2e65ad844fb8cbdc6005ffa2ade4728611e49092a9e3d3a24aa10d4b4\",\"parent\":\"f90b17977c4c1ed96790373a047923ead11d312f2d7217877cd2182bf7af98bd\",\"created\":\"2018-10-01T23:42:17.00997215Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:fdd95b624f758cc697b08401df2660094f9c4ee4092180e567ad752afc78d652 in /usr/local/bin/ \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f90b17977c4c1ed96790373a047923ead11d312f2d7217877cd2182bf7af98bd\",\"parent\":\"6e8ad24c12905eab7dceafa8f41c32c40da161a14578eac1762af8b7b865d231\",\"created\":\"2018-10-01T23:42:16.843489Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get upgrade -y \\u0026\\u0026 apt-get install -y     iproute2     iptables  \\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6e8ad24c12905eab7dceafa8f41c32c40da161a14578eac1762af8b7b865d231\",\"parent\":\"596d49ae6fb66768acbea2bc6c529791454ca4b5da5a591121a9886e460ebdf5\",\"created\":\"2018-09-05T22:20:57.758547727Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"596d49ae6fb66768acbea2bc6c529791454ca4b5da5a591121a9886e460ebdf5\",\"parent\":\"16d94f731fe8d350174060273a0487fa87aa4f4abe01667eb037269360fe4e7b\",\"created\":\"2018-09-05T22:20:57.602946438Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir -p /run/systemd \\u0026\\u0026 echo 'docker' \\u003e /run/systemd/container\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"16d94f731fe8d350174060273a0487fa87aa4f4abe01667eb037269360fe4e7b\",\"parent\":\"9894dd6d96d5c7c147eb3fac9f8a2e48dcb40daf3136e833da20e2254513b08b\",\"created\":\"2018-09-05T22:20:57.023288712Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c sed -i 's/^#\\\\s*\\\\(deb.*universe\\\\)$/\\\\1/g' /etc/apt/sources.list\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9894dd6d96d5c7c147eb3fac9f8a2e48dcb40daf3136e833da20e2254513b08b\",\"parent\":\"d9b1c55cd7bdd987fbec70383604c64bf45982ad5f2c0446fd78a588838f5d7c\",\"created\":\"2018-09-05T22:20:56.423645249Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d9b1c55cd7bdd987fbec70383604c64bf45982ad5f2c0446fd78a588838f5d7c\",\"parent\":\"0b9f37cacaf3176e03932a0e86f18aea293d6c70ddbebb9ed994b51d46bff62e\",\"created\":\"2018-09-05T22:20:55.867042901Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -xe \\t\\t\\u0026\\u0026 echo '#!/bin/sh' \\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 echo 'exit 101' \\u003e\\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 chmod +x /usr/sbin/policy-rc.d \\t\\t\\u0026\\u0026 dpkg-divert --local --rename --add /sbin/initctl \\t\\u0026\\u0026 cp -a /usr/sbin/policy-rc.d /sbin/initctl \\t\\u0026\\u0026 sed -i 's/^exit.*/exit 0/' /sbin/initctl \\t\\t\\u0026\\u0026 echo 'force-unsafe-io' \\u003e /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \\t\\t\\u0026\\u0026 echo 'DPkg::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'APT::Update::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'Dir::Cache::pkgcache \\\"\\\"; Dir::Cache::srcpkgcache \\\"\\\";' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\t\\u0026\\u0026 echo 'Acquire::Languages \\\"none\\\";' \\u003e /etc/apt/apt.conf.d/docker-no-languages \\t\\t\\u0026\\u0026 echo 'Acquire::GzipIndexes \\\"true\\\"; Acquire::CompressionTypes::Order:: \\\"gz\\\";' \\u003e /etc/apt/apt.conf.d/docker-gzip-indexes \\t\\t\\u0026\\u0026 echo 'Apt::AutoRemove::SuggestsImportant \\\"false\\\";' \\u003e /etc/apt/apt.conf.d/docker-autoremove-suggests\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0b9f37cacaf3176e03932a0e86f18aea293d6c70ddbebb9ed994b51d46bff62e\",\"created\":\"2018-09-05T22:20:55.163307996Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:a83ab1826f43e88bc0d3ab6230f14cb9b2dacab70c762c3bfc555eda733b292c in / \"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

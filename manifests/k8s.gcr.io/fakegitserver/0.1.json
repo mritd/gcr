@@ -1,0 +1,28 @@
+{
+    "name": "google_containers/fakegitserver",
+    "tag": "0.1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:d74b973e79e9afaf0085e8f43de03a9bb68433e9c6e2fb5f50fb27ddf06a82d2"
+        },
+        {
+            "blobSum": "sha256:232f525e5748093744ed7cb1cd37c9b6f10a041d19d602232dbaaa036c0706cb"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"44f9baf84b2918b10c767dba0a1fa335ac2261eed8a43ecc9f66ecf6b751e140\",\"parent\":\"ac5d2a8aadac5037e8c42a69bd224996f5050227104f9112272b6761afc4d539\",\"created\":\"2016-01-22T07:02:41.529082996Z\",\"container\":\"4322f438f1c93d673f9d640ce5f2f87dce5efbec187c46343977eabe12b2d70e\",\"container_config\":{\"Hostname\":\"aa762aea9834\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/gitserver\\\"]}\"],\"Image\":\"ac5d2a8aadac5037e8c42a69bd224996f5050227104f9112272b6761afc4d539\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/gitserver\"],\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"aa762aea9834\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"ac5d2a8aadac5037e8c42a69bd224996f5050227104f9112272b6761afc4d539\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/gitserver\"],\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ac5d2a8aadac5037e8c42a69bd224996f5050227104f9112272b6761afc4d539\",\"parent\":\"712e8bc0ffa076f816437dc64f2a727ed438d8497b2d6cc4b8e0e591cf58acdf\",\"created\":\"2016-01-22T07:02:41.038664832Z\",\"container\":\"d5555e048713f62afc736468a6faae75f52968d0cd8bf650250184d2f9115757\",\"container_config\":{\"Hostname\":\"aa762aea9834\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:eba1d700fdac5b51012a21bdfa0a6e45dc10ec57242d91c0031ea17687de765f in /\"],\"Image\":\"712e8bc0ffa076f816437dc64f2a727ed438d8497b2d6cc4b8e0e591cf58acdf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"aa762aea9834\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"712e8bc0ffa076f816437dc64f2a727ed438d8497b2d6cc4b8e0e591cf58acdf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":5007428}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"712e8bc0ffa076f816437dc64f2a727ed438d8497b2d6cc4b8e0e591cf58acdf\",\"created\":\"2016-01-22T07:02:40.518288651Z\",\"container\":\"aa762aea9834fe160cc49ad8868f9b14dc07711f08ed1c5873410a8d3cf3310d\",\"container_config\":{\"Hostname\":\"aa762aea9834\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:053c459b6acb106fb7f877ae88f30e20ede54e90dcdf1f97df1ab145ab80fad4 in /\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"aa762aea9834\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":41}"
+        }
+    ],
+    "schemaVersion": 1
+}

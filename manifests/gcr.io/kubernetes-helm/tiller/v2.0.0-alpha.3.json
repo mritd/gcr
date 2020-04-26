@@ -1,0 +1,34 @@
+{
+    "name": "kubernetes-helm/tiller",
+    "tag": "v2.0.0-alpha.3",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:879450f71e0ff9cdcb52ffb45c37628f7552aac25192f60ad57e2432bddea3f4"
+        },
+        {
+            "blobSum": "sha256:6c123565ed5e79b6c944d6da64bd785ad3ec03c6e853dcb733254aebb215ae55"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"ae2e58a6294e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"44134/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/tiller\"],\"Image\":\"sha256:53747d6018dc99176dba23dc2a9d70c4d24d683cf6bd3fa587c3e6263a41ef85\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"efe06a76ba6ec53a01964892339551496d1497962715864e167c8ba10beb9e6b\",\"container_config\":{\"Hostname\":\"ae2e58a6294e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"44134/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"/tiller\\\"]\"],\"Image\":\"sha256:53747d6018dc99176dba23dc2a9d70c4d24d683cf6bd3fa587c3e6263a41ef85\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-08-10T22:12:59.930235295Z\",\"docker_version\":\"1.12.0\",\"id\":\"1fbfa1eb76b22f03b77bbb1515ab4e9946a663b89e0cca26bbc6faecdd520ab7\",\"os\":\"linux\",\"parent\":\"b2d07468acbc834abb463350696726054ad83ec5804a83c1b445ab1bf89f0512\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b2d07468acbc834abb463350696726054ad83ec5804a83c1b445ab1bf89f0512\",\"parent\":\"1c7f73064359be38434dbe729dc7b704cf99068e696aec68412f02adf6bc9eab\",\"created\":\"2016-08-10T22:12:59.47093062Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  EXPOSE 44134/tcp\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1c7f73064359be38434dbe729dc7b704cf99068e696aec68412f02adf6bc9eab\",\"parent\":\"415049c7b80053ff6d962bef6d08058abe309c816319b97787e4a212a5d333d0\",\"created\":\"2016-08-10T22:12:59.001294614Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY dir:9448b18a2dde4850bb82839d578d2547a30b5506f1a4f79269efecc0b74f7c7c in / \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"415049c7b80053ff6d962bef6d08058abe309c816319b97787e4a212a5d333d0\",\"created\":\"2016-06-23T19:55:12.671901355Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:86864edb9037700501e6e016262c29922e0c67762b4525901ca5a8194a078bfb in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

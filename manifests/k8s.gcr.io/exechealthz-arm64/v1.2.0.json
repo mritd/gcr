@@ -1,0 +1,46 @@
+{
+    "name": "google_containers/exechealthz-arm64",
+    "tag": "v1.2.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:2bd269ac93f0008c10bf7ee266eff9e75d876dbea3b1a20a0a86def94dff8036"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:03c78ae495159adc1b53d2bc2dfe0c53a8ceedbd91e1e27ee0cbb1bdf6ab7535"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"aad8b25665ec5c183ba3d26d56ac3b46348c4b26aed36c3031dddb5c91e67c5b\",\"parent\":\"ae7457e3eb6c6283ce6da7c0a1daf6f8d2e3dc51623b093eb10071796c7c1faf\",\"created\":\"2016-09-26T19:56:10.553457916Z\",\"container\":\"818ef4ae198c5a0460becce257eca8657c83199717bae16128ac88280e80ce4b\",\"container_config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/exechealthz\\\"]}\"],\"Image\":\"ae7457e3eb6c6283ce6da7c0a1daf6f8d2e3dc51623b093eb10071796c7c1faf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/exechealthz\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Prashanth B \\u003cbeeps@google.com\\u003e\",\"config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"ae7457e3eb6c6283ce6da7c0a1daf6f8d2e3dc51623b093eb10071796c7c1faf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/exechealthz\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ae7457e3eb6c6283ce6da7c0a1daf6f8d2e3dc51623b093eb10071796c7c1faf\",\"parent\":\"35ab75795f2d1f8dbc177bb91ddf472ba8b50375dd35876e6353e50f99b92d06\",\"created\":\"2016-09-26T19:56:10.389583548Z\",\"container\":\"24e109a00fc3ef5e5a9f3a878d5b7c5a596372f7ae10275adf9cb10de4bddc26\",\"container_config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) USER [nobody:nobody]\"],\"Image\":\"35ab75795f2d1f8dbc177bb91ddf472ba8b50375dd35876e6353e50f99b92d06\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Prashanth B \\u003cbeeps@google.com\\u003e\",\"config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"nobody:nobody\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"35ab75795f2d1f8dbc177bb91ddf472ba8b50375dd35876e6353e50f99b92d06\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"35ab75795f2d1f8dbc177bb91ddf472ba8b50375dd35876e6353e50f99b92d06\",\"parent\":\"5fde0c711b6a3819241be31a9a6fa2b89ac561024c4b7e689fd2d3e7bdf382d9\",\"created\":\"2016-09-26T19:56:10.175218805Z\",\"container\":\"4707f91955264f18be803998736151566fdd15d1f88a6d0621538bd70d6221ab\",\"container_config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:2b870529c3e84e0300d66e6f6c9c980087e051077c2f2b188b5e6e02d4f41051 in /exechealthz\"],\"Image\":\"5fde0c711b6a3819241be31a9a6fa2b89ac561024c4b7e689fd2d3e7bdf382d9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Prashanth B \\u003cbeeps@google.com\\u003e\",\"config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"5fde0c711b6a3819241be31a9a6fa2b89ac561024c4b7e689fd2d3e7bdf382d9\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":8302392}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5fde0c711b6a3819241be31a9a6fa2b89ac561024c4b7e689fd2d3e7bdf382d9\",\"parent\":\"abba16c1138231b513c46b691f687f56cc199cadd33bfbcbc6fb6c5ceae999a4\",\"created\":\"2016-09-26T19:56:09.953730796Z\",\"container\":\"7ba1ac083e1d6d52406f131c5b206f11367963833425d47ef3a5fd69274d9a5a\",\"container_config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Prashanth B \\u003cbeeps@google.com\\u003e\"],\"Image\":\"c9187c8e06b3b6db409a47510220127f44a5a061ad7d2ad3143af83bd8eb92ac\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Prashanth B \\u003cbeeps@google.com\\u003e\",\"config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"c9187c8e06b3b6db409a47510220127f44a5a061ad7d2ad3143af83bd8eb92ac\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"arm64\",\"config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:e8dcfe4ca12d64869fbbd60e7b279a8685a06645274c609495874b64d101e9b4\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"container\":\"2179219d69cf047b37596a1a0ebe21085c26e2042a82ff0f6604f1b3d0bdc904\",\"container_config\":{\"Hostname\":\"e69eaa1cc99c\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"sh\\\"]\"],\"Image\":\"sha256:e8dcfe4ca12d64869fbbd60e7b279a8685a06645274c609495874b64d101e9b4\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"created\":\"2016-08-25T23:28:23.647348Z\",\"docker_version\":\"1.10.0-dev\",\"id\":\"abba16c1138231b513c46b691f687f56cc199cadd33bfbcbc6fb6c5ceae999a4\",\"os\":\"linux\",\"parent\":\"6d90990c235f6f55b46731b8c4454b1a87ccc27219d6963a53b4aa1e648357d2\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6d90990c235f6f55b46731b8c4454b1a87ccc27219d6963a53b4aa1e648357d2\",\"created\":\"2016-08-25T23:28:22.252237Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:74040b63752ddc55bc4e0f0a92bef525261a5d9c5db5b42ac8f62a6d7c9b5aef in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

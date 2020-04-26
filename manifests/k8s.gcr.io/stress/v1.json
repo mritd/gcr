@@ -1,0 +1,28 @@
+{
+    "name": "google-containers/stress",
+    "tag": "v1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:2ce2382a5646300744a450bcd4d7c0e279fa400c5133044e5398a6fe81b5f554"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"vishnuk@google.com\",\"config\":{\"Hostname\":\"01eb13832dd7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"sha256:ac160f2e186ae1a9b5d2d7e995376923278678cea6bf0c5ebeb94f697a381300\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/stress\",\"-logtostderr\"],\"OnBuild\":null,\"Labels\":{}},\"container\":\"a6dec4e08a57043b6854faa8e407372af8679583962e7d7503d23fdd00d8337d\",\"container_config\":{\"Hostname\":\"01eb13832dd7\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT [\\\"/stress\\\" \\\"-logtostderr\\\"]\"],\"Image\":\"sha256:ac160f2e186ae1a9b5d2d7e995376923278678cea6bf0c5ebeb94f697a381300\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/stress\",\"-logtostderr\"],\"OnBuild\":null,\"Labels\":{}},\"created\":\"2016-06-24T22:29:32.95551699Z\",\"docker_version\":\"1.11.1\",\"id\":\"39400199787183b1f75967b88a61a9e03e53c96de6065363a238a897813852ae\",\"os\":\"linux\",\"parent\":\"e1e87835544178573d6411b2e1656320919e57166988131459081af785135e44\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e1e87835544178573d6411b2e1656320919e57166988131459081af785135e44\",\"parent\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2016-06-24T22:29:32.844600906Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:0837bc1af3a3e78b37b6e794751c96b233c2a6867844053e29f4e9e9efa6ec9b in /\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3690474eb5b4b26fdfbd89c6e159e8cc376ca76ef48032a30fa6aafd56337880\",\"created\":\"2016-06-24T00:31:35.982546957Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER vishnuk@google.com\"]},\"throwaway\":true}"
+        }
+    ],
+    "schemaVersion": 1
+}

@@ -1,0 +1,112 @@
+{
+    "name": "google-containers/kube-addon-manager-ppc64le",
+    "tag": "v5",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:8aad9cc51ef45a9c9da85534d600030f9972727dd7c50ab26c8ab30a3f4b8421"
+        },
+        {
+            "blobSum": "sha256:9de078ce6ec02c4d30adbad057a07deb7ea87073b02ef6d8b8092756bdc8efc5"
+        },
+        {
+            "blobSum": "sha256:c1c0be1d8b999227c250eae9e756fdc0bc83125f2603e41db5005632127bf642"
+        },
+        {
+            "blobSum": "sha256:199858a7dc29973b69c60237dd55524b75fc9c9f72a8bb09d30b7a5d70959d0c"
+        },
+        {
+            "blobSum": "sha256:be1aa72ebfe9b1eb2372d88e26442ec319e28b1e99ac6c44f0f9ba43984a7a79"
+        },
+        {
+            "blobSum": "sha256:374858b4277fefb8878e1068f9e444532dbb05985d25def966a53b4ef0cddeb5"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:c68c55d41fc18bf72633aac1c4d8755350f3eec594d5d4a85608742ec1216c72"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:42aef50dac31e798c6646a68ed32445cbeaba4e62b4c9c6de7391d8b3489ab79"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:d8ba63be51bec4fe024eaa2f3090726b3ed7c3e9927d5e919b735f9081bedf02"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"53d3ee25d30a846b8c553f46edf247e719f7623ab3882adcbb6b56f42469f599\",\"parent\":\"f4acfc102ec25faa7658bc58c4a58f026d720806266fb7ac5313ed188db4e2de\",\"created\":\"2016-06-25T18:03:16.439433901Z\",\"container\":\"6dee8de13a52e11b19c46b7c82fcc10b59515842f1a096798481968b9f54e846\",\"container_config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"/opt/kube-addons.sh\\\"]\"],\"Image\":\"f4acfc102ec25faa7658bc58c4a58f026d720806266fb7ac5313ed188db4e2de\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/opt/kube-addons.sh\"],\"Image\":\"f4acfc102ec25faa7658bc58c4a58f026d720806266fb7ac5313ed188db4e2de\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f4acfc102ec25faa7658bc58c4a58f026d720806266fb7ac5313ed188db4e2de\",\"parent\":\"7d096e615d8da7ab24ffe7657ce08fbc251c2abd8e7047b678a3b33608b2d821\",\"created\":\"2016-06-25T18:03:16.072593878Z\",\"container\":\"b72511eb4712ea2b243ed5a22e4e8a75cc9a572439db554d1ac944a078b45b60\",\"container_config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:a9298e9d5287be8169c19f05732a57a778a9a1d5f1bf074d352efd1e35dad8b3 in /usr/local/bin/\"],\"Image\":\"7d096e615d8da7ab24ffe7657ce08fbc251c2abd8e7047b678a3b33608b2d821\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"python2\"],\"Image\":\"7d096e615d8da7ab24ffe7657ce08fbc251c2abd8e7047b678a3b33608b2d821\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":56393312}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7d096e615d8da7ab24ffe7657ce08fbc251c2abd8e7047b678a3b33608b2d821\",\"parent\":\"c823b8f2d080f2d0ab94dd732ca698a05a6c6705233c7e1d1f481f4a795d6fe8\",\"created\":\"2016-06-25T18:03:15.812386029Z\",\"container\":\"03de20c39a6b4a2329135f48d4c83460ba003bbc4f428f4880b857a635cb833b\",\"container_config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:b748b3ec592ccd85e1cada58122e293b3df65cf1e18580fac150bd6fdfa07b3a in /opt/\"],\"Image\":\"c823b8f2d080f2d0ab94dd732ca698a05a6c6705233c7e1d1f481f4a795d6fe8\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"python2\"],\"Image\":\"c823b8f2d080f2d0ab94dd732ca698a05a6c6705233c7e1d1f481f4a795d6fe8\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":61}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c823b8f2d080f2d0ab94dd732ca698a05a6c6705233c7e1d1f481f4a795d6fe8\",\"parent\":\"9a6ff7bd6bb2c1ca87a25374374eed5b8505e3e52fcb80e2afe8c8ebefef3672\",\"created\":\"2016-06-25T18:03:15.597800561Z\",\"container\":\"2a9059bef5a54955a59bdeb6fdadef1330c8737d69e7e870866edc7fe8241808\",\"container_config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:33e5a10b6379403e4071a12823b9cacb19f851b742acdb6e4f539bb2f40132c7 in /opt/\"],\"Image\":\"9a6ff7bd6bb2c1ca87a25374374eed5b8505e3e52fcb80e2afe8c8ebefef3672\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"python2\"],\"Image\":\"9a6ff7bd6bb2c1ca87a25374374eed5b8505e3e52fcb80e2afe8c8ebefef3672\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":17945}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9a6ff7bd6bb2c1ca87a25374374eed5b8505e3e52fcb80e2afe8c8ebefef3672\",\"parent\":\"372d0fd5578ab2f1bb7cc3dd4ff707e4b66916f8bd22f9e4db3b4c69434827c0\",\"created\":\"2016-06-25T18:03:15.384551089Z\",\"container\":\"1d6054f63f6ce87ce5ef377171182a073069c7abe2d48b64fe81e581ba939a71\",\"container_config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:fcdb0d72cd07ec4880ac87024cb03216537e1546b449e7ea80230f2a5c08c764 in /opt/\"],\"Image\":\"372d0fd5578ab2f1bb7cc3dd4ff707e4b66916f8bd22f9e4db3b4c69434827c0\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"python2\"],\"Image\":\"372d0fd5578ab2f1bb7cc3dd4ff707e4b66916f8bd22f9e4db3b4c69434827c0\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":3981}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"372d0fd5578ab2f1bb7cc3dd4ff707e4b66916f8bd22f9e4db3b4c69434827c0\",\"parent\":\"75c762d69aa50d0a507f4500077a0bfe04fcf303ff232b00f20546575c01d496\",\"created\":\"2016-06-25T18:03:15.04157202Z\",\"container\":\"53614794ec4d79119fd62457a609e52d9465a9e756460f6517e5645d928f3d6d\",\"container_config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"pip install pyyaml\"],\"Image\":\"75c762d69aa50d0a507f4500077a0bfe04fcf303ff232b00f20546575c01d496\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"python2\"],\"Image\":\"75c762d69aa50d0a507f4500077a0bfe04fcf303ff232b00f20546575c01d496\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":5930530}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"75c762d69aa50d0a507f4500077a0bfe04fcf303ff232b00f20546575c01d496\",\"parent\":\"1a8def0e4d018899318aac87e244a00f002b4612b0d0cbc7ffa29aabc16f7377\",\"created\":\"2016-06-25T18:02:53.583769281Z\",\"container\":\"665add9397cfb51ab66b77dc611c596a5014e80b76d85209b49f1799b29dff7d\",\"container_config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:5ae7199fc05fa9a24516575002115304e500610f13add3207cf51a7e1dc9ff32 in /usr/bin/\"],\"Image\":\"efc04aa3c42e9326d42aeecfd9007f27f143d8b50a26c3400eb04e3367e1abcf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"python2\"],\"Image\":\"efc04aa3c42e9326d42aeecfd9007f27f143d8b50a26c3400eb04e3367e1abcf\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":3624328}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"ppc64le\",\"config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"python2\"],\"ArgsEscaped\":true,\"Image\":\"sha256:774692cbf5df37f59d0ef3b957fe892b4f9e8b01f82895c9fdeed67b46eee30b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"6091e7d2e36b7818f828a85e860bf72e5e760cb9eecacf3fd84d2228fd612271\",\"container_config\":{\"Hostname\":\"a402f6be9ae6\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"LANG=C.UTF-8\",\"GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\",\"PYTHON_VERSION=2.7.11\",\"PYTHON_PIP_VERSION=8.0.3\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) CMD [\\\"python2\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:774692cbf5df37f59d0ef3b957fe892b4f9e8b01f82895c9fdeed67b46eee30b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-03-03T21:38:59.826332Z\",\"docker_version\":\"1.11.0-dev\",\"id\":\"1a8def0e4d018899318aac87e244a00f002b4612b0d0cbc7ffa29aabc16f7377\",\"os\":\"linux\",\"parent\":\"bdc0c00b21875ea54151c0d9ec58401372735317aff7e42fa382ec49bfc1d446\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"bdc0c00b21875ea54151c0d9ec58401372735317aff7e42fa382ec49bfc1d446\",\"parent\":\"90278fddbd9cd188c0926e22b061e24b59799df74bd7f537fbfacea1823e3de7\",\"created\":\"2016-03-03T21:38:53.551667Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c set -ex \\t\\u0026\\u0026 buildDeps=' \\t\\tcurl \\t\\tgcc \\t\\tlibbz2-dev \\t\\tlibc6-dev \\t\\tlibncurses-dev \\t\\tlibreadline-dev \\t\\tlibsqlite3-dev \\t\\tlibssl-dev \\t\\tmake \\t\\txz-utils \\t\\tzlib1g-dev \\t' \\t\\u0026\\u0026 apt-get update \\u0026\\u0026 apt-get install -y $buildDeps --no-install-recommends \\u0026\\u0026 rm -rf /var/lib/apt/lists/* \\t\\u0026\\u0026 curl -fSL \\\"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz\\\" -o python.tar.xz \\t\\u0026\\u0026 curl -fSL \\\"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz.asc\\\" -o python.tar.xz.asc \\t\\u0026\\u0026 export GNUPGHOME=\\\"$(mktemp -d)\\\" \\t\\u0026\\u0026 gpg --keyserver ha.pool.sks-keyservers.net --recv-keys \\\"$GPG_KEY\\\" \\t\\u0026\\u0026 gpg --batch --verify python.tar.xz.asc python.tar.xz \\t\\u0026\\u0026 rm -r \\\"$GNUPGHOME\\\" python.tar.xz.asc \\t\\u0026\\u0026 mkdir -p /usr/src/python \\t\\u0026\\u0026 tar -xJC /usr/src/python --strip-components=1 -f python.tar.xz \\t\\u0026\\u0026 rm python.tar.xz \\t\\t\\u0026\\u0026 cd /usr/src/python \\t\\u0026\\u0026 ./configure --enable-shared --enable-unicode=ucs4 \\t\\u0026\\u0026 make -j$(nproc) \\t\\u0026\\u0026 make install \\t\\u0026\\u0026 ldconfig \\t\\u0026\\u0026 curl -fSL 'https://bootstrap.pypa.io/get-pip.py' | python2 \\t\\u0026\\u0026 pip install --no-cache-dir --upgrade pip==$PYTHON_PIP_VERSION \\t\\u0026\\u0026 find /usr/local \\t\\t\\\\( -type d -a -name test -o -name tests \\\\) \\t\\t-o \\\\( -type f -a -name '*.pyc' -o -name '*.pyo' \\\\) \\t\\t-exec rm -rf '{}' + \\t\\u0026\\u0026 apt-get purge -y --auto-remove $buildDeps \\t\\u0026\\u0026 rm -rf /usr/src/python\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"90278fddbd9cd188c0926e22b061e24b59799df74bd7f537fbfacea1823e3de7\",\"parent\":\"b8e190f6280fe09b887e72914e47f4f38a3f6e775548ebf3f294f8dddb0734c2\",\"created\":\"2016-03-03T21:31:43.38162Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PYTHON_PIP_VERSION=8.0.3\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b8e190f6280fe09b887e72914e47f4f38a3f6e775548ebf3f294f8dddb0734c2\",\"parent\":\"aa9507618fc290b661e04eb8b43564de2ea2f02f09fe1989fe6a32a2dbc76e50\",\"created\":\"2016-03-03T21:31:40.960555Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PYTHON_VERSION=2.7.11\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"aa9507618fc290b661e04eb8b43564de2ea2f02f09fe1989fe6a32a2dbc76e50\",\"parent\":\"7d710f101d6542edf3600bb84d4300533230db0a25f3d44d5fb518358cd83fbf\",\"created\":\"2016-03-03T21:31:38.737291Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7d710f101d6542edf3600bb84d4300533230db0a25f3d44d5fb518358cd83fbf\",\"parent\":\"e32946dd2462ce253667920c2c0dbe15b6c6e65f1c84d11c6788f78fcd95bb26\",\"created\":\"2016-03-03T21:31:36.409558Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tca-certificates \\t\\tlibsqlite3-0 \\t\\tlibssl1.0.0 \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e32946dd2462ce253667920c2c0dbe15b6c6e65f1c84d11c6788f78fcd95bb26\",\"parent\":\"e5ae1ca07d1890285df8ec565eed09ed49e4a39de2b9c458e13b611faac01c5e\",\"created\":\"2016-03-03T21:30:44.096012Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV LANG=C.UTF-8\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e5ae1ca07d1890285df8ec565eed09ed49e4a39de2b9c458e13b611faac01c5e\",\"parent\":\"dee0274c3685733478f90e3bbfbd5792f6286a814e172796aa916ef5df96668c\",\"created\":\"2016-03-03T21:30:41.973503Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get purge -y python.*\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"dee0274c3685733478f90e3bbfbd5792f6286a814e172796aa916ef5df96668c\",\"parent\":\"3cda331a314ccaea1ed2eef2f1f926a4c367be3307ad8b3884f8a69beaef3199\",\"created\":\"2016-03-03T20:19:59.901591Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3cda331a314ccaea1ed2eef2f1f926a4c367be3307ad8b3884f8a69beaef3199\",\"created\":\"2016-03-03T20:19:57.726911Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:2225d693edf278ea4a310d21d762e7c23e82294a51ef8be3b0be281f1559d154 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

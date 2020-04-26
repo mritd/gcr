@@ -1,0 +1,76 @@
+{
+    "name": "google_containers/fluentd-elasticsearch",
+    "tag": "1.20",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:220ee2c01d13d872cddfcbc3e0b85fbf04da26bfc539b25a60e240b0bda2da0b"
+        },
+        {
+            "blobSum": "sha256:8adc08acc1c8e563e01d19cfb4209aae69a1fc9439c57e6bd81c66c36bd8380c"
+        },
+        {
+            "blobSum": "sha256:fa2b73488d2b8768c2f1b3ddb96041d5ca5657a37abd29ed033d2c2635f61c6c"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:169bb74c2cc68bbd24ee28091fa9de059d9e92d4d947f42e06288f270038bc45"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"DEBIAN_FRONTEND=noninteractive\",\"LD_PRELOAD=/opt/td-agent/embedded/lib/libjemalloc.so\"],\"Cmd\":null,\"ArgsEscaped\":true,\"Image\":\"sha256:64880a3a35e1f97ffa5f3444c32d24a45142479bd6cc73123fcf46a03d4d6119\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"td-agent\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"dd262262fcc74251bab95ffc9d9ef244e31594e51bfc8c2207b753e27a9a6720\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"DEBIAN_FRONTEND=noninteractive\",\"LD_PRELOAD=/opt/td-agent/embedded/lib/libjemalloc.so\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"td-agent\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:64880a3a35e1f97ffa5f3444c32d24a45142479bd6cc73123fcf46a03d4d6119\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"td-agent\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-22T21:12:29.295494081Z\",\"docker_version\":\"1.12.3\",\"id\":\"ad68f1c26fc00be44e877041f6ed45a510095d22e538f997c4a90ae3ae849b7a\",\"os\":\"linux\",\"parent\":\"ece6d53315632c8392dfe5a0e882a0ff70e22ba40b6eb009e83dc4df381fbb33\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ece6d53315632c8392dfe5a0e882a0ff70e22ba40b6eb009e83dc4df381fbb33\",\"parent\":\"a954719afc446325ac2ff6a77533a3c606eaa339e4b034cf7a35a296a3b185a4\",\"created\":\"2016-11-22T21:12:29.111587279Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV LD_PRELOAD=/opt/td-agent/embedded/lib/libjemalloc.so\"]},\"author\":\"Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a954719afc446325ac2ff6a77533a3c606eaa339e4b034cf7a35a296a3b185a4\",\"parent\":\"46774f39cdd0d89bdf3b0af5321c59c0b495b44dd40b63212268b52ada075b19\",\"created\":\"2016-11-22T21:12:28.52234539Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c /tmp/build.sh\"]},\"author\":\"Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"46774f39cdd0d89bdf3b0af5321c59c0b495b44dd40b63212268b52ada075b19\",\"parent\":\"b0082049a36d6c78e49cf5a0a4d14c3713935e65b8d90c6737e48a1eefa7c89e\",\"created\":\"2016-11-22T21:10:57.151982262Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:6299857c7e3719b7fd0cbf943bb9e0797827b694d5cc138a281bfe51dc55967a in /tmp/build.sh \"]},\"author\":\"Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b0082049a36d6c78e49cf5a0a4d14c3713935e65b8d90c6737e48a1eefa7c89e\",\"parent\":\"00d78d7b0947c7c7a646079471359aab05ec61ad969657255b43b438e5b25fc8\",\"created\":\"2016-11-22T21:10:56.891444722Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:6de934f7fb17f37f9dd3c653ceff350fdc243fa5785d80217d0f706d341843e6 in /etc/td-agent/td-agent.conf \"]},\"author\":\"Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"00d78d7b0947c7c7a646079471359aab05ec61ad969657255b43b438e5b25fc8\",\"parent\":\"d8e456ee3c276c7c7ebdf703fe46bf18c83e8e6c6c56e488f3b5439acae2f0dc\",\"created\":\"2016-11-22T21:10:56.567906637Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV DEBIAN_FRONTEND=noninteractive\"]},\"author\":\"Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"d8e456ee3c276c7c7ebdf703fe46bf18c83e8e6c6c56e488f3b5439acae2f0dc\",\"parent\":\"8cd46ef43bc47464d7f71fb3ef8dd672ba6ea7a427c418ad4bc843c50d1ac362\",\"created\":\"2016-11-22T21:10:56.339886475Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c ulimit -n 65536\"]},\"author\":\"Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8cd46ef43bc47464d7f71fb3ef8dd672ba6ea7a427c418ad4bc843c50d1ac362\",\"parent\":\"c3cecdeecf1de7b0fcbd5065c52a28e7cfc17955b21e977c2771cb7b9e842d09\",\"created\":\"2016-11-22T21:10:55.800112618Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\"]},\"author\":\"Jimmi Dyson \\\"jimmidyson@gmail.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c3cecdeecf1de7b0fcbd5065c52a28e7cfc17955b21e977c2771cb7b9e842d09\",\"parent\":\"0620de6797cb518052cf8088429e18e3e168f854cc564447f7b3c3a9b6f6f569\",\"created\":\"2016-11-22T21:10:55.615945813Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Alex Robinson \\\"arob@google.com\\\"\"]},\"author\":\"Alex Robinson \\\"arob@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0620de6797cb518052cf8088429e18e3e168f854cc564447f7b3c3a9b6f6f569\",\"parent\":\"54ce87257f38ff953a487b24796093288f3db7513d8d566a945df41965614df9\",\"created\":\"2016-08-22T18:51:30.424861689Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/sh\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"54ce87257f38ff953a487b24796093288f3db7513d8d566a945df41965614df9\",\"created\":\"2016-08-22T18:51:29.041729218Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:ae304d8386be9f9c0b6d1fcc7707761d52bf3c8a4f7b4cca60131d53db04f24a in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

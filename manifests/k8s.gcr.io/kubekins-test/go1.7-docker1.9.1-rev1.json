@@ -1,0 +1,154 @@
+{
+    "name": "google_containers/kubekins-test",
+    "tag": "go1.7-docker1.9.1-rev1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:789f4adbbac7edc8a8ff36f807fe5e5e9c6818cedbb61f41134001c00d262b41"
+        },
+        {
+            "blobSum": "sha256:994bf1e7c5e410d833938afb2feba74724971db699731f060206fee966ec0541"
+        },
+        {
+            "blobSum": "sha256:43dede7603ef51b647a3a5b710fae1751030d03585327355196e0338195fcad1"
+        },
+        {
+            "blobSum": "sha256:f685dbdd3e6393510105b1b433322e0b702f84b08cbd4fb2cc5893b469cc7bdc"
+        },
+        {
+            "blobSum": "sha256:7b7cbd9c9332b704b65c7ede06161a4382a1dada947b6bb65b4044f85db822cd"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:487c6f81373dfd17f84c60a77d8e5ecace3543a6c6b538f83d6e3a008b6f8f9c"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:11eeb61bb0b67b6f3fcf78adbd2408b553818d55cab666a818278efe55ff6db2"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:1b9a447620c727235489b4feaf150bbd9f44951c36cdaeee0d927e5daaff3c68"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:fee55c62229822bb787bc8502672cac358825b228a0d72ea48b71f6814a92ef4"
+        },
+        {
+            "blobSum": "sha256:3c0732d5313c8ec8477e518f3e0af81796bdb047ed48cf256333785fc9916ba1"
+        },
+        {
+            "blobSum": "sha256:52befadefd24601247558f63fcb2ccd96b79cbc447a148ea1d0aa2719a9ac3b1"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:357ea8c3d80bc25792e010facfc98aee5972ebc47e290eb0d5aea3671a901cab"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\",\"config\":{\"Hostname\":\"2da0903ff372\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"GOLANG_VERSION=1.7\",\"GOLANG_DOWNLOAD_URL=https://golang.org/dl/go1.7.linux-amd64.tar.gz\",\"GOLANG_DOWNLOAD_SHA256=702ad90f705365227e902b42d91dd1a40e48ca7f67a2f4b2fd052aaa4295cd95\",\"GOPATH=/go\",\"WORKSPACE=/workspace\",\"TERM=xterm\",\"DOCKER_VERSION=1.9.1\"],\"Cmd\":[\"/bin/bash\"],\"ArgsEscaped\":true,\"Image\":\"sha256:f05908b042f246cdce0baf8c538766880004f6d3f6be667146c9c8014241a39f\",\"Volumes\":null,\"WorkingDir\":\"/workspace\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"b11df68a36c41f4042d29e8871d4d1619bae73d36e9bf367e0d19f1143aba331\",\"container_config\":{\"Hostname\":\"2da0903ff372\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"GOLANG_VERSION=1.7\",\"GOLANG_DOWNLOAD_URL=https://golang.org/dl/go1.7.linux-amd64.tar.gz\",\"GOLANG_DOWNLOAD_SHA256=702ad90f705365227e902b42d91dd1a40e48ca7f67a2f4b2fd052aaa4295cd95\",\"GOPATH=/go\",\"WORKSPACE=/workspace\",\"TERM=xterm\",\"DOCKER_VERSION=1.9.1\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"/bin/bash\"],\"ArgsEscaped\":true,\"Image\":\"sha256:f05908b042f246cdce0baf8c538766880004f6d3f6be667146c9c8014241a39f\",\"Volumes\":null,\"WorkingDir\":\"/workspace\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-08-16T18:30:16.8131822Z\",\"docker_version\":\"1.13.0-dev\",\"id\":\"5820bd19c1834e24ed2e7f68481dc0217ee0186bc3d7efd07458cf9c31a20689\",\"os\":\"linux\",\"parent\":\"0f430ed3dd26b53c36ce37312860379f1839b6fcb1466a7ca2b26f4c0d76d081\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0f430ed3dd26b53c36ce37312860379f1839b6fcb1466a7ca2b26f4c0d76d081\",\"parent\":\"3327b69ddd674c7998780a9ce8c490fe95a3f32b6eeab9d8ee5e31ef907df5b8\",\"created\":\"2016-08-16T18:30:16.141790615Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir -p /go/src/k8s.io/kubernetes \\t\\u0026\\u0026 ln -s /go/src/k8s.io/kubernetes /workspace/kubernetes\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"3327b69ddd674c7998780a9ce8c490fe95a3f32b6eeab9d8ee5e31ef907df5b8\",\"parent\":\"0c7fb1037fc11df4bfa242cf3e5b6cea3d061f2b4e2dece57d669876d3328758\",\"created\":\"2016-08-16T18:30:15.395259585Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c go get github.com/golang/lint/golint\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0c7fb1037fc11df4bfa242cf3e5b6cea3d061f2b4e2dece57d669876d3328758\",\"parent\":\"16ec978ef9e5ac53699b508f094748e986ad74854abdc29443b7622d5f721224\",\"created\":\"2016-08-16T18:30:04.825043708Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c curl -L \\\"https://get.docker.com/builds/Linux/x86_64/docker-${DOCKER_VERSION}.tgz\\\" |  tar -C /usr/bin -xvzf- --strip-components=3 usr/local/bin/docker\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"16ec978ef9e5ac53699b508f094748e986ad74854abdc29443b7622d5f721224\",\"parent\":\"b0f201666ce35aa60ddc5965e4aaa00408368a9485a2cc35f614cc31794df90e\",\"created\":\"2016-08-16T18:30:03.303366577Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get -o Acquire::Check-Valid-Until=false update \\u0026\\u0026 apt-get install -y         bc \\tdnsutils \\tfile \\tjq \\tpython-pip \\tnetcat-openbsd \\trsync \\t--no-install-recommends \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"b0f201666ce35aa60ddc5965e4aaa00408368a9485a2cc35f614cc31794df90e\",\"parent\":\"9a7f7b07d7144de50ea5477bc576c7abf5430b260577e3e554f4e672513c3c00\",\"created\":\"2016-08-16T18:29:36.229533476Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  WORKDIR /workspace\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9a7f7b07d7144de50ea5477bc576c7abf5430b260577e3e554f4e672513c3c00\",\"parent\":\"9e160386a37ee9b193ddfbf39f9a7f0f8e6b6690f4fe3afa99054989742d15ff\",\"created\":\"2016-08-16T18:29:36.057156905Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV DOCKER_VERSION=1.9.1\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9e160386a37ee9b193ddfbf39f9a7f0f8e6b6690f4fe3afa99054989742d15ff\",\"parent\":\"a5fa2ff22ccc74318068490284ebc468565b3fd533d224e59e74ed9dd3297206\",\"created\":\"2016-08-16T18:29:35.873282077Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV TERM=xterm\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a5fa2ff22ccc74318068490284ebc468565b3fd533d224e59e74ed9dd3297206\",\"parent\":\"629d5f4d5e0263b5cf7e827704e77802b0a11309be83b579013bc7c2f4b7a628\",\"created\":\"2016-08-16T18:29:35.713205475Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV WORKSPACE=/workspace\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"629d5f4d5e0263b5cf7e827704e77802b0a11309be83b579013bc7c2f4b7a628\",\"parent\":\"f06e35f931d08c381935ea4c3148fe26e487d33680257cbee31f52a2abcf0034\",\"created\":\"2016-08-16T18:29:35.553213964Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\"]},\"author\":\"Jeff Lowdermilk \\u003cjeffml@google.com\\u003e\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"f06e35f931d08c381935ea4c3148fe26e487d33680257cbee31f52a2abcf0034\",\"parent\":\"fed137fa8902fdc9f086fbde018766a70fa89e9c7ce724eb30b7d9cd427eb2bd\",\"created\":\"2016-08-16T17:09:49.959085016Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:f6191f2c86edc9343569339f101facba47e886e33e29d70da6916ca6b1101a53 in /usr/local/bin/\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"fed137fa8902fdc9f086fbde018766a70fa89e9c7ce724eb30b7d9cd427eb2bd\",\"parent\":\"faee45ead11b5d829332adb4ea11057a2d5e9c2aa8893c7f73936635b2414c01\",\"created\":\"2016-08-16T17:09:48.724413551Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) WORKDIR /go\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"faee45ead11b5d829332adb4ea11057a2d5e9c2aa8893c7f73936635b2414c01\",\"parent\":\"337ce48ea1e5ef4464ef0423a5c9e4d50e1208a1d5ff58f299e605bc702655c8\",\"created\":\"2016-08-16T17:09:47.902071039Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c mkdir -p \\\"$GOPATH/src\\\" \\\"$GOPATH/bin\\\" \\u0026\\u0026 chmod -R 777 \\\"$GOPATH\\\"\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"337ce48ea1e5ef4464ef0423a5c9e4d50e1208a1d5ff58f299e605bc702655c8\",\"parent\":\"cc8cf7373e53c19362a29b0080f69b59085b72db2e06cf5885d9bbbc1a7c7838\",\"created\":\"2016-08-16T17:09:39.117885423Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cc8cf7373e53c19362a29b0080f69b59085b72db2e06cf5885d9bbbc1a7c7838\",\"parent\":\"1205e4e9e3451f763116898bc9725e697bb39c2776390d336d62836fbf35b050\",\"created\":\"2016-08-16T17:09:38.233250856Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV GOPATH=/go\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1205e4e9e3451f763116898bc9725e697bb39c2776390d336d62836fbf35b050\",\"parent\":\"a28d5cdcde6416369b5ce1bb52d0f82bf8ab5435b094093a37f70f3731926a68\",\"created\":\"2016-08-16T17:09:36.977708379Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c curl -fsSL \\\"$GOLANG_DOWNLOAD_URL\\\" -o golang.tar.gz \\t\\u0026\\u0026 echo \\\"$GOLANG_DOWNLOAD_SHA256  golang.tar.gz\\\" | sha256sum -c - \\t\\u0026\\u0026 tar -C /usr/local -xzf golang.tar.gz \\t\\u0026\\u0026 rm golang.tar.gz\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"a28d5cdcde6416369b5ce1bb52d0f82bf8ab5435b094093a37f70f3731926a68\",\"parent\":\"560bcbff82026dfa1be2594ad807abe4e7a8618219f047032cf809649987cedc\",\"created\":\"2016-08-16T17:09:24.937792361Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV GOLANG_DOWNLOAD_SHA256=702ad90f705365227e902b42d91dd1a40e48ca7f67a2f4b2fd052aaa4295cd95\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"560bcbff82026dfa1be2594ad807abe4e7a8618219f047032cf809649987cedc\",\"parent\":\"cc27259fabc41d745a67ac1e2be931d995f9614dbf4f0f1b526620ed01391741\",\"created\":\"2016-08-16T17:09:23.913327923Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV GOLANG_DOWNLOAD_URL=https://golang.org/dl/go1.7.linux-amd64.tar.gz\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cc27259fabc41d745a67ac1e2be931d995f9614dbf4f0f1b526620ed01391741\",\"parent\":\"ccf605e6a8bee077e095f73deaeb2cf7a8c1cbd047576794c7de1a605e401bf1\",\"created\":\"2016-08-16T17:09:22.878211286Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV GOLANG_VERSION=1.7\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ccf605e6a8bee077e095f73deaeb2cf7a8c1cbd047576794c7de1a605e401bf1\",\"parent\":\"06e4c4db013b009e991fb60ba8f593ea7c4618ccc9ddcf03196a4a21630cb1b2\",\"created\":\"2016-07-29T03:55:49.515001545Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tg++ \\t\\tgcc \\t\\tlibc6-dev \\t\\tmake \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"06e4c4db013b009e991fb60ba8f593ea7c4618ccc9ddcf03196a4a21630cb1b2\",\"parent\":\"5d979b9859b774cc55b397d04aac92263d630f91642767be9ba31bb1d992f268\",\"created\":\"2016-07-28T17:59:13.578806557Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tbzr \\t\\tgit \\t\\tmercurial \\t\\topenssh-client \\t\\tsubversion \\t\\t\\t\\tprocps \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"5d979b9859b774cc55b397d04aac92263d630f91642767be9ba31bb1d992f268\",\"parent\":\"1156dc4bc2c31876858598f69707a7584e3444f0e0c967001120e70a72ce237b\",\"created\":\"2016-07-28T17:57:57.295731128Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y --no-install-recommends \\t\\tca-certificates \\t\\tcurl \\t\\twget \\t\\u0026\\u0026 rm -rf /var/lib/apt/lists/*\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1156dc4bc2c31876858598f69707a7584e3444f0e0c967001120e70a72ce237b\",\"parent\":\"73896ccf428efb53674efdab341fecd7546c3757bd8b8d293ea5ff2483998756\",\"created\":\"2016-07-28T17:47:55.809686499Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"73896ccf428efb53674efdab341fecd7546c3757bd8b8d293ea5ff2483998756\",\"created\":\"2016-07-28T17:47:54.990622865Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:0e0565652aa852f62033d99f84892216020d30f64521ded5e72d4940bc4c9697 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

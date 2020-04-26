@@ -1,0 +1,58 @@
+{
+    "name": "google_containers/fluentd-gcp",
+    "tag": "1.27",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:e3bbe2ac58f37335d2ac48dd3cd4383950d3e90c9988de0e9f1f80356ccfe453"
+        },
+        {
+            "blobSum": "sha256:fc997587d53dcdb73acdc64846b9b8abe94234bc4eca45dc2cb28e830e903d95"
+        },
+        {
+            "blobSum": "sha256:c26ade95f65d0a44c06dce2c93d587254acec1e322a732a0f10df267db3dbbea"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:169bb74c2cc68bbd24ee28091fa9de059d9e92d4d947f42e06288f270038bc45"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"DEBIAN_FRONTEND=noninteractive\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"/usr/sbin/td-agent $FLUENTD_ARGS\"],\"ArgsEscaped\":true,\"Image\":\"sha256:af45c321d3999bd8f02378478d732b376c6cbde8987b7b1a330403cc2e2abcee\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"container\":\"48c526b5ab84cc39921d84f79747db7423b12b1c846a244938df335c97f29517\",\"container_config\":{\"Hostname\":\"fd0d62fec9a3\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"DEBIAN_FRONTEND=noninteractive\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"CMD [\\\"/bin/sh\\\" \\\"-c\\\" \\\"/usr/sbin/td-agent $FLUENTD_ARGS\\\"]\"],\"ArgsEscaped\":true,\"Image\":\"sha256:af45c321d3999bd8f02378478d732b376c6cbde8987b7b1a330403cc2e2abcee\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-17T12:35:33.015648991Z\",\"docker_version\":\"1.12.3\",\"id\":\"48e0b0a80abc6c2cb5dd9ff11e23a334e8504993957cd03159c9a252f226ca4b\",\"os\":\"linux\",\"parent\":\"78a47f67427e795362164a826d03e50f39cdb2e5aff56a1149a982d750d2b562\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"78a47f67427e795362164a826d03e50f39cdb2e5aff56a1149a982d750d2b562\",\"parent\":\"69b57c06a8dbb0ac156227a931ffc1db78a6fffe60141a3b6c44e3228b7dd57b\",\"created\":\"2016-11-17T12:35:32.819624404Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:317112dd17e5058d712a3f2702f8bf8b0253d29c0c9012236ca3a9e1b0a50e19 in /etc/td-agent/td-agent-journal.conf \"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"69b57c06a8dbb0ac156227a931ffc1db78a6fffe60141a3b6c44e3228b7dd57b\",\"parent\":\"4c2aad11af9e574aad9fb0163dda19aa4ed35df7e57d0eea2c1017ae34f047d5\",\"created\":\"2016-11-17T12:35:32.579637439Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) COPY file:48940786b8a550826aec8f1288088cec0b00219d93e4d9dc20420ecfbc960029 in /etc/td-agent/td-agent.conf \"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4c2aad11af9e574aad9fb0163dda19aa4ed35df7e57d0eea2c1017ae34f047d5\",\"parent\":\"8cd46ef43bc47464d7f71fb3ef8dd672ba6ea7a427c418ad4bc843c50d1ac362\",\"created\":\"2016-11-17T12:35:31.866361442Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get -qq update \\u0026\\u0026     apt-get install -y -qq curl ca-certificates gcc make bash sudo \\u0026\\u0026     apt-get install -y -qq --reinstall lsb-base lsb-release \\u0026\\u0026     /usr/bin/curl -sSL https://toolbelt.treasuredata.com/sh/install-ubuntu-xenial-td-agent2.sh | sh \\u0026\\u0026     sed -i -e \\\"s/USER=td-agent/USER=root/\\\" -e \\\"s/GROUP=td-agent/GROUP=root/\\\" /etc/init.d/td-agent \\u0026\\u0026     td-agent-gem install --no-document fluent-plugin-record-reformer -v 0.8.2 \\u0026\\u0026     td-agent-gem install --no-document fluent-plugin-systemd -v 0.0.5 \\u0026\\u0026     td-agent-gem install --no-document fluent-plugin-google-cloud -v 0.5.2 \\u0026\\u0026     apt-get remove -y -qq gcc make \\u0026\\u0026     apt-get autoremove -y -qq \\u0026\\u0026     apt-get clean -qq \\u0026\\u0026     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*         /opt/td-agent/embedded/share/doc         /opt/td-agent/embedded/share/gtk-doc         /opt/td-agent/embedded/lib/postgresql         /opt/td-agent/embedded/bin/postgres         /opt/td-agent/embedded/share/postgresql         /etc/td-agent/td-agent.conf\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8cd46ef43bc47464d7f71fb3ef8dd672ba6ea7a427c418ad4bc843c50d1ac362\",\"parent\":\"c3cecdeecf1de7b0fcbd5065c52a28e7cfc17955b21e977c2771cb7b9e842d09\",\"created\":\"2016-11-17T12:34:23.579773959Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  ENV DEBIAN_FRONTEND=noninteractive\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c3cecdeecf1de7b0fcbd5065c52a28e7cfc17955b21e977c2771cb7b9e842d09\",\"parent\":\"0620de6797cb518052cf8088429e18e3e168f854cc564447f7b3c3a9b6f6f569\",\"created\":\"2016-11-17T12:34:23.408031216Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop)  MAINTAINER Mik Vyatskov \\\"vmik@google.com\\\"\"]},\"author\":\"Mik Vyatskov \\\"vmik@google.com\\\"\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0620de6797cb518052cf8088429e18e3e168f854cc564447f7b3c3a9b6f6f569\",\"parent\":\"54ce87257f38ff953a487b24796093288f3db7513d8d566a945df41965614df9\",\"created\":\"2016-08-22T18:51:30.424861689Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/sh\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"54ce87257f38ff953a487b24796093288f3db7513d8d566a945df41965614df9\",\"created\":\"2016-08-22T18:51:29.041729218Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:ae304d8386be9f9c0b6d1fcc7707761d52bf3c8a4f7b4cca60131d53db04f24a in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

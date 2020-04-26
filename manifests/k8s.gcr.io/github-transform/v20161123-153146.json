@@ -1,0 +1,34 @@
+{
+    "name": "google-containers/github-transform",
+    "tag": "v20161123-153146",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:845a419ae60d7b16d905746b9d9a6dcf1c040d1683221990f4dd929b84276d53"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:385e281300cc6d88bdd155e0931fbdfbb1801c2b0265340a40481ee2b733ae66"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"sha256:593101c974af20a71297960be5c71025ec9f3b36d054deeb06659e1b70a8c1d2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/transform\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"40c42733146c1d1060b2fe64c923db12c491ec5daa52944a90dc7bac5a6ab74b\",\"container_config\":{\"Hostname\":\"156e10b83429\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) \",\"ENTRYPOINT [\\\"/transform\\\"]\"],\"Image\":\"sha256:593101c974af20a71297960be5c71025ec9f3b36d054deeb06659e1b70a8c1d2\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/transform\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2016-11-23T23:31:52.087354326Z\",\"docker_version\":\"1.12.3\",\"id\":\"8dd06f26f9cb49b2594c98897deb3e7e7a89deca4dd13746dc21cf559ab394b4\",\"os\":\"linux\",\"parent\":\"6d788be6edec09486aed11b080ce7e656fdf22279dfb239e477cf25443a8d1f7\",\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"6d788be6edec09486aed11b080ce7e656fdf22279dfb239e477cf25443a8d1f7\",\"parent\":\"e17801d3a57e03603e84693e36243425ca822649438068ae3f4886837cf508ec\",\"created\":\"2016-11-23T23:31:51.938826851Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:3ad1139dd98dd94ce1e9515165f62c3fc285604504238aa841e2f0aeb7121923 in / \"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e17801d3a57e03603e84693e36243425ca822649438068ae3f4886837cf508ec\",\"parent\":\"920777304d1d5e337bc59877253e946f224df5aae64c72538672eb74637b3c9e\",\"created\":\"2016-03-18T18:22:48.810791943Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"sh\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"920777304d1d5e337bc59877253e946f224df5aae64c72538672eb74637b3c9e\",\"created\":\"2016-03-18T18:22:48.262403239Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:47ca6e777c36a4cfffe3f918b64a445c8f32300deeb9dfa5cc47261bd7b75d21 in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

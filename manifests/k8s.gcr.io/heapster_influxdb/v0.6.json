@@ -1,0 +1,82 @@
+{
+    "name": "google_containers/heapster_influxdb",
+    "tag": "v0.6",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:c70e88ba99f1569c4b0f99251e6f94161be9ec88f0e852433ef7aca2d193e97e"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:47cc4529a5e14bbf67043f63fcf2330e91d350dd1a0e61244bfd19b8c8c1c973"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:615765bc0d9f82db061f7575d01bd94c99465a6e8dc1a45b793e6fd179e1ddae"
+        },
+        {
+            "blobSum": "sha256:911d09728ffd9388b33c62f8ea09d751350a882f719794acb3b186dcf5b958df"
+        },
+        {
+            "blobSum": "sha256:bbe1c4256df30171585344c50fab278157cbf2cb3a2016bb720e99e49a759743"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"author\":\"Vishnu kannan \\\"\\u003cvishnuk@google.com\\u003e\\\"\",\"config\":{\"Hostname\":\"e611e15f9c9d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2003/tcp\":{},\"25826/tcp\":{},\"4242/tcp\":{},\"8083/tcp\":{},\"8086/tcp\":{},\"8086/udp\":{},\"8088/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/opt/influxdb:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"INFLUXDB_VERSION=0.9.6\"],\"Cmd\":null,\"Image\":\"3087f07a51a31bf16951461eaea7423870a7221a64e8fb042161fa17a703deb1\",\"Volumes\":{\"/data\":{}},\"WorkingDir\":\"\",\"Entrypoint\":[\"influxd\",\"--config\",\"/etc/influxdb.toml\"],\"OnBuild\":[],\"Labels\":{}},\"container\":\"4a78a43231da3cf7fdd0bb6763cbb09682b8eff8fe745f2a94d93fb3ec655430\",\"container_config\":{\"Hostname\":\"e611e15f9c9d\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"ExposedPorts\":{\"2003/tcp\":{},\"25826/tcp\":{},\"4242/tcp\":{},\"8083/tcp\":{},\"8086/tcp\":{},\"8086/udp\":{},\"8088/tcp\":{}},\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/opt/influxdb:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"INFLUXDB_VERSION=0.9.6\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"influxd\\\" \\\"--config\\\" \\\"/etc/influxdb.toml\\\"]}\"],\"Image\":\"3087f07a51a31bf16951461eaea7423870a7221a64e8fb042161fa17a703deb1\",\"Volumes\":{\"/data\":{}},\"WorkingDir\":\"\",\"Entrypoint\":[\"influxd\",\"--config\",\"/etc/influxdb.toml\"],\"OnBuild\":[],\"Labels\":{}},\"created\":\"2015-12-11T00:17:21.861001089Z\",\"docker_version\":\"1.8.1\",\"id\":\"48b15f43767bc5eceb7ba63cbe0a32a93b1dece81e0705b436a4c7f9bec1871d\",\"os\":\"linux\",\"parent\":\"515b01d3acc558c736a90464a80b786c6994ec730b7aaebf6e091ca360c9f732\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"515b01d3acc558c736a90464a80b786c6994ec730b7aaebf6e091ca360c9f732\",\"parent\":\"e3401491e6e2123ead5f2d8ed415b63ba1b388e3da24e8caf8bb418e099fd321\",\"created\":\"2015-12-11T00:17:21.58323454Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) VOLUME [/data]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e3401491e6e2123ead5f2d8ed415b63ba1b388e3da24e8caf8bb418e099fd321\",\"parent\":\"7e7af3cea81d1fc8d755d81ac7548f0ca59174d17de7097e82f2627cc7ea9985\",\"created\":\"2015-12-11T00:17:21.280550435Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) EXPOSE 2003/tcp 25826/tcp 4242/tcp 8083/tcp 8086/tcp 8086/udp 8088/tcp\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"7e7af3cea81d1fc8d755d81ac7548f0ca59174d17de7097e82f2627cc7ea9985\",\"parent\":\"e5a3e42a2e175b7aa07d5c59486d50c2f2321fdf9a5db33e36503be393a4b2f9\",\"created\":\"2015-12-11T00:17:20.964943189Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:951de67528c0e1080a4f54470578b153e639a9cdf8ce4e9e6877b0568263be58 in /etc/influxdb.toml\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"e5a3e42a2e175b7aa07d5c59486d50c2f2321fdf9a5db33e36503be393a4b2f9\",\"parent\":\"dce802fa7267281245bc00e8cb5cfa3e7d1446f3238c0ea4d2cc0c8cb9089c0f\",\"created\":\"2015-12-11T00:17:20.532305763Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV PATH=/opt/influxdb:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"dce802fa7267281245bc00e8cb5cfa3e7d1446f3238c0ea4d2cc0c8cb9089c0f\",\"parent\":\"00a0186e7692c9f5093e663532736cc2feab6bf62a715c857bc0fbafd1f7b81e\",\"created\":\"2015-12-11T00:17:18.742792133Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c apt-get update \\u0026\\u0026 apt-get install -y curl \\u0026\\u0026 mkdir /app \\u0026\\u0026 curl -s -o /app/influxdb_latest_amd64.deb https://s3.amazonaws.com/influxdb/influxdb_${INFLUXDB_VERSION}_amd64.deb \\u0026\\u0026   dpkg -i /app/influxdb_latest_amd64.deb \\u0026\\u0026   rm /app/influxdb_latest_amd64.deb\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"00a0186e7692c9f5093e663532736cc2feab6bf62a715c857bc0fbafd1f7b81e\",\"parent\":\"2eb43fef360aa3b617dedc01210b410a51bc0ba742978f79588e4c1508735ac1\",\"created\":\"2015-12-11T00:15:16.941567874Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ENV INFLUXDB_VERSION=0.9.6\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"2eb43fef360aa3b617dedc01210b410a51bc0ba742978f79588e4c1508735ac1\",\"parent\":\"ef3a7374caffeb57e851aa5f1fcefd48dd13d24fb1694ddc59f48ec87d3ea22a\",\"created\":\"2015-12-11T00:15:16.647578Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) MAINTAINER Vishnu kannan \\\"\\u003cvishnuk@google.com\\u003e\\\"\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ef3a7374caffeb57e851aa5f1fcefd48dd13d24fb1694ddc59f48ec87d3ea22a\",\"parent\":\"879e2722d43bb6d2438d15c4b936c0a12fffd6898740bc18e5b66e22c45e68cf\",\"created\":\"2015-08-20T20:21:15.767240511Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"/bin/bash\\\"]\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"879e2722d43bb6d2438d15c4b936c0a12fffd6898740bc18e5b66e22c45e68cf\",\"parent\":\"c5121f5bcd0d8b053bcaa3bd6cf5aa7510a317be63fde0b2943674d57f8d1e0f\",\"created\":\"2015-08-20T20:21:15.397405992Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c sed -i 's/^#\\\\s*\\\\(deb.*universe\\\\)$/\\\\1/g' /etc/apt/sources.list\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"c5121f5bcd0d8b053bcaa3bd6cf5aa7510a317be63fde0b2943674d57f8d1e0f\",\"parent\":\"deb87a8935990ffbc52033dafebeba19652de5abdbe555debdd6a54d0fca1b3d\",\"created\":\"2015-08-20T20:21:14.229567227Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c echo '#!/bin/sh' \\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 echo 'exit 101' \\u003e\\u003e /usr/sbin/policy-rc.d \\t\\u0026\\u0026 chmod +x /usr/sbin/policy-rc.d \\t\\t\\u0026\\u0026 dpkg-divert --local --rename --add /sbin/initctl \\t\\u0026\\u0026 cp -a /usr/sbin/policy-rc.d /sbin/initctl \\t\\u0026\\u0026 sed -i 's/^exit.*/exit 0/' /sbin/initctl \\t\\t\\u0026\\u0026 echo 'force-unsafe-io' \\u003e /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \\t\\t\\u0026\\u0026 echo 'DPkg::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'APT::Update::Post-Invoke { \\\"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\\\"; };' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\u0026\\u0026 echo 'Dir::Cache::pkgcache \\\"\\\"; Dir::Cache::srcpkgcache \\\"\\\";' \\u003e\\u003e /etc/apt/apt.conf.d/docker-clean \\t\\t\\u0026\\u0026 echo 'Acquire::Languages \\\"none\\\";' \\u003e /etc/apt/apt.conf.d/docker-no-languages \\t\\t\\u0026\\u0026 echo 'Acquire::GzipIndexes \\\"true\\\"; Acquire::CompressionTypes::Order:: \\\"gz\\\";' \\u003e /etc/apt/apt.conf.d/docker-gzip-indexes\"]}}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"deb87a8935990ffbc52033dafebeba19652de5abdbe555debdd6a54d0fca1b3d\",\"created\":\"2015-08-20T20:21:11.263159265Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:5a3f9e9ab88e725d603056eb2b69b8902a6eba8bd3fca5ad35a626e8fae1cd5c in /\"]}}"
+        }
+    ],
+    "schemaVersion": 1
+}

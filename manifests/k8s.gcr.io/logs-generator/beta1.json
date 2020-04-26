@@ -1,0 +1,28 @@
+{
+    "name": "google_containers/logs-generator",
+    "tag": "beta1",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:b82c97747e39aba7423f89413d4514220107e826873fc3179ea98b400e8c6cdb"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"1986967dea1bf0b6d64a8287f47c9bcdbd52b91ee00489367a9e4db2db86912d\",\"parent\":\"ce778a80005ea5de902077476de9dafa2a55575fda66d218ab2e3b9f020660ae\",\"created\":\"2016-09-30T12:16:14.430766522Z\",\"container\":\"d8bfeb893143c563e5d8171cc97a697ec3082e09113d7f1af80f8c25d189ad56\",\"container_config\":{\"Hostname\":\"ea2a0340ec90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"/logs-generator\\\"]}\"],\"Image\":\"ce778a80005ea5de902077476de9dafa2a55575fda66d218ab2e3b9f020660ae\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/logs-generator\"],\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Mik Vyatskov \\u003cvmik@google.com\\u003e\",\"config\":{\"Hostname\":\"ea2a0340ec90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"ce778a80005ea5de902077476de9dafa2a55575fda66d218ab2e3b9f020660ae\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"/logs-generator\"],\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"ce778a80005ea5de902077476de9dafa2a55575fda66d218ab2e3b9f020660ae\",\"parent\":\"82936059779c5da675a068c4ac7fdb1c036141f381fa4905c26a7de02c9673f1\",\"created\":\"2016-09-30T12:16:14.258182006Z\",\"container\":\"d1b97880ad00a028a41d407d8454d7037f6a06b1f98c692d991eca57b42eb34b\",\"container_config\":{\"Hostname\":\"ea2a0340ec90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:92e1e9e9231b8f2310584c4a536291f4dccc418bdcd0cefcd08dcdecb0e5c487 in /\"],\"Image\":\"82936059779c5da675a068c4ac7fdb1c036141f381fa4905c26a7de02c9673f1\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Mik Vyatskov \\u003cvmik@google.com\\u003e\",\"config\":{\"Hostname\":\"ea2a0340ec90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"82936059779c5da675a068c4ac7fdb1c036141f381fa4905c26a7de02c9673f1\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":1251193}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"82936059779c5da675a068c4ac7fdb1c036141f381fa4905c26a7de02c9673f1\",\"created\":\"2016-09-30T12:16:14.066954374Z\",\"container\":\"ea2a0340ec90823c7f7aeeab7c13feb3ff25b213c46f3217eeddd4091e2e7375\",\"container_config\":{\"Hostname\":\"ea2a0340ec90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Mik Vyatskov \\u003cvmik@google.com\\u003e\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"author\":\"Mik Vyatskov \\u003cvmik@google.com\\u003e\",\"config\":{\"Hostname\":\"ea2a0340ec90\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        }
+    ],
+    "schemaVersion": 1
+}

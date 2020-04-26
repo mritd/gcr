@@ -1,0 +1,34 @@
+{
+    "name": "google_containers/e2e-net-amd64",
+    "tag": "1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:1e78125e0be8b2acea72d3016654e0ae51bd9941e24353995883fdb93d8d0c2f"
+        },
+        {
+            "blobSum": "sha256:4472fdd333e04a2fb76a1724e8861abc0663f26d5b05f93fe3cfd8cc05b3420b"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3690ec4760f95690944da86dc4496148a63d85c9e3100669a318110092f6862f"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"7b3441f5355560d7a3146bfe7dc98c95fe3ab062dc1eb0a5a14dfd454fc55495\",\"parent\":\"4261d724845c407a7266a6eb2e71d8e04a57aa281acee4972c2496227be49927\",\"created\":\"2016-11-01T05:01:38.713195902Z\",\"container\":\"c4fe376d2d23a25c3a99cebab346b12af40357451a7c1552f71945c52fa00f4b\",\"container_config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"apk update \\u0026\\u0026 apk add curl\"],\"Image\":\"4261d724845c407a7266a6eb2e71d8e04a57aa281acee4972c2496227be49927\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Bowei Du \\u003cbowei@google.com\\u003e\",\"config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"4261d724845c407a7266a6eb2e71d8e04a57aa281acee4972c2496227be49927\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":2110862}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"4261d724845c407a7266a6eb2e71d8e04a57aa281acee4972c2496227be49927\",\"parent\":\"cf6d9bc77e4ed63cad2e70adb354e59ef1e3c1b1b818495e1d367421af502560\",\"created\":\"2016-11-01T05:01:36.137254644Z\",\"container\":\"6971da46049a044bda6e510f33bbb404627dcbb52c1fab51bff0104372e3a56c\",\"container_config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) COPY file:671c37d58fc72e8f0a820cf22cc252c76dc9fd5af5ecf2f8dc49ade37bc39727 in /net\"],\"Image\":\"cf6d9bc77e4ed63cad2e70adb354e59ef1e3c1b1b818495e1d367421af502560\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Bowei Du \\u003cbowei@google.com\\u003e\",\"config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"cf6d9bc77e4ed63cad2e70adb354e59ef1e3c1b1b818495e1d367421af502560\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":4137248}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"cf6d9bc77e4ed63cad2e70adb354e59ef1e3c1b1b818495e1d367421af502560\",\"parent\":\"a46650c13b46891f6d1cfc601acca45087ec4031df57b5bc06ea689330d694d7\",\"created\":\"2016-10-24T17:47:13.495918892Z\",\"container\":\"bf342789dfc0df4e57082f4bb7148f21d85253e1f00bde73e20d7b81ea2c5756\",\"container_config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Bowei Du \\u003cbowei@google.com\\u003e\"],\"Image\":\"f58f84d16010475284eae656e7c64a8efbf53f37babd7ea6078f4de2351eab05\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Bowei Du \\u003cbowei@google.com\\u003e\",\"config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"f58f84d16010475284eae656e7c64a8efbf53f37babd7ea6078f4de2351eab05\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"container\":\"1d811a9194c47475510bc53700001c32f2b0eb8e3aca0914c5424109c0cd2056\",\"container_config\":{\"Hostname\":\"1d811a9194c4\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:7afbc23fda8b0b3872623c16af8e3490b2cee951aed14b3794389c2f946cc8c7 in / \"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"created\":\"2016-10-18T20:31:22.321427771Z\",\"docker_version\":\"1.12.1\",\"id\":\"a46650c13b46891f6d1cfc601acca45087ec4031df57b5bc06ea689330d694d7\",\"os\":\"linux\"}"
+        }
+    ],
+    "schemaVersion": 1
+}

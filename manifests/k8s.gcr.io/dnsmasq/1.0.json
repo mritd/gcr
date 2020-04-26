@@ -1,0 +1,40 @@
+{
+    "name": "google_containers/dnsmasq",
+    "tag": "1.0",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:aa9b92d927e627788b4d11d2a8b6f6f034f6df6a74eb85d536531e32b5d2f6a0"
+        },
+        {
+            "blobSum": "sha256:6d3fb9006803e7519dd641e99125a6f9cecb092cc6392500cced845477c5b1f0"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:d0ca440e86378344053c79282fe959c9f288ef2ab031411295d87ef1250cfec3"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"id\":\"18936e2d3070c01ae3fe5a17379859400f85b28ee380bc639a08cdae8be2d3e6\",\"parent\":\"245449a3b4586d8999afd4040712e3c96ab1af088c5c60e190c64d10187f8e7b\",\"created\":\"2016-05-23T21:40:10.459210246Z\",\"container\":\"9815f02ba4b25b318f7afdc21a8e593a4bfb04b7d537eb2b61b5b3c32ee3086a\",\"container_config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ENTRYPOINT \\u0026{[\\\"dnsmasq\\\" \\\"-d\\\"]}\"],\"Image\":\"245449a3b4586d8999afd4040712e3c96ab1af088c5c60e190c64d10187f8e7b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"dnsmasq\",\"-d\"],\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Abhishek Shah \\u003cabshah@google.com\\u003e\",\"config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"245449a3b4586d8999afd4040712e3c96ab1af088c5c60e190c64d10187f8e7b\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":[\"dnsmasq\",\"-d\"],\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"245449a3b4586d8999afd4040712e3c96ab1af088c5c60e190c64d10187f8e7b\",\"parent\":\"1cb054731667cc8b6a3406dcb830ed9f6dd0a48e660b6a0f6c7ca74be63eaad5\",\"created\":\"2016-05-13T21:59:34.087277395Z\",\"container\":\"63a772bf4b2c79033b1483c773624748fdd57ad29a93d2767403bfb8d300580f\",\"container_config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:abf11d864c1735982a93ed2dc37bdb966cdcdf58fb096c77016a1755e8b0e8db in /etc/dnsmasq.conf\"],\"Image\":\"1cb054731667cc8b6a3406dcb830ed9f6dd0a48e660b6a0f6c7ca74be63eaad5\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Abhishek Shah \\u003cabshah@google.com\\u003e\",\"config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"1cb054731667cc8b6a3406dcb830ed9f6dd0a48e660b6a0f6c7ca74be63eaad5\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":529}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"1cb054731667cc8b6a3406dcb830ed9f6dd0a48e660b6a0f6c7ca74be63eaad5\",\"parent\":\"41a74dd40feea3324817b0fd021111cf856af0a40445c5408957f9bf842547f4\",\"created\":\"2016-05-13T21:59:33.644992766Z\",\"container\":\"2b3aa8663937e8521dc46b66aa06ef6078020d18d30a3a292eb415ea4579525b\",\"container_config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"apk --no-cache add dnsmasq\"],\"Image\":\"41a74dd40feea3324817b0fd021111cf856af0a40445c5408957f9bf842547f4\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Abhishek Shah \\u003cabshah@google.com\\u003e\",\"config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"41a74dd40feea3324817b0fd021111cf856af0a40445c5408957f9bf842547f4\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":326241}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"41a74dd40feea3324817b0fd021111cf856af0a40445c5408957f9bf842547f4\",\"parent\":\"0a3b5ba3277d35fc1f2d7ecbd007f1f53ca289f7674854ac7a5405e5ee3e495d\",\"created\":\"2016-05-13T21:54:57.163844943Z\",\"container\":\"79723cb9c608cf3a7c31c0970d313a4040bd4e302ade28731c3f51195fa08e75\",\"container_config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) MAINTAINER Abhishek Shah \\u003cabshah@google.com\\u003e\"],\"Image\":\"3e467a6273a3872e8c24b1810bd9dfba446c5eb28e70df8972420e13e6076fea\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"docker_version\":\"1.9.1\",\"author\":\"Abhishek Shah \\u003cabshah@google.com\\u003e\",\"config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":null,\"Image\":\"3e467a6273a3872e8c24b1810bd9dfba446c5eb28e70df8972420e13e6076fea\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":[],\"Labels\":{}},\"architecture\":\"amd64\",\"os\":\"linux\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0a3b5ba3277d35fc1f2d7ecbd007f1f53ca289f7674854ac7a5405e5ee3e495d\",\"created\":\"2016-05-06T14:56:49.723208146Z\",\"container\":\"27c9668b3d5e3a2abeefdb725e1ff739cedda4b19eff906336298608f635b00e\",\"container_config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:614a9122187935fccfa72039b9efa3ddbf371f6b029bb01e2073325f00c80b9f in /\"],\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"docker_version\":\"1.9.1\",\"config\":{\"Hostname\":\"27c9668b3d5e\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":null,\"Cmd\":null,\"Image\":\"\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":null},\"architecture\":\"amd64\",\"os\":\"linux\",\"Size\":4796783}"
+        }
+    ],
+    "schemaVersion": 1
+}
