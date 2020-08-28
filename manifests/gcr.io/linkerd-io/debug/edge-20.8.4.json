@@ -1,31 +1,34 @@
 {
     "schemaVersion": 2,
-    "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-    "config": {
-        "mediaType": "application/vnd.docker.container.image.v1+json",
-        "size": 2604,
-        "digest": "sha256:4ae7505628e24e88eca31af206609b1116e85112067aeaf809542a0cf1a333d0"
-    },
-    "layers": [
+    "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
+    "manifests": [
         {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 27098756,
-            "digest": "sha256:afb6ec6fdc1c3ba04f7a56db32c5ff5ff38962dc4cd0ffdef5beaa0ce2eb77e2"
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 949,
+            "digest": "sha256:4390f391823af07eea8936d58b4af5ba7201aa5cbca90751398a59fbe65c4886",
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
         },
         {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 32828593,
-            "digest": "sha256:6a5f24d9ff5f2ffcc976fdc6c445f61fe499e70cbe9a8a71c57b2c60ca0084fc"
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 949,
+            "digest": "sha256:97e96ccfa51474b4b154afa8b8693761da5385098579e734a46b445c96cc9512",
+            "platform": {
+                "architecture": "arm64",
+                "os": "linux"
+            }
         },
         {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 819,
-            "digest": "sha256:3049fa7b97a9495c9c6577202fd45d1f695e16a6ac0a9682b2a61dba1b286cb8"
-        },
-        {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 28077809,
-            "digest": "sha256:6125039b5739356f7f5cc19761344e5d00035c85444d37b6492c4129fab150e3"
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 949,
+            "digest": "sha256:e1dc135269cb939c959d8510d24f8ee55d8f500c907ce6a19fbbc28630146bcc",
+            "platform": {
+                "architecture": "arm",
+                "os": "linux",
+                "variant": "v7"
+            }
         }
     ]
 }
