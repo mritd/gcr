@@ -1,36 +1,24 @@
 {
     "schemaVersion": 2,
-    "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-    "config": {
-        "mediaType": "application/vnd.docker.container.image.v1+json",
-        "size": 1150,
-        "digest": "sha256:1aa24fd0098ee6b2de3200334c2b831e2372fb88fa5ae293cca2a483334bde77"
-    },
-    "layers": [
+    "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
+    "manifests": [
         {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 639412,
-            "digest": "sha256:4000adbbc3eb1099e3a263c418f7c1d7def1fa2de0ae00ba48245cda9389c823"
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 1370,
+            "digest": "sha256:3d73cfb51f9adb10fcc2246d6e8b9e59aafded3492c2b6db8b76a0de353ae647",
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
         },
         {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 7333566,
-            "digest": "sha256:69e2f037cdb30c8d329b17dad42cd9d92a45d93c17e6699650b23c55eceacb5f"
-        },
-        {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 693991,
-            "digest": "sha256:c66bd0451839b26656ad2e13ea38368c0f28b30c1ba8c4dfbad3a6a3654d4cce"
-        },
-        {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 643663,
-            "digest": "sha256:3e010093287c245d72a774033b4cddd6451a820bfbb1948c97798e1838858dd2"
-        },
-        {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 12180583,
-            "digest": "sha256:957168b5c4979f508f8c637ca7f4534b771c64b42fdd2d4787d163f2066abefb"
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 1370,
+            "digest": "sha256:9630139d8fd8972325441c17001ec4d965eb7b8bc37c9ce9aebc23071ba94beb",
+            "platform": {
+                "architecture": "arm64",
+                "os": "linux"
+            }
         }
     ]
 }
