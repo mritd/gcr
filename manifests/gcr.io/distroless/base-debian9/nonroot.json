@@ -1,21 +1,42 @@
 {
     "schemaVersion": 2,
-    "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-    "config": {
-        "mediaType": "application/vnd.docker.container.image.v1+json",
-        "size": 635,
-        "digest": "sha256:647f865cf3f68e6479cc70fb75c7fc253f557cdc4699e2ae5878dae1ff3bff5d"
-    },
-    "layers": [
+    "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
+    "manifests": [
         {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 641550,
-            "digest": "sha256:e59bd8947ac7af2c8f4403b183326986ab554bbc262739cf5d9d596c7c7a3aca"
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 590,
+            "digest": "sha256:657cf6ffca0dff47ab9e91876bc9eaca6552c4279dfb82669a5fc405c797e6a4",
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
         },
         {
-            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 7333575,
-            "digest": "sha256:31eb28996804beb46ae686d865721ff610e2a89dc13d3dcb7c4622377447f11d"
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 590,
+            "digest": "sha256:fdd74551bec87bc5ffefdde86fcbdab4aeee856d2c99be751e832f922e0cdfcf",
+            "platform": {
+                "architecture": "arm64",
+                "os": "linux"
+            }
+        },
+        {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 590,
+            "digest": "sha256:362f42ba3df6c6403a8bcd7786bd33f0e8925521bdcf197618190d85425818dd",
+            "platform": {
+                "architecture": "ppc64le",
+                "os": "linux"
+            }
+        },
+        {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "size": 590,
+            "digest": "sha256:a2c90d4751722602464b87a52f74bb9440a906a8ad87ff3bc3677ac2136ed75a",
+            "platform": {
+                "architecture": "s390x",
+                "os": "linux"
+            }
         }
     ]
 }
